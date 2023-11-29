@@ -1,0 +1,2146 @@
+[
+  {
+    "input": "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "nature",
+      "odd_words",
+      "start_the",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "TODAY IS A BEAUTIFUL DAY.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "I LOVE TO TRAVEL AND EXPLORE NEW PLACES.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "PYTHON IS A POPULAR PROGRAMMING LANGUAGE.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "even_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "THE SUN SETS IN THE WEST.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "nature",
+      "even_words",
+      "start_the",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "HAPPINESS IS A WARM CUP OF TEA.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "THE MOONLIGHT CASTS A GLOW OVER THE NIGHT.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "nature",
+      "even_words",
+      "start_the",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "WINTER BRINGS SNOW AND FROSTY MORNINGS.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "nature",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "MUSIC HAS THE POWER TO EVOKE STRONG EMOTIONS.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "SCIENCE AND TECHNOLOGY ARE DRIVING INNOVATION.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "FRIENDSHIP IS LIKE A SHINING STAR IN THE DARK.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "THE OCEAN WAVES CRASH AGAINST THE SHORE.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "nature",
+      "odd_words",
+      "start_the",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "READING OPENS DOORS TO NEW WORLDS.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "COFFEE IS THE FUEL OF PRODUCTIVITY.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "DREAM BIG AND WORK HARD TO ACHIEVE IT.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "THE EARTH ROTATES ON ITS AXIS.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "nature",
+      "even_words",
+      "start_the",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "SUCCESS IS A JOURNEY, NOT A DESTINATION.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "HEALTHY HABITS LEAD TO A HAPPY LIFE.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "THE STARS TWINKLE IN THE NIGHT SKY.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "nature",
+      "odd_words",
+      "start_the",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "ALWAYS STRIVE FOR EXCELLENCE.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "THE MOUNTAINS ARE MAJESTIC AND GRAND.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "shared_sample",
+      "nature",
+      "even_words",
+      "start_the",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "CHANGE IS THE ONLY CONSTANT.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "LEARNING IS A LIFELONG JOURNEY.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "CURIOSITY LEADS TO DISCOVERY.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "GRATITUDE OPENS DOORS TO ABUNDANCE.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "TIME FLIES WHEN YOU'RE HAVING FUN.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "THE UNIVERSE IS VAST AND MYSTERIOUS.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "nature",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "PATIENCE IS A VIRTUE.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "LOVE CONQUERS ALL.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "THE WIND WHISPERS THROUGH THE TREES.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "nature",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "CHOCOLATE IS A DELIGHTFUL INDULGENCE.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "THE SUNRISE PAINTS THE SKY WITH WARM COLORS.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "nature",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "FAILURE IS A STEPPING STONE TO SUCCESS.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "POSITIVITY BREEDS POSITIVITY.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "THE EAGLE SOARS HIGH IN THE SKY.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "nature",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "PEACE BEGINS WITH A SMILE.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "THE RAINBOW BRINGS JOY AFTER THE RAIN.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "nature",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "KNOWLEDGE IS POWER.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "FAMILY HOLDS A SPECIAL PLACE IN OUR HEARTS.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "THE FLOWERS BLOOM IN SPRING.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "nature",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "LAUGHTER IS THE BEST MEDICINE.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "BE KIND TO ONE ANOTHER.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "THE OLYMPICS CELEBRATE ATHLETIC EXCELLENCE.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "odd_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "LIFE IS WHAT HAPPENS WHEN YOU'RE BUSY MAKING PLANS.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "COURAGE IS RESISTANCE TO FEAR, MASTERY OF FEAR, NOT ABSENCE OF FEAR.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "THE SILENCE OF NATURE IS VERY REAL. IT SURROUNDS YOU...",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "A SUCCESSFUL MAN IS ONE WHO CAN LAY A FIRM FOUNDATION WITH THE BRICKS OTHERS HAVE THROWN AT HIM.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "IN THE END, WE WILL REMEMBER NOT THE WORDS OF OUR ENEMIES, BUT THE SILENCE OF OUR FRIENDS.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "THERE IS NOTHING EITHER GOOD OR BAD, BUT THINKING MAKES IT SO.",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "THE ONLY LIMIT TO OUR REALIZATION OF TOMORROW WILL BE OUR DOUBTS OF TODAY.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "all_upper",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "the quick brown fox jumps over the lazy dog.",
+    "tags": [
+      "shared_sample",
+      "sentence",
+      "nature",
+      "odd_words",
+      "start_the",
+      "all_lower",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "today is a beautiful day.",
+    "tags": [
+      "all_lower",
+      "shared_sample",
+      "sentence",
+      "nature",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "i love to travel and explore new places.",
+    "tags": [
+      "all_lower",
+      "shared_sample",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "python is a popular programming language.",
+    "tags": [
+      "all_lower",
+      "shared_sample",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "the sun sets in the west.",
+    "tags": [
+      "shared_sample",
+      "sentence",
+      "nature",
+      "even_words",
+      "start_the",
+      "all_lower",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "happiness is a warm cup of tea.",
+    "tags": [
+      "all_lower",
+      "shared_sample",
+      "sentence",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "the moonlight casts a glow over the night.",
+    "tags": [
+      "shared_sample",
+      "sentence",
+      "nature",
+      "even_words",
+      "start_the",
+      "all_lower",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "winter brings snow and frosty mornings.",
+    "tags": [
+      "all_lower",
+      "shared_sample",
+      "sentence",
+      "nature",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "music has the power to evoke strong emotions.",
+    "tags": [
+      "all_lower",
+      "shared_sample",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "science and technology are driving innovation.",
+    "tags": [
+      "all_lower",
+      "shared_sample",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "friendship is like a shining star in the dark.",
+    "tags": [
+      "all_lower",
+      "shared_sample",
+      "sentence",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "the ocean waves crash against the shore.",
+    "tags": [
+      "shared_sample",
+      "sentence",
+      "nature",
+      "odd_words",
+      "start_the",
+      "all_lower",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "reading opens doors to new worlds.",
+    "tags": [
+      "all_lower",
+      "shared_sample",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "coffee is the fuel of productivity.",
+    "tags": [
+      "all_lower",
+      "shared_sample",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "dream big and work hard to achieve it.",
+    "tags": [
+      "all_lower",
+      "shared_sample",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "the earth rotates on its axis.",
+    "tags": [
+      "shared_sample",
+      "sentence",
+      "nature",
+      "even_words",
+      "start_the",
+      "all_lower",
+      "start_lower",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "success is a journey, not a destination.",
+    "tags": [
+      "all_lower",
+      "shared_sample",
+      "sentence",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "healthy habits lead to a happy life.",
+    "tags": [
+      "all_lower",
+      "shared_sample",
+      "sentence",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "the stars twinkle in the night sky.",
+    "tags": [
+      "shared_sample",
+      "sentence",
+      "nature",
+      "odd_words",
+      "start_the",
+      "all_lower",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "always strive for excellence.",
+    "tags": [
+      "all_lower",
+      "shared_sample",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "the mountains are majestic and grand.",
+    "tags": [
+      "shared_sample",
+      "sentence",
+      "nature",
+      "even_words",
+      "start_the",
+      "all_lower",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "a brown cat sleeps on the windowsill.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "rainy days are perfect for cozy reading.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "i enjoy hiking in the peaceful woods.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "nature",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "java is widely used in enterprise applications.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "odd_words",
+      "start_lower",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "the wind gently rustles the leaves.",
+    "tags": [
+      "start_the",
+      "all_lower",
+      "sentence",
+      "nature",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "yoga and meditation promote inner peace.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "candles create a warm and inviting atmosphere.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "summer evenings are filled with laughter.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "solving puzzles sharpens the mind.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "bicycling is a great way to stay active.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "sunflowers turn to face the sun.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "nature",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "the river flows silently through the valley.",
+    "tags": [
+      "start_the",
+      "all_lower",
+      "sentence",
+      "nature",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "learning a new language is a rewarding experience.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "green tea has many health benefits.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "creativity knows no bounds.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "the world is full of fascinating cultures.",
+    "tags": [
+      "start_the",
+      "all_lower",
+      "sentence",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "mediterranean cuisine is delicious and healthy.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "butterflies dance in the garden.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "nature",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "the city comes alive at night.",
+    "tags": [
+      "start_the",
+      "all_lower",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "practicing gratitude leads to a positive mindset.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "oceans hide countless wonders beneath the surface.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "nature",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "writing allows thoughts to come to life.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "a hot cup of cocoa warms the soul.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "traveling broadens one's perspective.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "mindfulness brings focus to the present moment.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "simplicity is the ultimate sophistication.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "laughter is contagious and brings joy.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "gardening is a therapeutic outdoor activity.",
+    "tags": [
+      "all_lower",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "the aroma of fresh bread is irresistible.",
+    "tags": [
+      "start_the",
+      "all_lower",
+      "sentence",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "A dog barks in the distance.",
+    "tags": [
+      "even_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Cloudy skies bring a sense of calm.",
+    "tags": [
+      "start_cap",
+      "sentence",
+      "nature",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Exploring new cities is always exciting.",
+    "tags": [
+      "even_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "JavaScript is essential for web development.",
+    "tags": [
+      "start_cap",
+      "sentence",
+      "even_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "The sun sets behind the mountains.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "sentence",
+      "nature",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Practicing yoga improves flexibility and strength.",
+    "tags": [
+      "even_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Paris is known as the City of Love.",
+    "tags": [
+      "city",
+      "start_cap",
+      "sentence",
+      "even_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "Early mornings are a time of reflection.",
+    "tags": [
+      "odd_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Listening to classical music enhances concentration.",
+    "tags": [
+      "even_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Hiking trails offer stunning views of nature.",
+    "tags": [
+      "start_cap",
+      "sentence",
+      "nature",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "The Statue of Liberty stands tall in New York.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "city",
+      "sentence",
+      "odd_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "Learning a musical instrument requires patience.",
+    "tags": [
+      "even_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Green smoothies are a nutritious breakfast option.",
+    "tags": [
+      "odd_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Solving riddles stimulates the brain.",
+    "tags": [
+      "odd_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "The Great Wall of China spans thousands of miles.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "sentence",
+      "odd_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "Mediterranean beaches are known for their beauty.",
+    "tags": [
+      "start_cap",
+      "sentence",
+      "nature",
+      "odd_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "Gentle breezes rustle the leaves in the forest.",
+    "tags": [
+      "start_cap",
+      "sentence",
+      "nature",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Sunset paints the sky with warm hues.",
+    "tags": [
+      "start_cap",
+      "sentence",
+      "nature",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "The Colosseum is an iconic symbol of ancient Rome.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "city",
+      "sentence",
+      "odd_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "Creative writing allows for self-expression.",
+    "tags": [
+      "odd_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "A cup of herbal tea soothes the soul.",
+    "tags": [
+      "even_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Traveling to new countries broadens cultural understanding.",
+    "tags": [
+      "odd_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Mindfulness meditation reduces stress.",
+    "tags": [
+      "even_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Simplicity leads to a clutter-free life.",
+    "tags": [
+      "even_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Laughter is a universal language.",
+    "tags": [
+      "odd_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Gardening provides a connection to nature.",
+    "tags": [
+      "even_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Random acts of kindness create positive ripples.",
+    "tags": [
+      "odd_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "The aroma of freshly baked cookies fills the kitchen.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "sentence",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Exploring the universe sparks curiosity.",
+    "tags": [
+      "odd_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Creative endeavors bring joy and fulfillment.",
+    "tags": [
+      "even_words",
+      "start_cap",
+      "sentence",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "The Eiffel Tower stands tall in Paris.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "city",
+      "sentence",
+      "odd_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "London Bridge is an iconic landmark.",
+    "tags": [
+      "city",
+      "start_cap",
+      "sentence",
+      "even_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "New York City is known as the Big Apple.",
+    "tags": [
+      "city",
+      "start_cap",
+      "sentence",
+      "odd_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "The Amazon River is the second-longest river in the world.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "sentence",
+      "nature",
+      "even_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "Mount Everest is the highest peak in the world.",
+    "tags": [
+      "start_cap",
+      "sentence",
+      "nature",
+      "odd_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "The Great Barrier Reef is a natural wonder.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "sentence",
+      "nature",
+      "even_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "Tokyo is the capital city of Japan.",
+    "tags": [
+      "city",
+      "start_cap",
+      "sentence",
+      "odd_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "The Nile River is the longest river in Africa.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "sentence",
+      "nature",
+      "odd_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "The Sydney Opera House is an architectural marvel.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "sentence",
+      "even_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "The Taj Mahal is a symbol of love.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "city",
+      "sentence",
+      "even_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "The Grand Canyon is a breathtaking natural formation.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "sentence",
+      "nature",
+      "even_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "The Louvre Museum houses famous works of art.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "city",
+      "sentence",
+      "even_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "The Serengeti National Park is home to diverse wildlife.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "sentence",
+      "nature",
+      "odd_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "The Acropolis is an ancient Greek citadel.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "sentence",
+      "odd_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "The Vatican City is the smallest country in the world.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "city",
+      "sentence",
+      "even_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "The Golden Gate Bridge spans the San Francisco Bay.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "city",
+      "sentence",
+      "odd_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "The Kremlin is a historic fortress in Moscow.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "city",
+      "sentence",
+      "even_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "The Great Wall of China is a UNESCO World Heritage Site.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "sentence",
+      "odd_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "The Sahara Desert is the largest hot desert in the world.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "sentence",
+      "nature",
+      "odd_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "The Sydney Harbour Bridge is an iconic landmark in Australia.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "city",
+      "sentence",
+      "even_words",
+      "gpt4",
+      "proper_noun"
+    ]
+  },
+  {
+    "input": "SWIRLING IN THE AFTERNOON BREEZE",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "fragment_verb",
+      "nature",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Glistening in the morning dew",
+    "tags": [
+      "start_cap",
+      "fragment_verb",
+      "nature",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "echoing through the empty corridors",
+    "tags": [
+      "all_lower",
+      "fragment_verb",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "WHISPERING SECRETS TO THE NIGHT",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "fragment_verb",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Dancing in the flickering candlelight",
+    "tags": [
+      "odd_words",
+      "start_cap",
+      "fragment_verb",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "suspended in the vastness of space",
+    "tags": [
+      "all_lower",
+      "fragment_verb",
+      "nature",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "RESONATING WITH THE RHYTHM OF THE WAVES",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "fragment_verb",
+      "nature",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "illuminated by the soft glow of lanterns",
+    "tags": [
+      "all_lower",
+      "fragment_verb",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "drifting through the open meadow",
+    "tags": [
+      "all_lower",
+      "fragment_verb",
+      "nature",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "BATHED IN THE GOLDEN HUES OF SUNSET",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "fragment_verb",
+      "nature",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "WHIRLING THROUGH THE DENSE FOG",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "fragment_verb",
+      "nature",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "glimpses of sunlight breaking through the clouds",
+    "tags": [
+      "all_lower",
+      "fragment_verb",
+      "nature",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "SCATTERED ACROSS THE VAST DESERT",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "fragment_verb",
+      "nature",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "fluttering in the gentle breeze",
+    "tags": [
+      "all_lower",
+      "fragment_verb",
+      "nature",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "SHIMMERING IN THE MOONLIGHT",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "fragment_verb",
+      "nature",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "echoes of laughter lingering in the air",
+    "tags": [
+      "all_lower",
+      "fragment_verb",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "TWINKLING AMIDST THE CITY SKYLINE",
+    "tags": [
+      "city",
+      "start_cap",
+      "all_upper",
+      "fragment_verb",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "rustling leaves in the tranquil forest",
+    "tags": [
+      "all_lower",
+      "fragment_verb",
+      "nature",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "REFLECTED IN THE CRYSTAL CLEAR WATER",
+    "tags": [
+      "start_cap",
+      "all_upper",
+      "fragment_verb",
+      "nature",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "murmurs of a distant waterfall",
+    "tags": [
+      "all_lower",
+      "fragment_verb",
+      "nature",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "mountain peaks towering above the clouds",
+    "tags": [
+      "all_lower",
+      "fragment_subject",
+      "nature",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Ancient ruins from a forgotten civilization",
+    "tags": [
+      "even_words",
+      "start_cap",
+      "fragment_subject",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "the sound of waves crashing on the shore",
+    "tags": [
+      "start_the",
+      "all_lower",
+      "fragment_subject",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Colorful flowers blooming in the garden",
+    "tags": [
+      "start_cap",
+      "fragment_subject",
+      "nature",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "the aroma of freshly baked bread",
+    "tags": [
+      "start_the",
+      "all_lower",
+      "fragment_subject",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Sunset casting a warm glow over the horizon",
+    "tags": [
+      "start_cap",
+      "fragment_subject",
+      "nature",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "City lights twinkling in the night sky",
+    "tags": [
+      "city",
+      "start_cap",
+      "fragment_subject",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "The feeling of sand between my toes",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "fragment_subject",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "A distant echo in the quiet forest",
+    "tags": [
+      "start_cap",
+      "fragment_subject",
+      "nature",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Ancient manuscripts filled with wisdom",
+    "tags": [
+      "odd_words",
+      "start_cap",
+      "fragment_subject",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "The melody of a familiar song",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "fragment_subject",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "a secret pathway leading into the unknown",
+    "tags": [
+      "all_lower",
+      "fragment_subject",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Glowing embers in the fireplace",
+    "tags": [
+      "odd_words",
+      "start_cap",
+      "fragment_subject",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "A treasure map with mysterious markings",
+    "tags": [
+      "even_words",
+      "start_cap",
+      "fragment_subject",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "gentle raindrops tapping on the window",
+    "tags": [
+      "all_lower",
+      "fragment_subject",
+      "even_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "whispers of a long-forgotten tale",
+    "tags": [
+      "all_lower",
+      "fragment_subject",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "A burst of color in the springtime",
+    "tags": [
+      "start_cap",
+      "fragment_subject",
+      "nature",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "the scent of pine trees in the mountain air",
+    "tags": [
+      "start_the",
+      "all_lower",
+      "fragment_subject",
+      "nature",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "A solitary figure silhouetted against the sunset",
+    "tags": [
+      "odd_words",
+      "start_cap",
+      "fragment_subject",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "ancient artifacts telling stories of the past",
+    "tags": [
+      "all_lower",
+      "fragment_subject",
+      "odd_words",
+      "start_lower",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "The bustling city streets echoed with the sounds of honking horns and hurried footsteps.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "city",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "In the heart of the metropolis, skyscrapers touched the clouds, reflecting the city lights below.",
+    "tags": [
+      "city",
+      "start_cap",
+      "sentence",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "A quiet alley led to a hidden cafe, where the aroma of freshly brewed coffee filled the air.",
+    "tags": [
+      "city",
+      "start_cap",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Neon signs illuminated the night, casting a vibrant glow on the crowded urban thoroughfare.",
+    "tags": [
+      "city",
+      "start_cap",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "People from all walks of life gathered in the central square, enjoying the lively street performances.",
+    "tags": [
+      "city",
+      "start_cap",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "The cityscape was a mix of modern architecture and historic landmarks, telling the story of the urban evolution.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "city",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "As the sun set, the city's skyline transformed into a mesmerizing display of colors and shadows.",
+    "tags": [
+      "city",
+      "start_cap",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Traffic jams and busy intersections characterized the daily rhythm of life in the bustling urban center.",
+    "tags": [
+      "city",
+      "start_cap",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "Pedestrians navigated through the city's maze-like streets, guided by the glow of streetlights.",
+    "tags": [
+      "city",
+      "start_cap",
+      "sentence",
+      "odd_words",
+      "gpt4"
+    ]
+  },
+  {
+    "input": "The city at night resembled a vast canvas, painted with the vibrant hues of illuminated billboards and skyscrapers.",
+    "tags": [
+      "start_the",
+      "start_cap",
+      "city",
+      "sentence",
+      "even_words",
+      "gpt4"
+    ]
+  }
+]
