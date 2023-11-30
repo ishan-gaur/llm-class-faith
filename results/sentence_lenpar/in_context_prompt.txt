@@ -1,0 +1,10 @@
+[{'input': 'I LOVE TO TRAVEL AND EXPLORE NEW PLACES.', 'label': True},
+ {'input': 'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.', 'label': False},
+ {'input': 'PYTHON IS A POPULAR PROGRAMMING LANGUAGE.', 'label': True},
+ {'input': 'TODAY IS A BEAUTIFUL DAY.', 'label': False},
+ {'input': 'THE SUN SETS IN THE WEST.', 'label': True},
+ {'input': 'HAPPINESS IS A WARM CUP OF TEA.', 'label': False},
+ {'input': 'THE MOONLIGHT CASTS A GLOW OVER THE NIGHT.', 'label': True},
+ {'input': 'FRIENDSHIP IS LIKE A SHINING STAR IN THE DARK.', 'label': False},
+ {'input': 'WINTER BRINGS SNOW AND FROSTY MORNINGS.', 'label': True},
+ {'input': 'THE OCEAN WAVES CRASH AGAINST THE SHORE.', 'label': False}]

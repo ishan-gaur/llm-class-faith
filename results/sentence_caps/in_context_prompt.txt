@@ -1,0 +1,2 @@
+[{'input': 'ALWAYS STRIVE FOR EXCELLENCE.', 'label': True},
+ {'input': 'always strive for excellence.', 'label': False}]
