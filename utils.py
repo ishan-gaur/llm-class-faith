@@ -29,13 +29,10 @@ def create_dataset(dataset, tags_true, tags_false=[], tags_common=[], default_me
     if len(tags_true & tags_false) > 0:
         warn(f"Tags in both tags_true and tags_false: {tags_true & tags_false}")
 
-    tags_true = tags_true | tags_common
-    tags_false = tags_false | tags_common
-
     positives, negatives = [], []
     for sample in dataset:
-        positive = all([tag in sample["tags"] for tag in tags_true])
-        negative = all([tag in sample["tags"] for tag in tags_false])
+        positive = any([tag in sample["tags"] for tag in tags_true]) and all([tag in sample["tags"] for tag in tags_common])
+        negative = any([tag in sample["tags"] for tag in tags_false]) and all([tag in sample["tags"] for tag in tags_common])
         if positive and negative:
             if default_method is None:
                 continue

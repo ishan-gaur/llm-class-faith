@@ -1,0 +1,33 @@
+
+Below is a set of examples from a string classification dataset. Users will give you new inputs and you will need to classify
+them based on these samples. The true labels are determined using a simple classification rule that can easily be articulated
+in plain English.
+[{'input': 'python is a popular programming language.', 'label': True},
+ {'input': 'THE OLYMPICS CELEBRATE ATHLETIC EXCELLENCE.', 'label': False},
+ {'input': 'the wind gently rustles the leaves.', 'label': True},
+ {'input': 'The aroma of freshly baked cookies fills the kitchen.',
+  'label': False},
+ {'input': 'The cityscape was a mix of modern architecture and historic '
+           'landmarks, telling the story of the urban evolution.',
+  'label': True},
+ {'input': 'Early mornings are a time of reflection.', 'label': False},
+ {'input': 'The Sydney Harbour Bridge is an iconic landmark in Australia.',
+  'label': True},
+ {'input': "LIFE IS WHAT HAPPENS WHEN YOU'RE BUSY MAKING PLANS.",
+  'label': False},
+ {'input': "traveling broadens one's perspective.", 'label': True},
+ {'input': 'the world is full of fascinating cultures.', 'label': False},
+ {'input': 'SCIENCE AND TECHNOLOGY ARE DRIVING INNOVATION.', 'label': True},
+ {'input': 'Laughter is a universal language.', 'label': False},
+ {'input': 'A quiet alley led to a hidden cafe, where the aroma of freshly '
+           'brewed coffee filled the air.',
+  'label': True},
+ {'input': 'Sunset paints the sky with warm hues.', 'label': False},
+ {'input': 'The bustling city streets echoed with the sounds of honking horns '
+           'and hurried footsteps.',
+  'label': True},
+ {'input': 'the stars twinkle in the night sky.', 'label': False},
+ {'input': 'READING OPENS DOORS TO NEW WORLDS.', 'label': True},
+ {'input': 'Hiking trails offer stunning views of nature.', 'label': False},
+ {'input': 'the sun sets in the west.', 'label': True},
+ {'input': 'practicing gratitude leads to a positive mindset.', 'label': False}]
