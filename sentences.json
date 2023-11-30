@@ -1617,26 +1617,28 @@
     ]
   },
   {
-    "input": "Random acts of kindness create positive ripples.",
+    "input": "random acts of kindness create positive ripples.",
     "tags": [
       "odd_words",
+      "all_lower",
       "gpt4",
       "sentence",
+      "start_lower",
       "start_consonant",
-      "long",
-      "start_cap"
+      "long"
     ]
   },
   {
-    "input": "The aroma of freshly baked cookies fills the kitchen.",
+    "input": "the aroma of freshly baked cookies fills the kitchen.",
     "tags": [
-      "odd_words",
       "gpt4",
       "sentence",
-      "start_the",
       "start_consonant",
       "long",
-      "start_cap"
+      "odd_words",
+      "all_lower",
+      "start_the",
+      "start_lower"
     ]
   },
   {
@@ -2250,27 +2252,29 @@
     ]
   },
   {
-    "input": "Sunset casting a warm glow over the horizon",
+    "input": "sunset casting a warm glow over the horizon",
     "tags": [
       "gpt4",
       "even_words",
-      "fragment_subject",
       "nature",
       "start_consonant",
       "long",
-      "start_cap"
+      "all_lower",
+      "fragment_subject",
+      "start_lower"
     ]
   },
   {
-    "input": "City lights twinkling in the night sky",
+    "input": "city lights twinkling in the night sky",
     "tags": [
-      "odd_words",
       "gpt4",
       "city",
-      "fragment_subject",
       "start_consonant",
       "long",
-      "start_cap"
+      "odd_words",
+      "all_lower",
+      "fragment_subject",
+      "start_lower"
     ]
   },
   {
@@ -2286,15 +2290,16 @@
     ]
   },
   {
-    "input": "A distant echo in the quiet forest",
+    "input": "a distant echo in the quiet forest",
     "tags": [
-      "odd_words",
       "gpt4",
-      "fragment_subject",
       "nature",
       "start_vowel",
       "long",
-      "start_cap"
+      "odd_words",
+      "all_lower",
+      "fragment_subject",
+      "start_lower"
     ]
   },
   {
