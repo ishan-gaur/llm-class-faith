@@ -1,0 +1,10 @@
+[{'input': 'SCATTERED ACROSS THE VAST DESERT', 'label': True},
+ {'input': 'java is widely used in enterprise applications.', 'label': False},
+ {'input': 'WHISPERING SECRETS TO THE NIGHT', 'label': True},
+ {'input': 'illuminated by the soft glow of lanterns', 'label': False},
+ {'input': 'THE OLYMPICS CELEBRATE ATHLETIC EXCELLENCE.', 'label': True},
+ {'input': 'i enjoy hiking in the peaceful woods.', 'label': False},
+ {'input': 'Glowing embers in the fireplace', 'label': True},
+ {'input': 'rainy days are perfect for cozy reading.', 'label': False},
+ {'input': 'A dog barks in the distance.', 'label': True},
+ {'input': 'city lights twinkling in the night sky', 'label': False}]

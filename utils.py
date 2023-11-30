@@ -176,3 +176,18 @@ def eval_response(response_json, test_samples):
         "accuracy": correct / len(test_samples)
     }
     return eval_results, summary_dict
+
+def write_test_data(positives, negatives, samples_per_label, output_dir):
+    num_test_samples = min(len(positives), len(negatives)) - samples_per_label
+
+    in_context_samples = positives[:samples_per_label] + negatives[:samples_per_label]
+    in_context_prompt = in_context_from_samples(in_context_samples)
+    with open(output_dir / f"in_context_prompt_{samples_per_label}.txt", "w") as f:
+        f.write(in_context_prompt)
+
+    test_positives = positives[samples_per_label:][:num_test_samples]
+    test_negatives = negatives[samples_per_label:][:num_test_samples]
+    test_prompt, test_samples = test_prompt_from_samples(test_positives, test_negatives)
+    with open(output_dir / f"test_prompt_{samples_per_label}.txt", "w") as f:
+        f.write(test_prompt)
+    json.dump(test_samples, open(output_dir / f"test_samples_{samples_per_label}.json", "w"), indent=2)
