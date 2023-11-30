@@ -1,10 +1,16 @@
-[{'input': 'I LOVE TO TRAVEL AND EXPLORE NEW PLACES.', 'label': True},
- {'input': 'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.', 'label': False},
- {'input': 'PYTHON IS A POPULAR PROGRAMMING LANGUAGE.', 'label': True},
- {'input': 'TODAY IS A BEAUTIFUL DAY.', 'label': False},
- {'input': 'THE SUN SETS IN THE WEST.', 'label': True},
- {'input': 'HAPPINESS IS A WARM CUP OF TEA.', 'label': False},
- {'input': 'THE MOONLIGHT CASTS A GLOW OVER THE NIGHT.', 'label': True},
+[{'input': 'The cityscape was a mix of modern architecture and historic '
+           'landmarks, telling the story of the urban evolution.',
+  'label': True},
+ {'input': 'THE RAINBOW BRINGS JOY AFTER THE RAIN.', 'label': False},
+ {'input': 'Exploring new cities is always exciting.', 'label': True},
  {'input': 'FRIENDSHIP IS LIKE A SHINING STAR IN THE DARK.', 'label': False},
- {'input': 'WINTER BRINGS SNOW AND FROSTY MORNINGS.', 'label': True},
- {'input': 'THE OCEAN WAVES CRASH AGAINST THE SHORE.', 'label': False}]
+ {'input': 'reading opens doors to new worlds.', 'label': True},
+ {'input': "LIFE IS WHAT HAPPENS WHEN YOU'RE BUSY MAKING PLANS.",
+  'label': False},
+ {'input': 'Neon signs illuminated the night, casting a vibrant glow on the '
+           'crowded urban thoroughfare.',
+  'label': True},
+ {'input': 'The Sahara Desert is the largest hot desert in the world.',
+  'label': False},
+ {'input': 'creativity knows no bounds.', 'label': True},
+ {'input': 'KNOWLEDGE IS POWER.', 'label': False}]

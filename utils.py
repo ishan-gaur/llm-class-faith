@@ -53,6 +53,7 @@ def create_dataset(dataset, tags_true, tags_false=[], tags_common=[], default_me
             sample["label"] = False
             negatives.append(sample)
 
+    shuffle(positives), shuffle(negatives)
     return positives, negatives
 
 

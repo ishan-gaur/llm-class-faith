@@ -1,0 +1,2 @@
+[{'input': 'THE SUN SETS IN THE WEST.', 'label': True},
+ {'input': 'always strive for excellence.', 'label': False}]
