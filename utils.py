@@ -23,16 +23,36 @@ def load_dataset(dataset_file):
                 tag_counts[tag] = 1
     return dataset, tag_counts
 
+def save_dataset(dataset, dataset_file):
+    json.dump(dataset, open(dataset_file, "w"), indent=2)
+
+def check_tags(sample, tags, comb):
+    if len(tags) == 0:
+        return True
+    if comb == "AND":
+        return all([tag in sample["tags"] for tag in tags])
+    elif comb == "OR":
+        return any([tag in sample["tags"] for tag in tags])
+    else:
+        raise f"Invalid combination: {comb}, must be \"AND\" or \"OR\""
+
 default_methods = ["positive", "negative", None]
-def create_dataset(dataset, tags_true, tags_false=[], tags_common=[], default_method="positive"):
+def create_dataset(dataset, tags_true, tags_false=[], tags_common=[],
+                   true_comb="AND", false_comb="OR", default_method="positive"):
+
     tags_true, tags_false, tags_common = set(tags_true), set(tags_false), set(tags_common)
     if len(tags_true & tags_false) > 0:
         warn(f"Tags in both tags_true and tags_false: {tags_true & tags_false}")
+    if len(tags_true) == 0:
+        warn("tags_true is empty")
 
     positives, negatives = [], []
     for sample in dataset:
-        positive = any([tag in sample["tags"] for tag in tags_true]) and all([tag in sample["tags"] for tag in tags_common])
-        negative = any([tag in sample["tags"] for tag in tags_false]) and all([tag in sample["tags"] for tag in tags_common])
+        true_status = check_tags(sample, tags_true, true_comb)
+        false_status = check_tags(sample, tags_false, false_comb)
+        common = all([tag in sample["tags"] for tag in tags_common]) if len(tags_common) > 0 else True
+        positive = true_status and common
+        negative = false_status and common
         if positive and negative:
             if default_method is None:
                 continue

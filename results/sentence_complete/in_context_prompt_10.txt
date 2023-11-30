@@ -1,0 +1,26 @@
+[{'input': 'WINTER BRINGS SNOW AND FROSTY MORNINGS.', 'label': True},
+ {'input': 'drifting through the open meadow', 'label': False},
+ {'input': 'Gardening provides a connection to nature.', 'label': True},
+ {'input': 'gentle raindrops tapping on the window', 'label': False},
+ {'input': "As the sun set, the city's skyline transformed into a mesmerizing "
+           'display of colors and shadows.',
+  'label': True},
+ {'input': 'A solitary figure silhouetted against the sunset', 'label': False},
+ {'input': 'London Bridge is an iconic landmark.', 'label': True},
+ {'input': 'Sunset casting a warm glow over the horizon', 'label': False},
+ {'input': 'green tea has many health benefits.', 'label': True},
+ {'input': 'A treasure map with mysterious markings', 'label': False},
+ {'input': 'IN THE END, WE WILL REMEMBER NOT THE WORDS OF OUR ENEMIES, BUT THE '
+           'SILENCE OF OUR FRIENDS.',
+  'label': True},
+ {'input': 'suspended in the vastness of space', 'label': False},
+ {'input': 'the earth rotates on its axis.', 'label': True},
+ {'input': 'Glistening in the morning dew', 'label': False},
+ {'input': 'In the heart of the metropolis, skyscrapers touched the clouds, '
+           'reflecting the city lights below.',
+  'label': True},
+ {'input': 'fluttering in the gentle breeze', 'label': False},
+ {'input': 'Simplicity leads to a clutter-free life.', 'label': True},
+ {'input': 'SWIRLING IN THE AFTERNOON BREEZE', 'label': False},
+ {'input': 'A cup of herbal tea soothes the soul.', 'label': True},
+ {'input': 'murmurs of a distant waterfall', 'label': False}]

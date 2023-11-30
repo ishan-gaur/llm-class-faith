@@ -1,0 +1,476 @@
+[
+  {
+    "input": "The Sydney Opera House is an architectural marvel.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "sentence",
+      "even_words",
+      "start_consonant",
+      "long",
+      "start_cap",
+      "start_the"
+    ],
+    "label": true
+  },
+  {
+    "input": "the city comes alive at night.",
+    "tags": [
+      "gpt4",
+      "sentence",
+      "even_words",
+      "short",
+      "start_consonant",
+      "all_lower",
+      "start_lower",
+      "start_the"
+    ],
+    "label": false
+  },
+  {
+    "input": "The Amazon River is the second-longest river in the world.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "sentence",
+      "even_words",
+      "nature",
+      "start_consonant",
+      "long",
+      "start_cap",
+      "start_the"
+    ],
+    "label": true
+  },
+  {
+    "input": "Mediterranean beaches are known for their beauty.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "sentence",
+      "nature",
+      "start_consonant",
+      "long",
+      "start_cap",
+      "odd_words"
+    ],
+    "label": true
+  },
+  {
+    "input": "London Bridge is an iconic landmark.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "city",
+      "sentence",
+      "even_words",
+      "short",
+      "start_consonant",
+      "start_cap"
+    ],
+    "label": true
+  },
+  {
+    "input": "a hot cup of cocoa warms the soul.",
+    "tags": [
+      "all_lower",
+      "gpt4",
+      "sentence",
+      "even_words",
+      "start_lower",
+      "start_vowel",
+      "long"
+    ],
+    "label": false
+  },
+  {
+    "input": "Hiking trails offer stunning views of nature.",
+    "tags": [
+      "odd_words",
+      "gpt4",
+      "sentence",
+      "nature",
+      "start_consonant",
+      "long",
+      "start_cap"
+    ],
+    "label": false
+  },
+  {
+    "input": "PEACE BEGINS WITH A SMILE.",
+    "tags": [
+      "all_upper",
+      "odd_words",
+      "gpt4",
+      "sentence",
+      "short",
+      "start_consonant",
+      "start_cap"
+    ],
+    "label": false
+  },
+  {
+    "input": "The Statue of Liberty stands tall in New York.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "city",
+      "sentence",
+      "start_consonant",
+      "long",
+      "start_cap",
+      "odd_words",
+      "start_the"
+    ],
+    "label": true
+  },
+  {
+    "input": "Cloudy skies bring a sense of calm.",
+    "tags": [
+      "odd_words",
+      "gpt4",
+      "sentence",
+      "nature",
+      "start_consonant",
+      "long",
+      "start_cap"
+    ],
+    "label": false
+  },
+  {
+    "input": "The Sahara Desert is the largest hot desert in the world.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "sentence",
+      "nature",
+      "start_consonant",
+      "long",
+      "start_cap",
+      "odd_words",
+      "start_the"
+    ],
+    "label": true
+  },
+  {
+    "input": "In the heart of the metropolis, skyscrapers touched the clouds, reflecting the city lights below.",
+    "tags": [
+      "odd_words",
+      "gpt4",
+      "city",
+      "sentence",
+      "start_vowel",
+      "long",
+      "start_cap"
+    ],
+    "label": false
+  },
+  {
+    "input": "Random acts of kindness create positive ripples.",
+    "tags": [
+      "odd_words",
+      "gpt4",
+      "sentence",
+      "start_consonant",
+      "long",
+      "start_cap"
+    ],
+    "label": false
+  },
+  {
+    "input": "The Golden Gate Bridge spans the San Francisco Bay.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "city",
+      "sentence",
+      "start_consonant",
+      "long",
+      "start_cap",
+      "odd_words",
+      "start_the"
+    ],
+    "label": true
+  },
+  {
+    "input": "fluttering in the gentle breeze",
+    "tags": [
+      "gpt4",
+      "short",
+      "nature",
+      "start_consonant",
+      "odd_words",
+      "all_lower",
+      "start_lower",
+      "fragment_verb"
+    ],
+    "label": false
+  },
+  {
+    "input": "dream big and work hard to achieve it.",
+    "tags": [
+      "gpt4",
+      "sentence",
+      "even_words",
+      "start_consonant",
+      "long",
+      "all_lower",
+      "start_lower",
+      "shared_sample"
+    ],
+    "label": false
+  },
+  {
+    "input": "The Great Barrier Reef is a natural wonder.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "sentence",
+      "even_words",
+      "nature",
+      "start_consonant",
+      "long",
+      "start_cap",
+      "start_the"
+    ],
+    "label": true
+  },
+  {
+    "input": "The Great Wall of China is a UNESCO World Heritage Site.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "sentence",
+      "start_consonant",
+      "long",
+      "start_cap",
+      "odd_words",
+      "start_the"
+    ],
+    "label": true
+  },
+  {
+    "input": "The Acropolis is an ancient Greek citadel.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "sentence",
+      "start_consonant",
+      "long",
+      "start_cap",
+      "odd_words",
+      "start_the"
+    ],
+    "label": true
+  },
+  {
+    "input": "echoing through the empty corridors",
+    "tags": [
+      "odd_words",
+      "all_lower",
+      "gpt4",
+      "start_lower",
+      "short",
+      "start_vowel",
+      "fragment_verb"
+    ],
+    "label": false
+  },
+  {
+    "input": "Mount Everest is the highest peak in the world.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "sentence",
+      "nature",
+      "start_consonant",
+      "long",
+      "start_cap",
+      "odd_words"
+    ],
+    "label": true
+  },
+  {
+    "input": "FAILURE IS A STEPPING STONE TO SUCCESS.",
+    "tags": [
+      "all_upper",
+      "odd_words",
+      "gpt4",
+      "sentence",
+      "start_consonant",
+      "long",
+      "start_cap"
+    ],
+    "label": false
+  },
+  {
+    "input": "READING OPENS DOORS TO NEW WORLDS.",
+    "tags": [
+      "all_upper",
+      "gpt4",
+      "sentence",
+      "even_words",
+      "short",
+      "start_consonant",
+      "start_cap",
+      "shared_sample"
+    ],
+    "label": false
+  },
+  {
+    "input": "CHOCOLATE IS A DELIGHTFUL INDULGENCE.",
+    "tags": [
+      "all_upper",
+      "odd_words",
+      "gpt4",
+      "sentence",
+      "short",
+      "start_consonant",
+      "start_cap"
+    ],
+    "label": false
+  },
+  {
+    "input": "GRATITUDE OPENS DOORS TO ABUNDANCE.",
+    "tags": [
+      "all_upper",
+      "odd_words",
+      "gpt4",
+      "sentence",
+      "short",
+      "start_consonant",
+      "start_cap"
+    ],
+    "label": false
+  },
+  {
+    "input": "THE STARS TWINKLE IN THE NIGHT SKY.",
+    "tags": [
+      "all_upper",
+      "gpt4",
+      "sentence",
+      "nature",
+      "start_consonant",
+      "long",
+      "start_cap",
+      "odd_words",
+      "start_the",
+      "shared_sample"
+    ],
+    "label": false
+  },
+  {
+    "input": "i love to travel and explore new places.",
+    "tags": [
+      "gpt4",
+      "sentence",
+      "even_words",
+      "start_vowel",
+      "long",
+      "all_lower",
+      "start_lower",
+      "shared_sample"
+    ],
+    "label": false
+  },
+  {
+    "input": "Paris is known as the City of Love.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "city",
+      "sentence",
+      "even_words",
+      "start_consonant",
+      "long",
+      "start_cap"
+    ],
+    "label": true
+  },
+  {
+    "input": "The Grand Canyon is a breathtaking natural formation.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "sentence",
+      "even_words",
+      "nature",
+      "start_consonant",
+      "long",
+      "start_cap",
+      "start_the"
+    ],
+    "label": true
+  },
+  {
+    "input": "New York City is known as the Big Apple.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "city",
+      "sentence",
+      "start_consonant",
+      "long",
+      "start_cap",
+      "odd_words"
+    ],
+    "label": true
+  },
+  {
+    "input": "The Great Wall of China spans thousands of miles.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "sentence",
+      "start_consonant",
+      "long",
+      "start_cap",
+      "odd_words",
+      "start_the"
+    ],
+    "label": true
+  },
+  {
+    "input": "The Vatican City is the smallest country in the world.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "city",
+      "sentence",
+      "even_words",
+      "start_consonant",
+      "long",
+      "start_cap",
+      "start_the"
+    ],
+    "label": true
+  },
+  {
+    "input": "The Serengeti National Park is home to diverse wildlife.",
+    "tags": [
+      "proper_noun",
+      "gpt4",
+      "sentence",
+      "nature",
+      "start_consonant",
+      "long",
+      "start_cap",
+      "odd_words",
+      "start_the"
+    ],
+    "label": true
+  },
+  {
+    "input": "a brown cat sleeps on the windowsill.",
+    "tags": [
+      "odd_words",
+      "all_lower",
+      "gpt4",
+      "sentence",
+      "start_lower",
+      "start_vowel",
+      "long"
+    ],
+    "label": false
+  }
+]

@@ -1,0 +1,3 @@
+tags_true: ['proper_noun']
+tags_false: []
+tags_common: []

@@ -1,0 +1,10 @@
+[{'input': 'python is a popular programming language.', 'label': True},
+ {'input': 'the river flows silently through the valley.', 'label': False},
+ {'input': 'Tokyo is the capital city of Japan.', 'label': True},
+ {'input': 'gentle raindrops tapping on the window', 'label': False},
+ {'input': 'THE EARTH ROTATES ON ITS AXIS.', 'label': True},
+ {'input': 'rainy days are perfect for cozy reading.', 'label': False},
+ {'input': 'javaScript is essential for web development.', 'label': True},
+ {'input': 'City lights twinkling in the night sky', 'label': False},
+ {'input': 'The Colosseum is an iconic symbol of ancient Rome.', 'label': True},
+ {'input': 'POSITIVITY BREEDS POSITIVITY.', 'label': False}]
