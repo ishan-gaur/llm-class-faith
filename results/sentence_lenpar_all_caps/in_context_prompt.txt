@@ -1,0 +1,15 @@
+[{'input': 'THE MOUNTAINS ARE MAJESTIC AND GRAND.', 'label': True},
+ {'input': 'HAPPINESS IS A WARM CUP OF TEA.', 'label': False},
+ {'input': 'THERE IS NOTHING EITHER GOOD OR BAD, BUT THINKING MAKES IT SO.',
+  'label': True},
+ {'input': 'THE EAGLE SOARS HIGH IN THE SKY.', 'label': False},
+ {'input': 'IN THE END, WE WILL REMEMBER NOT THE WORDS OF OUR ENEMIES, BUT THE '
+           'SILENCE OF OUR FRIENDS.',
+  'label': True},
+ {'input': 'GRATITUDE OPENS DOORS TO ABUNDANCE.', 'label': False},
+ {'input': 'CURIOSITY LEADS TO DISCOVERY.', 'label': True},
+ {'input': 'LOVE CONQUERS ALL.', 'label': False},
+ {'input': 'PATIENCE IS A VIRTUE.', 'label': True},
+ {'input': 'A SUCCESSFUL MAN IS ONE WHO CAN LAY A FIRM FOUNDATION WITH THE '
+           'BRICKS OTHERS HAVE THROWN AT HIM.',
+  'label': False}]

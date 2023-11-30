@@ -1,0 +1,3 @@
+tags_true: ['even_words']
+tags_false: ['odd_words']
+tags_common: ['sentence']

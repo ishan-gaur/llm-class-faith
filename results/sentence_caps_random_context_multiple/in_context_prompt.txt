@@ -1,0 +1,10 @@
+[{'input': 'THE EAGLE SOARS HIGH IN THE SKY.', 'label': True},
+ {'input': 'the ocean waves crash against the shore.', 'label': False},
+ {'input': 'LOVE CONQUERS ALL.', 'label': True},
+ {'input': 'winter brings snow and frosty mornings.', 'label': False},
+ {'input': 'THE UNIVERSE IS VAST AND MYSTERIOUS.', 'label': True},
+ {'input': 'the sun sets in the west.', 'label': False},
+ {'input': 'FAMILY HOLDS A SPECIAL PLACE IN OUR HEARTS.', 'label': True},
+ {'input': 'butterflies dance in the garden.', 'label': False},
+ {'input': 'FAILURE IS A STEPPING STONE TO SUCCESS.', 'label': True},
+ {'input': 'healthy habits lead to a happy life.', 'label': False}]
