@@ -170,10 +170,10 @@ def eval_response(response_json, test_samples):
              The sum of correct, mismatch, and incorrect should equal the number of test samples.")
 
     conf_matrix = [[0, 0], [0, 0]]
-    for sample in eval_results:
-        if sample["mismatch"]:
+    for e_sample, r_sample in zip(eval_results, response_json):
+        if e_sample["mismatch"]:
             continue
-        conf_matrix[int(sample["label"])][int(sample["eval"])] += 1
+        conf_matrix[int(e_sample["label"])][int(r_sample["label"])] += 1
 
     summary_dict = {
         "correct": correct,
@@ -184,6 +184,8 @@ def eval_response(response_json, test_samples):
         "accuracy": correct / len(test_samples),
         "precision": conf_matrix[1][1] / (conf_matrix[1][1] + conf_matrix[0][1]),
         "recall": conf_matrix[1][1] / (conf_matrix[1][1] + conf_matrix[1][0]),
+        "true": sum([sample["label"] for sample in eval_results]),
+        "false": sum([not sample["label"] for sample in eval_results]),
     }
     return eval_results, summary_dict
 
