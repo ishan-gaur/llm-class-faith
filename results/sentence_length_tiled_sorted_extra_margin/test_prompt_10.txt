@@ -1,0 +1,65 @@
+[{'input': 'THE ONLY LIMIT TO OUR REALIZATION OF TOMORROW WILL BE OUR DOUBTS '
+           'OF TODAY.'},
+ {'input': "As the sun set, the city's skyline transformed into a mesmerizing "
+           'display of colors and shadows.'},
+ {'input': 'The cityscape was a mix of modern architecture and historic '
+           'landmarks, telling the story of the urban evolution.'},
+ {'input': 'the scent of pine trees in the mountain air'},
+ {'input': 'today is a beautiful day.'},
+ {'input': 'The Sydney Harbour Bridge is an iconic landmark in Australia.'},
+ {'input': 'PATIENCE IS A VIRTUE.'},
+ {'input': 'CURIOSITY LEADS TO DISCOVERY.'},
+ {'input': 'The Golden Gate Bridge spans the San Francisco Bay.'},
+ {'input': 'TWINKLING AMIDST THE CITY SKYLINE'},
+ {'input': 'IN THE END, WE WILL REMEMBER NOT THE WORDS OF OUR ENEMIES, BUT THE '
+           'SILENCE OF OUR FRIENDS.'},
+ {'input': 'The Serengeti National Park is home to diverse wildlife.'},
+ {'input': 'A quiet alley led to a hidden cafe, where the aroma of freshly '
+           'brewed coffee filled the air.'},
+ {'input': "Pedestrians navigated through the city's maze-like streets, guided "
+           'by the glow of streetlights.'},
+ {'input': 'In the heart of the metropolis, skyscrapers touched the clouds, '
+           'reflecting the city lights below.'},
+ {'input': 'Laughter is a universal language.'},
+ {'input': 'The Great Wall of China is a UNESCO World Heritage Site.'},
+ {'input': 'The Nile River is the longest river in Africa.'},
+ {'input': 'Glowing embers in the fireplace'},
+ {'input': 'Neon signs illuminated the night, casting a vibrant glow on the '
+           'crowded urban thoroughfare.'},
+ {'input': 'LEARNING IS A LIFELONG JOURNEY.'},
+ {'input': 'Mindfulness meditation reduces stress.'},
+ {'input': 'drifting through the open meadow'},
+ {'input': 'SHIMMERING IN THE MOONLIGHT'},
+ {'input': 'The Vatican City is the smallest country in the world.'},
+ {'input': 'TODAY IS A BEAUTIFUL DAY.'},
+ {'input': 'Dancing in the flickering candlelight'},
+ {'input': 'THERE IS NOTHING EITHER GOOD OR BAD, BUT THINKING MAKES IT SO.'},
+ {'input': 'GRATITUDE OPENS DOORS TO ABUNDANCE.'},
+ {'input': 'CHOCOLATE IS A DELIGHTFUL INDULGENCE.'},
+ {'input': 'A SUCCESSFUL MAN IS ONE WHO CAN LAY A FIRM FOUNDATION WITH THE '
+           'BRICKS OTHERS HAVE THROWN AT HIM.'},
+ {'input': 'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.'},
+ {'input': 'The bustling city streets echoed with the sounds of honking horns '
+           'and hurried footsteps.'},
+ {'input': "LIFE IS WHAT HAPPENS WHEN YOU'RE BUSY MAKING PLANS."},
+ {'input': 'COURAGE IS RESISTANCE TO FEAR, MASTERY OF FEAR, NOT ABSENCE OF '
+           'FEAR.'},
+ {'input': 'LOVE CONQUERS ALL.'},
+ {'input': 'WHIRLING THROUGH THE DENSE FOG'},
+ {'input': 'whispers of a long-forgotten tale'},
+ {'input': 'People from all walks of life gathered in the central square, '
+           'enjoying the lively street performances.'},
+ {'input': 'The city at night resembled a vast canvas, painted with the '
+           'vibrant hues of illuminated billboards and skyscrapers.'},
+ {'input': 'friendship is like a shining star in the dark.'},
+ {'input': 'Mount Everest is the highest peak in the world.'},
+ {'input': 'creativity knows no bounds.'},
+ {'input': 'Creative writing allows for self-expression.'},
+ {'input': 'The Amazon River is the second-longest river in the world.'},
+ {'input': 'THE FLOWERS BLOOM IN SPRING.'},
+ {'input': 'BE KIND TO ONE ANOTHER.'},
+ {'input': 'POSITIVITY BREEDS POSITIVITY.'},
+ {'input': 'WHISPERING SECRETS TO THE NIGHT'},
+ {'input': 'ALWAYS STRIVE FOR EXCELLENCE.'},
+ {'input': 'Ancient manuscripts filled with wisdom'},
+ {'input': 'THE OLYMPICS CELEBRATE ATHLETIC EXCELLENCE.'}]

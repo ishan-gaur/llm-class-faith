@@ -1,0 +1,51 @@
+[{'input': 'The Serengeti National Park is home to diverse wildlife.'},
+ {'input': "As the sun set, the city's skyline transformed into a mesmerizing "
+           'display of colors and shadows.'},
+ {'input': 'TODAY IS A BEAUTIFUL DAY.'},
+ {'input': 'COURAGE IS RESISTANCE TO FEAR, MASTERY OF FEAR, NOT ABSENCE OF '
+           'FEAR.'},
+ {'input': 'TWINKLING AMIDST THE CITY SKYLINE'},
+ {'input': 'SHIMMERING IN THE MOONLIGHT'},
+ {'input': 'THERE IS NOTHING EITHER GOOD OR BAD, BUT THINKING MAKES IT SO.'},
+ {'input': 'ALWAYS STRIVE FOR EXCELLENCE.'},
+ {'input': 'CHOCOLATE IS A DELIGHTFUL INDULGENCE.'},
+ {'input': 'The Nile River is the longest river in Africa.'},
+ {'input': 'A SUCCESSFUL MAN IS ONE WHO CAN LAY A FIRM FOUNDATION WITH THE '
+           'BRICKS OTHERS HAVE THROWN AT HIM.'},
+ {'input': 'WHIRLING THROUGH THE DENSE FOG'},
+ {'input': 'The Golden Gate Bridge spans the San Francisco Bay.'},
+ {'input': 'GRATITUDE OPENS DOORS TO ABUNDANCE.'},
+ {'input': 'Dancing in the flickering candlelight'},
+ {'input': 'THE FLOWERS BLOOM IN SPRING.'},
+ {'input': "Pedestrians navigated through the city's maze-like streets, guided "
+           'by the glow of streetlights.'},
+ {'input': 'today is a beautiful day.'},
+ {'input': 'A quiet alley led to a hidden cafe, where the aroma of freshly '
+           'brewed coffee filled the air.'},
+ {'input': 'The Vatican City is the smallest country in the world.'},
+ {'input': 'LOVE CONQUERS ALL.'},
+ {'input': 'Glowing embers in the fireplace'},
+ {'input': 'BE KIND TO ONE ANOTHER.'},
+ {'input': 'Ancient manuscripts filled with wisdom'},
+ {'input': 'LEARNING IS A LIFELONG JOURNEY.'},
+ {'input': 'Creative writing allows for self-expression.'},
+ {'input': 'Mount Everest is the highest peak in the world.'},
+ {'input': 'creativity knows no bounds.'},
+ {'input': 'THE ONLY LIMIT TO OUR REALIZATION OF TOMORROW WILL BE OUR DOUBTS '
+           'OF TODAY.'},
+ {'input': 'the scent of pine trees in the mountain air'},
+ {'input': 'The Great Wall of China is a UNESCO World Heritage Site.'},
+ {'input': 'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.'},
+ {'input': 'People from all walks of life gathered in the central square, '
+           'enjoying the lively street performances.'},
+ {'input': 'The bustling city streets echoed with the sounds of honking horns '
+           'and hurried footsteps.'},
+ {'input': 'The Sydney Harbour Bridge is an iconic landmark in Australia.'},
+ {'input': 'Mindfulness meditation reduces stress.'},
+ {'input': 'WHISPERING SECRETS TO THE NIGHT'},
+ {'input': 'The Amazon River is the second-longest river in the world.'},
+ {'input': 'Laughter is a universal language.'},
+ {'input': 'CURIOSITY LEADS TO DISCOVERY.'},
+ {'input': 'IN THE END, WE WILL REMEMBER NOT THE WORDS OF OUR ENEMIES, BUT THE '
+           'SILENCE OF OUR FRIENDS.'},
+ {'input': "LIFE IS WHAT HAPPENS WHEN YOU'RE BUSY MAKING PLANS."}]

@@ -1,0 +1,75 @@
+[{'input': 'The Great Wall of China spans thousands of miles.'},
+ {'input': 'The Colosseum is an iconic symbol of ancient Rome.'},
+ {'input': 'CURIOSITY LEADS TO DISCOVERY.'},
+ {'input': 'The bustling city streets echoed with the sounds of honking horns '
+           'and hurried footsteps.'},
+ {'input': 'The Sydney Harbour Bridge is an iconic landmark in Australia.'},
+ {'input': 'today is a beautiful day.'},
+ {'input': 'CHOCOLATE IS A DELIGHTFUL INDULGENCE.'},
+ {'input': 'The city at night resembled a vast canvas, painted with the '
+           'vibrant hues of illuminated billboards and skyscrapers.'},
+ {'input': 'Ancient manuscripts filled with wisdom'},
+ {'input': 'People from all walks of life gathered in the central square, '
+           'enjoying the lively street performances.'},
+ {'input': 'FRIENDSHIP IS LIKE A SHINING STAR IN THE DARK.'},
+ {'input': 'BE KIND TO ONE ANOTHER.'},
+ {'input': 'solving riddles stimulates the brain.'},
+ {'input': 'The Nile River is the longest river in Africa.'},
+ {'input': 'SHIMMERING IN THE MOONLIGHT'},
+ {'input': 'THE OLYMPICS CELEBRATE ATHLETIC EXCELLENCE.'},
+ {'input': 'POSITIVITY BREEDS POSITIVITY.'},
+ {'input': 'THE ONLY LIMIT TO OUR REALIZATION OF TOMORROW WILL BE OUR DOUBTS '
+           'OF TODAY.'},
+ {'input': 'The Amazon River is the second-longest river in the world.'},
+ {'input': "LIFE IS WHAT HAPPENS WHEN YOU'RE BUSY MAKING PLANS."},
+ {'input': 'PATIENCE IS A VIRTUE.'},
+ {'input': 'ALWAYS STRIVE FOR EXCELLENCE.'},
+ {'input': 'whispers of a long-forgotten tale'},
+ {'input': 'fluttering in the gentle breeze'},
+ {'input': 'Dancing in the flickering candlelight'},
+ {'input': 'The Great Wall of China is a UNESCO World Heritage Site.'},
+ {'input': 'friendship is like a shining star in the dark.'},
+ {'input': 'GRATITUDE OPENS DOORS TO ABUNDANCE.'},
+ {'input': 'the quick brown fox jumps over the lazy dog.'},
+ {'input': 'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.'},
+ {'input': 'IN THE END, WE WILL REMEMBER NOT THE WORDS OF OUR ENEMIES, BUT THE '
+           'SILENCE OF OUR FRIENDS.'},
+ {'input': 'SWIRLING IN THE AFTERNOON BREEZE'},
+ {'input': "Pedestrians navigated through the city's maze-like streets, guided "
+           'by the glow of streetlights.'},
+ {'input': 'Exploring the universe sparks curiosity.'},
+ {'input': 'Mindfulness meditation reduces stress.'},
+ {'input': 'The cityscape was a mix of modern architecture and historic '
+           'landmarks, telling the story of the urban evolution.'},
+ {'input': 'LOVE CONQUERS ALL.'},
+ {'input': 'drifting through the open meadow'},
+ {'input': 'In the heart of the metropolis, skyscrapers touched the clouds, '
+           'reflecting the city lights below.'},
+ {'input': 'A quiet alley led to a hidden cafe, where the aroma of freshly '
+           'brewed coffee filled the air.'},
+ {'input': 'LEARNING IS A LIFELONG JOURNEY.'},
+ {'input': 'THERE IS NOTHING EITHER GOOD OR BAD, BUT THINKING MAKES IT SO.'},
+ {'input': "As the sun set, the city's skyline transformed into a mesmerizing "
+           'display of colors and shadows.'},
+ {'input': 'THE FLOWERS BLOOM IN SPRING.'},
+ {'input': 'WHIRLING THROUGH THE DENSE FOG'},
+ {'input': 'the scent of pine trees in the mountain air'},
+ {'input': 'The Golden Gate Bridge spans the San Francisco Bay.'},
+ {'input': 'COURAGE IS RESISTANCE TO FEAR, MASTERY OF FEAR, NOT ABSENCE OF '
+           'FEAR.'},
+ {'input': 'Laughter is a universal language.'},
+ {'input': 'creativity knows no bounds.'},
+ {'input': 'Neon signs illuminated the night, casting a vibrant glow on the '
+           'crowded urban thoroughfare.'},
+ {'input': 'The Vatican City is the smallest country in the world.'},
+ {'input': 'KNOWLEDGE IS POWER.'},
+ {'input': 'TWINKLING AMIDST THE CITY SKYLINE'},
+ {'input': 'TODAY IS A BEAUTIFUL DAY.'},
+ {'input': 'A SUCCESSFUL MAN IS ONE WHO CAN LAY A FIRM FOUNDATION WITH THE '
+           'BRICKS OTHERS HAVE THROWN AT HIM.'},
+ {'input': 'The Sahara Desert is the largest hot desert in the world.'},
+ {'input': 'Glowing embers in the fireplace'},
+ {'input': 'Mount Everest is the highest peak in the world.'},
+ {'input': 'WHISPERING SECRETS TO THE NIGHT'},
+ {'input': 'The Serengeti National Park is home to diverse wildlife.'},
+ {'input': 'Creative writing allows for self-expression.'}]

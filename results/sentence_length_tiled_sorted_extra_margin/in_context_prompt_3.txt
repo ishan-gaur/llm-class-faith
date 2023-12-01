@@ -1,0 +1,7 @@
+[{'input': 'PEACE BEGINS WITH A SMILE.', 'label': True},
+ {'input': 'CHANGE IS THE ONLY CONSTANT.', 'label': True},
+ {'input': 'LAUGHTER IS THE BEST MEDICINE.', 'label': True},
+ {'input': 'New York City is known as the Big Apple.', 'label': False},
+ {'input': 'The Statue of Liberty stands tall in New York.', 'label': False},
+ {'input': 'the aroma of freshly baked cookies fills the kitchen.',
+  'label': False}]
