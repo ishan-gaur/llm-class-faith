@@ -1,0 +1,8 @@
+ALL CAPS;"True" samples are all upper case, "False" samples are all lower case;100
+Parity;"True" if the sentence has an even number of words;60
+Complete;"True" if the sentence is a complete sentence (subject and verb), "False" if it is either a verb or subject phrase;100
+Proper Noun;"True" if the sentence has a correctly capitalized proper noun;98
+City Scenes;"True" if the sentence is about a city;93
+City vs Nature;"True" if about the city, "False" if about nature;100
+Short;"True" if the sentences is less than 5 words long, and "False" if it's greater than 9 words;81
+Ambiguous;"True" samples both start with an lower case letter and are less than 7 words long. "False" samples both start with a upper case letter, and are shorter than 7 words;95
