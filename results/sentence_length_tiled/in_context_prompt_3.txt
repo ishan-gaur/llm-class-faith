@@ -1,0 +1,8 @@
+[{'input': 'always strive for excellence.', 'label': True},
+ {'input': 'Ancient ruins from a forgotten civilization', 'label': True},
+ {'input': 'SCIENCE AND TECHNOLOGY ARE DRIVING INNOVATION.', 'label': True},
+ {'input': 'the moonlight casts a glow over the night.', 'label': False},
+ {'input': 'happiness is a warm cup of tea.', 'label': False},
+ {'input': 'The bustling city streets echoed with the sounds of honking horns '
+           'and hurried footsteps.',
+  'label': False}]

@@ -74,12 +74,12 @@ def create_dataset(dataset, tags_true, tags_false=[], tags_common=[],
     return positives, negatives
 
 
-def in_context_from_samples(samples, tile=True, prompt_prefix=""):
+def in_context_from_samples(samples, tiled=True, prompt_prefix=""):
     keys = ["input", "label"]
     positives = [samples[i] for i in range(len(samples)) if samples[i]["label"]]
     negatives = [samples[i] for i in range(len(samples)) if not samples[i]["label"]]
     prompt_order = []
-    if tile:
+    if not tiled:
         for p, n in zip(positives, negatives):
             prompt_order.append(p)
             prompt_order.append(n)
@@ -93,9 +93,10 @@ def in_context_from_samples(samples, tile=True, prompt_prefix=""):
     prompt = prompt_prefix + pformat(prompt_samples)
     return prompt
 
-def test_prompt_from_samples(positives, negatives, user_prefix=""):
+def test_prompt_from_samples(positives, negatives, user_prefix="", tiled=False):
     samples = positives + negatives
-    shuffle(samples)
+    if not tiled:
+        shuffle(samples)
     prompt_samples = [{"input": sample["input"]} for sample in samples]
     return user_prefix + pformat(prompt_samples), samples
 
@@ -177,11 +178,11 @@ def eval_response(response_json, test_samples):
     }
     return eval_results, summary_dict
 
-def write_test_data(positives, negatives, samples_per_label, output_dir):
+def write_test_data(positives, negatives, samples_per_label, output_dir, tiled=False):
     num_test_samples = min(len(positives), len(negatives)) - samples_per_label
 
     in_context_samples = positives[:samples_per_label] + negatives[:samples_per_label]
-    in_context_prompt = in_context_from_samples(in_context_samples)
+    in_context_prompt = in_context_from_samples(in_context_samples, tiled=tiled)
     with open(output_dir / f"in_context_prompt_{samples_per_label}.txt", "w") as f:
         f.write(in_context_prompt)
 

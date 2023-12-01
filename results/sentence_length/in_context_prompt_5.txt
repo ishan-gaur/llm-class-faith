@@ -1,0 +1,10 @@
+[{'input': 'Creative endeavors bring joy and fulfillment.', 'label': True},
+ {'input': 'BATHED IN THE GOLDEN HUES OF SUNSET', 'label': False},
+ {'input': 'Ancient manuscripts filled with wisdom', 'label': True},
+ {'input': 'bicycling is a great way to stay active.', 'label': False},
+ {'input': 'Gardening provides a connection to nature.', 'label': True},
+ {'input': 'the moonlight casts a glow over the night.', 'label': False},
+ {'input': 'green tea has many health benefits.', 'label': True},
+ {'input': 'ancient artifacts telling stories of the past', 'label': False},
+ {'input': 'SCATTERED ACROSS THE VAST DESERT', 'label': True},
+ {'input': 'i enjoy hiking in the peaceful woods.', 'label': False}]

@@ -1,0 +1,5 @@
+tags_true: ['start_cap', 'short']
+tags_false: ['start_lower', 'long']
+adversarial_true: ['start_lower', 'short']
+adversarial_false: ['start_cap', 'long']
+tags_common: []
