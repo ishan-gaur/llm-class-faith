@@ -100,7 +100,7 @@ def test_prompt_from_samples(positives, negatives, user_prefix="", tiled=False):
     prompt_samples = [{"input": sample["input"]} for sample in samples]
     return user_prefix + pformat(prompt_samples), samples
 
-json_prefix = "Please label the following inputs. Respond in JSON format like the examples given to you above."
+json_prefix = "Please label the following inputs. Respond in JSON format like the examples given to you above.\n"
 def gpt_prediction(system_prompt, user_query, model="gpt-4", temperature=1.0, json_mode=False):
     if json_mode and model != "gpt-4-1106-preview":
         warn("json_mode only supported for gpt-4-1106-preview")
