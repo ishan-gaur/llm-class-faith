@@ -1,0 +1,16 @@
+[{'input': 'The bustling city streets echoed with the sounds of honking horns '
+           'and hurried footsteps.',
+  'label': True},
+ {'input': 'The cityscape was a mix of modern architecture and historic '
+           'landmarks, telling the story of the urban evolution.',
+  'label': True},
+ {'input': 'The Louvre Museum houses famous works of art.', 'label': True},
+ {'input': 'The Golden Gate Bridge spans the San Francisco Bay.',
+  'label': True},
+ {'input': 'New York City is known as the Big Apple.', 'label': True},
+ {'input': 'THE OCEAN WAVES CRASH AGAINST THE SHORE.', 'label': False},
+ {'input': 'The Amazon River is the second-longest river in the world.',
+  'label': False},
+ {'input': 'mountain peaks towering above the clouds', 'label': False},
+ {'input': 'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.', 'label': False},
+ {'input': 'i enjoy hiking in the peaceful woods.', 'label': False}]

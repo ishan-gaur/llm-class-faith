@@ -1,0 +1,679 @@
+[
+  {
+    "input": "THE MOUNTAINS ARE MAJESTIC AND GRAND.",
+    "tags": [
+      "start_cap",
+      "shared_sample",
+      "even_words",
+      "nature",
+      "short",
+      "sentence",
+      "all_upper",
+      "start_consonant",
+      "start_the",
+      "margin",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "The Taj Mahal is a symbol of love.",
+    "tags": [
+      "start_cap",
+      "city",
+      "long",
+      "even_words",
+      "proper_noun",
+      "sentence",
+      "start_consonant",
+      "start_the",
+      "margin",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "Paris is known as the City of Love.",
+    "tags": [
+      "start_cap",
+      "city",
+      "long",
+      "even_words",
+      "proper_noun",
+      "sentence",
+      "start_consonant",
+      "margin",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "As the sun set, the city's skyline transformed into a mesmerizing display of colors and shadows.",
+    "tags": [
+      "start_cap",
+      "city",
+      "long",
+      "even_words",
+      "long_margin",
+      "sentence",
+      "start_vowel",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "The Vatican City is the smallest country in the world.",
+    "tags": [
+      "start_cap",
+      "city",
+      "long",
+      "even_words",
+      "proper_noun",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "start_the",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "WHIRLING THROUGH THE DENSE FOG",
+    "tags": [
+      "start_cap",
+      "odd_words",
+      "nature",
+      "fragment_verb",
+      "short",
+      "start_consonant",
+      "all_upper",
+      "short_margin",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "The Serengeti National Park is home to diverse wildlife.",
+    "tags": [
+      "start_cap",
+      "long",
+      "odd_words",
+      "nature",
+      "proper_noun",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "start_the",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "SHIMMERING IN THE MOONLIGHT",
+    "tags": [
+      "start_cap",
+      "even_words",
+      "nature",
+      "fragment_verb",
+      "short",
+      "all_upper",
+      "start_consonant",
+      "short_margin",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "Hiking trails offer stunning views of nature.",
+    "tags": [
+      "start_cap",
+      "odd_words",
+      "nature",
+      "short",
+      "sentence",
+      "start_consonant",
+      "margin",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "Mount Everest is the highest peak in the world.",
+    "tags": [
+      "start_cap",
+      "long",
+      "odd_words",
+      "nature",
+      "proper_noun",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "The Eiffel Tower stands tall in Paris.",
+    "tags": [
+      "start_cap",
+      "city",
+      "odd_words",
+      "proper_noun",
+      "short",
+      "sentence",
+      "start_consonant",
+      "start_the",
+      "margin",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "Mediterranean beaches are known for their beauty.",
+    "tags": [
+      "start_cap",
+      "odd_words",
+      "nature",
+      "proper_noun",
+      "short",
+      "sentence",
+      "start_consonant",
+      "margin",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "gentle breezes rustle the leaves in the forest.",
+    "tags": [
+      "long",
+      "even_words",
+      "nature",
+      "sentence",
+      "start_lower",
+      "start_consonant",
+      "margin",
+      "gpt4",
+      "all_lower"
+    ],
+    "label": false
+  },
+  {
+    "input": "The Colosseum is an iconic symbol of ancient Rome.",
+    "tags": [
+      "start_cap",
+      "city",
+      "odd_words",
+      "long",
+      "proper_noun",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "start_the",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "THE SUN SETS IN THE WEST.",
+    "tags": [
+      "start_cap",
+      "shared_sample",
+      "even_words",
+      "nature",
+      "short",
+      "sentence",
+      "all_upper",
+      "start_consonant",
+      "start_the",
+      "margin",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "SWIRLING IN THE AFTERNOON BREEZE",
+    "tags": [
+      "start_cap",
+      "odd_words",
+      "nature",
+      "fragment_verb",
+      "short",
+      "start_consonant",
+      "all_upper",
+      "short_margin",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "Tokyo is the capital city of Japan.",
+    "tags": [
+      "start_cap",
+      "city",
+      "odd_words",
+      "proper_noun",
+      "short",
+      "sentence",
+      "start_consonant",
+      "margin",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "i enjoy hiking in the peaceful woods.",
+    "tags": [
+      "odd_words",
+      "nature",
+      "short",
+      "sentence",
+      "start_lower",
+      "start_vowel",
+      "margin",
+      "gpt4",
+      "all_lower"
+    ],
+    "label": false
+  },
+  {
+    "input": "The Statue of Liberty stands tall in New York.",
+    "tags": [
+      "start_cap",
+      "city",
+      "odd_words",
+      "long",
+      "proper_noun",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "start_the",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "murmurs of a distant waterfall",
+    "tags": [
+      "odd_words",
+      "nature",
+      "fragment_verb",
+      "short",
+      "start_lower",
+      "start_consonant",
+      "short_margin",
+      "gpt4",
+      "all_lower"
+    ],
+    "label": false
+  },
+  {
+    "input": "A quiet alley led to a hidden cafe, where the aroma of freshly brewed coffee filled the air.",
+    "tags": [
+      "start_cap",
+      "city",
+      "long",
+      "even_words",
+      "long_margin",
+      "sentence",
+      "start_vowel",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "The sun sets behind the mountains.",
+    "tags": [
+      "start_cap",
+      "even_words",
+      "nature",
+      "short",
+      "sentence",
+      "start_consonant",
+      "start_the",
+      "margin",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "The Golden Gate Bridge spans the San Francisco Bay.",
+    "tags": [
+      "start_cap",
+      "city",
+      "odd_words",
+      "long",
+      "proper_noun",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "start_the",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "The Great Barrier Reef is a natural wonder.",
+    "tags": [
+      "start_cap",
+      "long",
+      "even_words",
+      "nature",
+      "proper_noun",
+      "sentence",
+      "start_consonant",
+      "start_the",
+      "margin",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "a distant echo in the quiet forest",
+    "tags": [
+      "odd_words",
+      "nature",
+      "short",
+      "start_lower",
+      "start_vowel",
+      "fragment_subject",
+      "margin",
+      "gpt4",
+      "all_lower"
+    ],
+    "label": false
+  },
+  {
+    "input": "Traffic jams and busy intersections characterized the daily rhythm of life in the bustling urban center.",
+    "tags": [
+      "start_cap",
+      "city",
+      "long",
+      "even_words",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "The Kremlin is a historic fortress in Moscow.",
+    "tags": [
+      "start_cap",
+      "city",
+      "long",
+      "even_words",
+      "proper_noun",
+      "sentence",
+      "start_consonant",
+      "start_the",
+      "margin",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "THE RAINBOW BRINGS JOY AFTER THE RAIN.",
+    "tags": [
+      "start_cap",
+      "odd_words",
+      "nature",
+      "short",
+      "sentence",
+      "start_consonant",
+      "all_upper",
+      "start_the",
+      "margin",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "People from all walks of life gathered in the central square, enjoying the lively street performances.",
+    "tags": [
+      "start_cap",
+      "city",
+      "long",
+      "even_words",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "The city at night resembled a vast canvas, painted with the vibrant hues of illuminated billboards and skyscrapers.",
+    "tags": [
+      "start_cap",
+      "city",
+      "long",
+      "even_words",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "start_the",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "New York City is known as the Big Apple.",
+    "tags": [
+      "start_cap",
+      "city",
+      "odd_words",
+      "long",
+      "proper_noun",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "In the heart of the metropolis, skyscrapers touched the clouds, reflecting the city lights below.",
+    "tags": [
+      "start_cap",
+      "city",
+      "odd_words",
+      "long",
+      "long_margin",
+      "sentence",
+      "start_vowel",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.",
+    "tags": [
+      "start_cap",
+      "long",
+      "odd_words",
+      "shared_sample",
+      "nature",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "all_upper",
+      "start_the",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "London Bridge is an iconic landmark.",
+    "tags": [
+      "start_cap",
+      "city",
+      "even_words",
+      "proper_noun",
+      "short",
+      "sentence",
+      "start_consonant",
+      "margin",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "the earth rotates on its axis.",
+    "tags": [
+      "shared_sample",
+      "even_words",
+      "nature",
+      "proper_noun",
+      "short",
+      "sentence",
+      "start_lower",
+      "start_consonant",
+      "start_the",
+      "margin",
+      "gpt4",
+      "all_lower"
+    ],
+    "label": false
+  },
+  {
+    "input": "THE UNIVERSE IS VAST AND MYSTERIOUS.",
+    "tags": [
+      "start_cap",
+      "even_words",
+      "nature",
+      "short",
+      "sentence",
+      "all_upper",
+      "start_consonant",
+      "start_the",
+      "margin",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "Pedestrians navigated through the city's maze-like streets, guided by the glow of streetlights.",
+    "tags": [
+      "start_cap",
+      "city",
+      "odd_words",
+      "long",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "city lights twinkling in the night sky",
+    "tags": [
+      "city",
+      "odd_words",
+      "short",
+      "start_lower",
+      "start_consonant",
+      "fragment_subject",
+      "margin",
+      "gpt4",
+      "all_lower"
+    ],
+    "label": true
+  },
+  {
+    "input": "TWINKLING AMIDST THE CITY SKYLINE",
+    "tags": [
+      "start_cap",
+      "city",
+      "odd_words",
+      "fragment_verb",
+      "short",
+      "start_consonant",
+      "all_upper",
+      "short_margin",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "THE STARS TWINKLE IN THE NIGHT SKY.",
+    "tags": [
+      "start_cap",
+      "odd_words",
+      "shared_sample",
+      "nature",
+      "short",
+      "sentence",
+      "start_consonant",
+      "all_upper",
+      "start_the",
+      "margin",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "The Sydney Harbour Bridge is an iconic landmark in Australia.",
+    "tags": [
+      "start_cap",
+      "city",
+      "long",
+      "even_words",
+      "proper_noun",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "start_the",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "THE FLOWERS BLOOM IN SPRING.",
+    "tags": [
+      "start_cap",
+      "odd_words",
+      "nature",
+      "short",
+      "sentence",
+      "all_upper",
+      "start_consonant",
+      "start_the",
+      "short_margin",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "THE SUNRISE PAINTS THE SKY WITH WARM COLORS.",
+    "tags": [
+      "start_cap",
+      "long",
+      "even_words",
+      "nature",
+      "sentence",
+      "all_upper",
+      "start_consonant",
+      "start_the",
+      "margin",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "Neon signs illuminated the night, casting a vibrant glow on the crowded urban thoroughfare.",
+    "tags": [
+      "start_cap",
+      "city",
+      "long",
+      "even_words",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "gpt4"
+    ],
+    "label": true
+  }
+]

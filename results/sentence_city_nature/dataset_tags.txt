@@ -1,0 +1,3 @@
+tags_true: ['city']
+tags_false: ['nature']
+tags_common: []

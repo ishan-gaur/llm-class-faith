@@ -1,0 +1,22 @@
+[{'input': 'London Bridge is an iconic landmark.', 'label': True},
+ {'input': 'People from all walks of life gathered in the central square, '
+           'enjoying the lively street performances.',
+  'label': True},
+ {'input': 'The cityscape was a mix of modern architecture and historic '
+           'landmarks, telling the story of the urban evolution.',
+  'label': True},
+ {'input': 'A quiet alley led to a hidden cafe, where the aroma of freshly '
+           'brewed coffee filled the air.',
+  'label': True},
+ {'input': 'The Louvre Museum houses famous works of art.', 'label': True},
+ {'input': 'The Statue of Liberty stands tall in New York.', 'label': True},
+ {'input': 'The Eiffel Tower stands tall in Paris.', 'label': True},
+ {'input': 'A burst of color in the springtime', 'label': False},
+ {'input': 'The Amazon River is the second-longest river in the world.',
+  'label': False},
+ {'input': 'the earth rotates on its axis.', 'label': False},
+ {'input': 'Glistening in the morning dew', 'label': False},
+ {'input': 'murmurs of a distant waterfall', 'label': False},
+ {'input': 'The Sahara Desert is the largest hot desert in the world.',
+  'label': False},
+ {'input': 'THE EAGLE SOARS HIGH IN THE SKY.', 'label': False}]

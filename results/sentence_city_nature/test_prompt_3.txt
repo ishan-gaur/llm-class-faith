@@ -1,0 +1,52 @@
+[{'input': 'THE MOUNTAINS ARE MAJESTIC AND GRAND.'},
+ {'input': 'The Taj Mahal is a symbol of love.'},
+ {'input': 'Paris is known as the City of Love.'},
+ {'input': "As the sun set, the city's skyline transformed into a mesmerizing "
+           'display of colors and shadows.'},
+ {'input': 'The Vatican City is the smallest country in the world.'},
+ {'input': 'WHIRLING THROUGH THE DENSE FOG'},
+ {'input': 'The Serengeti National Park is home to diverse wildlife.'},
+ {'input': 'SHIMMERING IN THE MOONLIGHT'},
+ {'input': 'Hiking trails offer stunning views of nature.'},
+ {'input': 'Mount Everest is the highest peak in the world.'},
+ {'input': 'The Eiffel Tower stands tall in Paris.'},
+ {'input': 'Mediterranean beaches are known for their beauty.'},
+ {'input': 'gentle breezes rustle the leaves in the forest.'},
+ {'input': 'The Colosseum is an iconic symbol of ancient Rome.'},
+ {'input': 'THE SUN SETS IN THE WEST.'},
+ {'input': 'SWIRLING IN THE AFTERNOON BREEZE'},
+ {'input': 'Tokyo is the capital city of Japan.'},
+ {'input': 'i enjoy hiking in the peaceful woods.'},
+ {'input': 'The Statue of Liberty stands tall in New York.'},
+ {'input': 'murmurs of a distant waterfall'},
+ {'input': 'A quiet alley led to a hidden cafe, where the aroma of freshly '
+           'brewed coffee filled the air.'},
+ {'input': 'The sun sets behind the mountains.'},
+ {'input': 'The Golden Gate Bridge spans the San Francisco Bay.'},
+ {'input': 'The Great Barrier Reef is a natural wonder.'},
+ {'input': 'a distant echo in the quiet forest'},
+ {'input': 'Traffic jams and busy intersections characterized the daily rhythm '
+           'of life in the bustling urban center.'},
+ {'input': 'The Kremlin is a historic fortress in Moscow.'},
+ {'input': 'THE RAINBOW BRINGS JOY AFTER THE RAIN.'},
+ {'input': 'People from all walks of life gathered in the central square, '
+           'enjoying the lively street performances.'},
+ {'input': 'The city at night resembled a vast canvas, painted with the '
+           'vibrant hues of illuminated billboards and skyscrapers.'},
+ {'input': 'New York City is known as the Big Apple.'},
+ {'input': 'In the heart of the metropolis, skyscrapers touched the clouds, '
+           'reflecting the city lights below.'},
+ {'input': 'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.'},
+ {'input': 'London Bridge is an iconic landmark.'},
+ {'input': 'the earth rotates on its axis.'},
+ {'input': 'THE UNIVERSE IS VAST AND MYSTERIOUS.'},
+ {'input': "Pedestrians navigated through the city's maze-like streets, guided "
+           'by the glow of streetlights.'},
+ {'input': 'city lights twinkling in the night sky'},
+ {'input': 'TWINKLING AMIDST THE CITY SKYLINE'},
+ {'input': 'THE STARS TWINKLE IN THE NIGHT SKY.'},
+ {'input': 'The Sydney Harbour Bridge is an iconic landmark in Australia.'},
+ {'input': 'THE FLOWERS BLOOM IN SPRING.'},
+ {'input': 'THE SUNRISE PAINTS THE SKY WITH WARM COLORS.'},
+ {'input': 'Neon signs illuminated the night, casting a vibrant glow on the '
+           'crowded urban thoroughfare.'}]
