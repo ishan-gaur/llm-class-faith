@@ -1,1148 +1,667 @@
 [
   {
-    "input": "suspended in the vastness of space",
+    "input": "Exploring the universe sparks curiosity.",
     "tags": [
-      "gpt4",
-      "even_words",
-      "short",
-      "nature",
-      "start_consonant",
-      "all_lower",
-      "start_lower",
-      "fragment_verb"
-    ],
-    "label": true
-  },
-  {
-    "input": "The Kremlin is a historic fortress in Moscow.",
-    "tags": [
-      "proper_noun",
-      "gpt4",
-      "city",
-      "sentence",
-      "even_words",
-      "start_consonant",
-      "long",
-      "start_cap",
-      "start_the"
-    ],
-    "label": false
-  },
-  {
-    "input": "WHIRLING THROUGH THE DENSE FOG",
-    "tags": [
-      "all_upper",
-      "gpt4",
-      "short",
-      "nature",
-      "start_consonant",
       "start_cap",
       "odd_words",
-      "fragment_verb"
-    ],
-    "label": true
-  },
-  {
-    "input": "THE ONLY LIMIT TO OUR REALIZATION OF TOMORROW WILL BE OUR DOUBTS OF TODAY.",
-    "tags": [
-      "all_upper",
-      "gpt4",
-      "even_words",
-      "sentence",
-      "start_consonant",
-      "long",
-      "start_cap",
-      "start_the"
-    ],
-    "label": false
-  },
-  {
-    "input": "Laughter is a universal language.",
-    "tags": [
-      "odd_words",
-      "gpt4",
-      "sentence",
-      "short",
-      "start_consonant",
-      "start_cap"
-    ],
-    "label": true
-  },
-  {
-    "input": "sunset paints the sky with warm hues.",
-    "tags": [
-      "gpt4",
-      "sentence",
-      "nature",
-      "start_consonant",
-      "long",
-      "odd_words",
-      "all_lower",
-      "start_lower"
-    ],
-    "label": false
-  },
-  {
-    "input": "green tea has many health benefits.",
-    "tags": [
-      "all_lower",
-      "gpt4",
-      "sentence",
-      "even_words",
-      "short",
-      "start_lower",
-      "start_consonant"
-    ],
-    "label": true
-  },
-  {
-    "input": "New York City is known as the Big Apple.",
-    "tags": [
-      "proper_noun",
-      "gpt4",
-      "city",
-      "sentence",
-      "start_consonant",
-      "long",
-      "start_cap",
-      "odd_words"
-    ],
-    "label": false
-  },
-  {
-    "input": "The Statue of Liberty stands tall in New York.",
-    "tags": [
-      "proper_noun",
-      "gpt4",
-      "city",
-      "sentence",
-      "start_consonant",
-      "long",
-      "start_cap",
-      "odd_words",
-      "start_the"
-    ],
-    "label": false
-  },
-  {
-    "input": "creativity knows no bounds.",
-    "tags": [
-      "all_lower",
-      "gpt4",
-      "sentence",
-      "even_words",
-      "short",
-      "start_lower",
-      "start_consonant"
-    ],
-    "label": true
-  },
-  {
-    "input": "a distant echo in the quiet forest",
-    "tags": [
-      "gpt4",
-      "nature",
       "start_vowel",
-      "long",
-      "odd_words",
-      "all_lower",
-      "fragment_subject",
-      "start_lower"
-    ],
-    "label": false
-  },
-  {
-    "input": "Tokyo is the capital city of Japan.",
-    "tags": [
-      "proper_noun",
-      "gpt4",
-      "city",
-      "sentence",
-      "start_consonant",
-      "long",
-      "start_cap",
-      "odd_words"
-    ],
-    "label": false
-  },
-  {
-    "input": "The Colosseum is an iconic symbol of ancient Rome.",
-    "tags": [
-      "proper_noun",
-      "gpt4",
-      "city",
-      "sentence",
-      "start_consonant",
-      "long",
-      "start_cap",
-      "odd_words",
-      "start_the"
-    ],
-    "label": false
-  },
-  {
-    "input": "GRATITUDE OPENS DOORS TO ABUNDANCE.",
-    "tags": [
-      "all_upper",
-      "odd_words",
-      "gpt4",
-      "sentence",
+      "short_margin",
       "short",
-      "start_consonant",
-      "start_cap"
+      "sentence",
+      "gpt4"
     ],
     "label": true
   },
   {
-    "input": "dream big and work hard to achieve it.",
+    "input": "CURIOSITY LEADS TO DISCOVERY.",
     "tags": [
-      "gpt4",
-      "sentence",
+      "start_cap",
       "even_words",
+      "short",
+      "sentence",
+      "all_upper",
       "start_consonant",
-      "long",
-      "all_lower",
+      "short_margin",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "always strive for excellence.",
+    "tags": [
+      "shared_sample",
+      "even_words",
+      "short",
+      "sentence",
       "start_lower",
-      "shared_sample"
-    ],
-    "label": false
-  },
-  {
-    "input": "Cloudy skies bring a sense of calm.",
-    "tags": [
-      "odd_words",
-      "gpt4",
-      "sentence",
-      "nature",
-      "start_consonant",
-      "long",
-      "start_cap"
-    ],
-    "label": false
-  },
-  {
-    "input": "i love to travel and explore new places.",
-    "tags": [
-      "gpt4",
-      "sentence",
-      "even_words",
       "start_vowel",
-      "long",
-      "all_lower",
-      "start_lower",
-      "shared_sample"
-    ],
-    "label": false
-  },
-  {
-    "input": "Hiking trails offer stunning views of nature.",
-    "tags": [
-      "odd_words",
+      "short_margin",
       "gpt4",
-      "sentence",
-      "nature",
-      "start_consonant",
-      "long",
-      "start_cap"
-    ],
-    "label": false
-  },
-  {
-    "input": "rainy days are perfect for cozy reading.",
-    "tags": [
-      "odd_words",
-      "all_lower",
-      "gpt4",
-      "sentence",
-      "start_lower",
-      "start_consonant",
-      "long"
-    ],
-    "label": false
-  },
-  {
-    "input": "rustling leaves in the tranquil forest",
-    "tags": [
-      "gpt4",
-      "even_words",
-      "short",
-      "nature",
-      "start_consonant",
-      "all_lower",
-      "start_lower",
-      "fragment_verb"
+      "all_lower"
     ],
     "label": true
   },
   {
-    "input": "success is a journey, not a destination.",
+    "input": "The cityscape was a mix of modern architecture and historic landmarks, telling the story of the urban evolution.",
     "tags": [
-      "gpt4",
-      "sentence",
-      "start_consonant",
-      "long",
-      "odd_words",
-      "all_lower",
-      "start_lower",
-      "shared_sample"
-    ],
-    "label": false
-  },
-  {
-    "input": "java is widely used in enterprise applications.",
-    "tags": [
-      "proper_noun",
-      "gpt4",
-      "sentence",
-      "start_consonant",
-      "long",
-      "odd_words",
-      "all_lower",
-      "start_lower"
-    ],
-    "label": false
-  },
-  {
-    "input": "reading opens doors to new worlds.",
-    "tags": [
-      "gpt4",
-      "sentence",
-      "even_words",
-      "short",
-      "start_consonant",
-      "all_lower",
-      "start_lower",
-      "shared_sample"
-    ],
-    "label": true
-  },
-  {
-    "input": "music has the power to evoke strong emotions.",
-    "tags": [
-      "gpt4",
-      "sentence",
-      "even_words",
-      "start_consonant",
-      "long",
-      "all_lower",
-      "start_lower",
-      "shared_sample"
-    ],
-    "label": false
-  },
-  {
-    "input": "THE SILENCE OF NATURE IS VERY REAL. IT SURROUNDS YOU...",
-    "tags": [
-      "all_upper",
-      "gpt4",
-      "even_words",
-      "sentence",
-      "start_consonant",
-      "long",
       "start_cap",
-      "start_the"
+      "city",
+      "long",
+      "even_words",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "start_the",
+      "gpt4"
     ],
     "label": false
   },
   {
     "input": "As the sun set, the city's skyline transformed into a mesmerizing display of colors and shadows.",
     "tags": [
-      "gpt4",
+      "start_cap",
       "city",
-      "sentence",
-      "even_words",
-      "start_vowel",
       "long",
-      "start_cap"
+      "even_words",
+      "long_margin",
+      "sentence",
+      "start_vowel",
+      "gpt4"
     ],
     "label": false
   },
   {
-    "input": "TODAY IS A BEAUTIFUL DAY.",
+    "input": "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.",
     "tags": [
-      "all_upper",
-      "gpt4",
-      "sentence",
-      "short",
-      "start_consonant",
       "start_cap",
-      "odd_words",
-      "shared_sample"
-    ],
-    "label": true
-  },
-  {
-    "input": "the ocean waves crash against the shore.",
-    "tags": [
-      "gpt4",
-      "sentence",
-      "nature",
-      "start_consonant",
       "long",
       "odd_words",
-      "all_lower",
+      "shared_sample",
+      "nature",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "all_upper",
       "start_the",
-      "start_lower",
-      "shared_sample"
+      "gpt4"
     ],
     "label": false
-  },
-  {
-    "input": "i enjoy hiking in the peaceful woods.",
-    "tags": [
-      "gpt4",
-      "sentence",
-      "nature",
-      "start_vowel",
-      "long",
-      "odd_words",
-      "all_lower",
-      "start_lower"
-    ],
-    "label": false
-  },
-  {
-    "input": "PYTHON IS A POPULAR PROGRAMMING LANGUAGE.",
-    "tags": [
-      "all_upper",
-      "proper_noun",
-      "gpt4",
-      "sentence",
-      "even_words",
-      "short",
-      "start_consonant",
-      "start_cap",
-      "shared_sample"
-    ],
-    "label": true
-  },
-  {
-    "input": "PATIENCE IS A VIRTUE.",
-    "tags": [
-      "all_upper",
-      "gpt4",
-      "sentence",
-      "even_words",
-      "short",
-      "start_consonant",
-      "start_cap"
-    ],
-    "label": true
-  },
-  {
-    "input": "ancient artifacts telling stories of the past",
-    "tags": [
-      "odd_words",
-      "all_lower",
-      "gpt4",
-      "fragment_subject",
-      "start_lower",
-      "start_vowel",
-      "long"
-    ],
-    "label": false
-  },
-  {
-    "input": "healthy habits lead to a happy life.",
-    "tags": [
-      "gpt4",
-      "sentence",
-      "start_consonant",
-      "long",
-      "odd_words",
-      "all_lower",
-      "start_lower",
-      "shared_sample"
-    ],
-    "label": false
-  },
-  {
-    "input": "illuminated by the soft glow of lanterns",
-    "tags": [
-      "odd_words",
-      "all_lower",
-      "gpt4",
-      "start_lower",
-      "start_vowel",
-      "fragment_verb",
-      "long"
-    ],
-    "label": false
-  },
-  {
-    "input": "IN THE END, WE WILL REMEMBER NOT THE WORDS OF OUR ENEMIES, BUT THE SILENCE OF OUR FRIENDS.",
-    "tags": [
-      "all_upper",
-      "gpt4",
-      "sentence",
-      "even_words",
-      "start_vowel",
-      "long",
-      "start_cap"
-    ],
-    "label": false
-  },
-  {
-    "input": "A dog barks in the distance.",
-    "tags": [
-      "gpt4",
-      "even_words",
-      "sentence",
-      "short",
-      "start_vowel",
-      "start_cap"
-    ],
-    "label": true
-  },
-  {
-    "input": "Creative writing allows for self-expression.",
-    "tags": [
-      "odd_words",
-      "gpt4",
-      "sentence",
-      "short",
-      "start_consonant",
-      "start_cap"
-    ],
-    "label": true
-  },
-  {
-    "input": "the sun sets in the west.",
-    "tags": [
-      "gpt4",
-      "sentence",
-      "even_words",
-      "short",
-      "nature",
-      "start_consonant",
-      "all_lower",
-      "start_the",
-      "start_lower",
-      "shared_sample"
-    ],
-    "label": true
-  },
-  {
-    "input": "A cup of herbal tea soothes the soul.",
-    "tags": [
-      "gpt4",
-      "even_words",
-      "sentence",
-      "start_vowel",
-      "long",
-      "start_cap"
-    ],
-    "label": false
-  },
-  {
-    "input": "Mount Everest is the highest peak in the world.",
-    "tags": [
-      "proper_noun",
-      "gpt4",
-      "sentence",
-      "nature",
-      "start_consonant",
-      "long",
-      "start_cap",
-      "odd_words"
-    ],
-    "label": false
-  },
-  {
-    "input": "READING OPENS DOORS TO NEW WORLDS.",
-    "tags": [
-      "all_upper",
-      "gpt4",
-      "sentence",
-      "even_words",
-      "short",
-      "start_consonant",
-      "start_cap",
-      "shared_sample"
-    ],
-    "label": true
-  },
-  {
-    "input": "The sun sets behind the mountains.",
-    "tags": [
-      "gpt4",
-      "sentence",
-      "even_words",
-      "short",
-      "nature",
-      "start_consonant",
-      "start_cap",
-      "start_the"
-    ],
-    "label": true
   },
   {
     "input": "drifting through the open meadow",
     "tags": [
-      "gpt4",
-      "short",
-      "nature",
-      "start_consonant",
       "odd_words",
-      "all_lower",
+      "nature",
+      "fragment_verb",
+      "short",
       "start_lower",
-      "fragment_verb"
-    ],
-    "label": true
-  },
-  {
-    "input": "sunflowers turn to face the sun.",
-    "tags": [
-      "gpt4",
-      "sentence",
-      "even_words",
-      "short",
-      "nature",
       "start_consonant",
-      "all_lower",
-      "start_lower"
-    ],
-    "label": true
-  },
-  {
-    "input": "the city comes alive at night.",
-    "tags": [
+      "short_margin",
       "gpt4",
-      "sentence",
-      "even_words",
-      "short",
-      "start_consonant",
-      "all_lower",
-      "start_lower",
-      "start_the"
-    ],
-    "label": true
-  },
-  {
-    "input": "PEACE BEGINS WITH A SMILE.",
-    "tags": [
-      "all_upper",
-      "odd_words",
-      "gpt4",
-      "sentence",
-      "short",
-      "start_consonant",
-      "start_cap"
-    ],
-    "label": true
-  },
-  {
-    "input": "MUSIC HAS THE POWER TO EVOKE STRONG EMOTIONS.",
-    "tags": [
-      "all_upper",
-      "gpt4",
-      "sentence",
-      "even_words",
-      "start_consonant",
-      "long",
-      "start_cap",
-      "shared_sample"
-    ],
-    "label": false
-  },
-  {
-    "input": "Exploring the universe sparks curiosity.",
-    "tags": [
-      "odd_words",
-      "gpt4",
-      "sentence",
-      "short",
-      "start_vowel",
-      "start_cap"
-    ],
-    "label": true
-  },
-  {
-    "input": "People from all walks of life gathered in the central square, enjoying the lively street performances.",
-    "tags": [
-      "gpt4",
-      "city",
-      "sentence",
-      "even_words",
-      "start_consonant",
-      "long",
-      "start_cap"
-    ],
-    "label": false
-  },
-  {
-    "input": "murmurs of a distant waterfall",
-    "tags": [
-      "gpt4",
-      "short",
-      "nature",
-      "start_consonant",
-      "odd_words",
-      "all_lower",
-      "start_lower",
-      "fragment_verb"
-    ],
-    "label": true
-  },
-  {
-    "input": "REFLECTED IN THE CRYSTAL CLEAR WATER",
-    "tags": [
-      "all_upper",
-      "gpt4",
-      "even_words",
-      "short",
-      "nature",
-      "start_consonant",
-      "start_cap",
-      "fragment_verb"
+      "all_lower"
     ],
     "label": true
   },
   {
     "input": "THE FLOWERS BLOOM IN SPRING.",
     "tags": [
-      "all_upper",
-      "gpt4",
-      "sentence",
-      "short",
-      "nature",
-      "start_consonant",
       "start_cap",
       "odd_words",
-      "start_the"
-    ],
-    "label": true
-  },
-  {
-    "input": "simplicity leads to a clutter-free life.",
-    "tags": [
-      "all_lower",
-      "gpt4",
-      "sentence",
-      "even_words",
+      "nature",
       "short",
-      "start_lower",
-      "start_consonant"
-    ],
-    "label": true
-  },
-  {
-    "input": "LEARNING IS A LIFELONG JOURNEY.",
-    "tags": [
+      "sentence",
       "all_upper",
-      "odd_words",
-      "gpt4",
-      "sentence",
-      "short",
       "start_consonant",
-      "start_cap"
-    ],
-    "label": true
-  },
-  {
-    "input": "A solitary figure silhouetted against the sunset",
-    "tags": [
-      "odd_words",
-      "gpt4",
-      "fragment_subject",
-      "start_vowel",
-      "long",
-      "start_cap"
-    ],
-    "label": false
-  },
-  {
-    "input": "Practicing yoga improves flexibility and strength.",
-    "tags": [
-      "gpt4",
-      "even_words",
-      "sentence",
-      "short",
-      "start_consonant",
-      "start_cap"
+      "start_the",
+      "short_margin",
+      "gpt4"
     ],
     "label": true
   },
   {
     "input": "bicycling is a great way to stay active.",
     "tags": [
-      "all_lower",
-      "gpt4",
-      "sentence",
+      "long",
       "even_words",
+      "long_margin",
+      "sentence",
       "start_lower",
       "start_consonant",
-      "long"
+      "gpt4",
+      "all_lower"
     ],
     "label": false
   },
   {
-    "input": "BE KIND TO ONE ANOTHER.",
+    "input": "Dancing in the flickering candlelight",
     "tags": [
-      "all_upper",
+      "start_cap",
       "odd_words",
-      "gpt4",
-      "sentence",
-      "short",
       "start_consonant",
-      "start_cap"
+      "short_margin",
+      "fragment_verb",
+      "short",
+      "gpt4"
     ],
     "label": true
   },
   {
-    "input": "Traveling to new countries broadens cultural understanding.",
+    "input": "The Sydney Opera House is an architectural marvel.",
     "tags": [
-      "odd_words",
-      "gpt4",
-      "sentence",
-      "start_consonant",
-      "long",
-      "start_cap"
-    ],
-    "label": false
-  },
-  {
-    "input": "FRIENDSHIP IS LIKE A SHINING STAR IN THE DARK.",
-    "tags": [
-      "all_upper",
-      "gpt4",
-      "sentence",
-      "start_consonant",
-      "long",
       "start_cap",
-      "odd_words",
-      "shared_sample"
-    ],
-    "label": false
-  },
-  {
-    "input": "THE RAINBOW BRINGS JOY AFTER THE RAIN.",
-    "tags": [
-      "all_upper",
-      "gpt4",
-      "sentence",
-      "nature",
-      "start_consonant",
       "long",
-      "start_cap",
-      "odd_words",
-      "start_the"
-    ],
-    "label": false
-  },
-  {
-    "input": "KNOWLEDGE IS POWER.",
-    "tags": [
-      "all_upper",
-      "odd_words",
-      "gpt4",
-      "sentence",
-      "short",
-      "start_consonant",
-      "start_cap"
-    ],
-    "label": true
-  },
-  {
-    "input": "Colorful flowers blooming in the garden",
-    "tags": [
-      "gpt4",
       "even_words",
-      "short",
-      "fragment_subject",
-      "nature",
+      "long_margin",
+      "proper_noun",
+      "sentence",
       "start_consonant",
-      "start_cap"
+      "start_the",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "THE MOONLIGHT CASTS A GLOW OVER THE NIGHT.",
+    "tags": [
+      "start_cap",
+      "long",
+      "shared_sample",
+      "even_words",
+      "nature",
+      "long_margin",
+      "sentence",
+      "all_upper",
+      "start_consonant",
+      "start_the",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "LAUGHTER IS THE BEST MEDICINE.",
+    "tags": [
+      "start_cap",
+      "odd_words",
+      "short",
+      "sentence",
+      "all_upper",
+      "start_consonant",
+      "short_margin",
+      "gpt4"
     ],
     "label": true
   },
   {
-    "input": "THE WIND WHISPERS THROUGH THE TREES.",
+    "input": "fluttering in the gentle breeze",
     "tags": [
-      "all_upper",
-      "gpt4",
-      "even_words",
-      "sentence",
-      "short",
+      "odd_words",
       "nature",
+      "fragment_verb",
+      "short",
+      "start_lower",
       "start_consonant",
-      "start_cap",
-      "start_the"
+      "short_margin",
+      "gpt4",
+      "all_lower"
     ],
     "label": true
   },
   {
     "input": "The Great Wall of China spans thousands of miles.",
     "tags": [
+      "start_cap",
+      "long",
+      "odd_words",
+      "long_margin",
       "proper_noun",
-      "gpt4",
       "sentence",
       "start_consonant",
-      "long",
-      "start_cap",
-      "odd_words",
-      "start_the"
+      "start_the",
+      "gpt4"
     ],
     "label": false
   },
   {
-    "input": "Ancient manuscripts filled with wisdom",
+    "input": "the moonlight casts a glow over the night.",
+    "tags": [
+      "long",
+      "shared_sample",
+      "even_words",
+      "nature",
+      "long_margin",
+      "sentence",
+      "start_lower",
+      "start_consonant",
+      "start_the",
+      "gpt4",
+      "all_lower"
+    ],
+    "label": false
+  },
+  {
+    "input": "THE SUNRISE PAINTS THE SKY WITH WARM COLORS.",
+    "tags": [
+      "start_cap",
+      "long",
+      "even_words",
+      "nature",
+      "long_margin",
+      "sentence",
+      "all_upper",
+      "start_consonant",
+      "start_the",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "solving riddles stimulates the brain.",
     "tags": [
       "odd_words",
-      "gpt4",
-      "fragment_subject",
       "short",
-      "start_vowel",
-      "start_cap"
+      "sentence",
+      "start_lower",
+      "start_consonant",
+      "short_margin",
+      "gpt4",
+      "all_lower"
     ],
     "label": true
   },
   {
-    "input": "The Great Wall of China is a UNESCO World Heritage Site.",
+    "input": "TWINKLING AMIDST THE CITY SKYLINE",
     "tags": [
-      "proper_noun",
-      "gpt4",
-      "sentence",
+      "start_cap",
+      "city",
+      "odd_words",
+      "fragment_verb",
+      "short",
       "start_consonant",
-      "long",
+      "all_upper",
+      "short_margin",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "Ancient manuscripts filled with wisdom",
+    "tags": [
       "start_cap",
       "odd_words",
-      "start_the"
+      "start_vowel",
+      "fragment_subject",
+      "short_margin",
+      "short",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "I LOVE TO TRAVEL AND EXPLORE NEW PLACES.",
+    "tags": [
+      "start_cap",
+      "long",
+      "shared_sample",
+      "even_words",
+      "long_margin",
+      "animate",
+      "sentence",
+      "start_vowel",
+      "all_upper",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "Laughter is a universal language.",
+    "tags": [
+      "start_cap",
+      "odd_words",
+      "start_consonant",
+      "short_margin",
+      "short",
+      "sentence",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "PEACE BEGINS WITH A SMILE.",
+    "tags": [
+      "start_cap",
+      "odd_words",
+      "short",
+      "sentence",
+      "all_upper",
+      "start_consonant",
+      "short_margin",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "Mount Everest is the highest peak in the world.",
+    "tags": [
+      "start_cap",
+      "long",
+      "odd_words",
+      "nature",
+      "proper_noun",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "SWIRLING IN THE AFTERNOON BREEZE",
+    "tags": [
+      "start_cap",
+      "odd_words",
+      "nature",
+      "fragment_verb",
+      "short",
+      "start_consonant",
+      "all_upper",
+      "short_margin",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "LOVE CONQUERS ALL.",
+    "tags": [
+      "start_cap",
+      "odd_words",
+      "short",
+      "sentence",
+      "all_upper",
+      "start_consonant",
+      "short_margin",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "i love to travel and explore new places.",
+    "tags": [
+      "long",
+      "shared_sample",
+      "even_words",
+      "long_margin",
+      "sentence",
+      "start_lower",
+      "start_vowel",
+      "gpt4",
+      "all_lower"
+    ],
+    "label": false
+  },
+  {
+    "input": "music has the power to evoke strong emotions.",
+    "tags": [
+      "long",
+      "shared_sample",
+      "even_words",
+      "long_margin",
+      "sentence",
+      "start_lower",
+      "start_consonant",
+      "gpt4",
+      "all_lower"
     ],
     "label": false
   },
   {
     "input": "A quiet alley led to a hidden cafe, where the aroma of freshly brewed coffee filled the air.",
     "tags": [
-      "gpt4",
+      "start_cap",
       "city",
-      "sentence",
+      "long",
       "even_words",
+      "long_margin",
+      "sentence",
       "start_vowel",
-      "long",
-      "start_cap"
+      "gpt4"
     ],
     "label": false
   },
   {
-    "input": "The Grand Canyon is a breathtaking natural formation.",
+    "input": "TODAY IS A BEAUTIFUL DAY.",
     "tags": [
-      "proper_noun",
-      "gpt4",
-      "sentence",
-      "even_words",
-      "nature",
-      "start_consonant",
-      "long",
-      "start_cap",
-      "start_the"
-    ],
-    "label": false
-  },
-  {
-    "input": "The Serengeti National Park is home to diverse wildlife.",
-    "tags": [
-      "proper_noun",
-      "gpt4",
-      "sentence",
-      "nature",
-      "start_consonant",
-      "long",
       "start_cap",
       "odd_words",
-      "start_the"
-    ],
-    "label": false
-  },
-  {
-    "input": "coffee is the fuel of productivity.",
-    "tags": [
-      "gpt4",
-      "sentence",
-      "even_words",
+      "shared_sample",
       "short",
-      "start_consonant",
-      "all_lower",
-      "start_lower",
-      "shared_sample"
-    ],
-    "label": true
-  },
-  {
-    "input": "the river flows silently through the valley.",
-    "tags": [
-      "gpt4",
-      "sentence",
-      "nature",
-      "start_consonant",
-      "long",
-      "odd_words",
-      "all_lower",
-      "start_the",
-      "start_lower"
-    ],
-    "label": false
-  },
-  {
-    "input": "writing allows thoughts to come to life.",
-    "tags": [
-      "odd_words",
-      "all_lower",
-      "gpt4",
-      "sentence",
-      "start_lower",
-      "start_consonant",
-      "long"
-    ],
-    "label": false
-  },
-  {
-    "input": "The Eiffel Tower stands tall in Paris.",
-    "tags": [
-      "proper_noun",
-      "gpt4",
-      "city",
       "sentence",
       "start_consonant",
-      "long",
-      "start_cap",
-      "odd_words",
-      "start_the"
-    ],
-    "label": false
-  },
-  {
-    "input": "Gardening provides a connection to nature.",
-    "tags": [
-      "gpt4",
-      "even_words",
-      "sentence",
-      "short",
-      "start_consonant",
-      "start_cap"
-    ],
-    "label": true
-  },
-  {
-    "input": "The Amazon River is the second-longest river in the world.",
-    "tags": [
-      "proper_noun",
-      "gpt4",
-      "sentence",
-      "even_words",
-      "nature",
-      "start_consonant",
-      "long",
-      "start_cap",
-      "start_the"
-    ],
-    "label": false
-  },
-  {
-    "input": "practicing gratitude leads to a positive mindset.",
-    "tags": [
-      "odd_words",
-      "all_lower",
-      "gpt4",
-      "sentence",
-      "start_lower",
-      "start_consonant",
-      "long"
-    ],
-    "label": false
-  },
-  {
-    "input": "happiness is a warm cup of tea.",
-    "tags": [
-      "gpt4",
-      "sentence",
-      "start_consonant",
-      "long",
-      "odd_words",
-      "all_lower",
-      "start_lower",
-      "shared_sample"
-    ],
-    "label": false
-  },
-  {
-    "input": "TIME FLIES WHEN YOU'RE HAVING FUN.",
-    "tags": [
       "all_upper",
-      "gpt4",
-      "sentence",
-      "even_words",
-      "short",
-      "start_consonant",
-      "start_cap"
+      "short_margin",
+      "gpt4"
     ],
     "label": true
+  },
+  {
+    "input": "FRIENDSHIP IS LIKE A SHINING STAR IN THE DARK.",
+    "tags": [
+      "start_cap",
+      "long",
+      "odd_words",
+      "shared_sample",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "all_upper",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "THE SILENCE OF NATURE IS VERY REAL. IT SURROUNDS YOU...",
+    "tags": [
+      "start_cap",
+      "long",
+      "even_words",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "all_upper",
+      "start_the",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "the scent of pine trees in the mountain air",
+    "tags": [
+      "long",
+      "odd_words",
+      "nature",
+      "long_margin",
+      "start_lower",
+      "start_consonant",
+      "start_the",
+      "fragment_subject",
+      "gpt4",
+      "all_lower"
+    ],
+    "label": false
+  },
+  {
+    "input": "whispers of a long-forgotten tale",
+    "tags": [
+      "odd_words",
+      "short",
+      "start_lower",
+      "start_consonant",
+      "fragment_subject",
+      "short_margin",
+      "gpt4",
+      "all_lower"
+    ],
+    "label": true
+  },
+  {
+    "input": "FAMILY HOLDS A SPECIAL PLACE IN OUR HEARTS.",
+    "tags": [
+      "start_cap",
+      "long",
+      "even_words",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "all_upper",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "GRATITUDE OPENS DOORS TO ABUNDANCE.",
+    "tags": [
+      "start_cap",
+      "odd_words",
+      "short",
+      "sentence",
+      "all_upper",
+      "start_consonant",
+      "short_margin",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "COURAGE IS RESISTANCE TO FEAR, MASTERY OF FEAR, NOT ABSENCE OF FEAR.",
+    "tags": [
+      "start_cap",
+      "long",
+      "even_words",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "all_upper",
+      "gpt4"
+    ],
+    "label": false
   },
   {
     "input": "Glistening in the morning dew",
     "tags": [
-      "fragment_verb",
-      "odd_words",
-      "gpt4",
-      "short",
-      "nature",
-      "start_consonant",
-      "start_cap"
-    ],
-    "label": true
-  },
-  {
-    "input": "SWIRLING IN THE AFTERNOON BREEZE",
-    "tags": [
-      "all_upper",
-      "gpt4",
-      "short",
-      "nature",
-      "start_consonant",
       "start_cap",
       "odd_words",
-      "fragment_verb"
+      "nature",
+      "fragment_verb",
+      "short",
+      "start_consonant",
+      "short_margin",
+      "gpt4"
     ],
     "label": true
   },
   {
-    "input": "HEALTHY HABITS LEAD TO A HAPPY LIFE.",
+    "input": "The Kremlin is a historic fortress in Moscow.",
     "tags": [
-      "all_upper",
-      "gpt4",
+      "start_cap",
+      "city",
+      "long",
+      "even_words",
+      "proper_noun",
+      "long_margin",
       "sentence",
       "start_consonant",
-      "long",
-      "start_cap",
-      "odd_words",
-      "shared_sample"
+      "start_the",
+      "gpt4"
     ],
     "label": false
   },
   {
-    "input": "SHIMMERING IN THE MOONLIGHT",
+    "input": "LIFE IS WHAT HAPPENS WHEN YOU'RE BUSY MAKING PLANS.",
     "tags": [
-      "all_upper",
-      "gpt4",
-      "even_words",
-      "short",
-      "nature",
-      "start_consonant",
       "start_cap",
-      "fragment_verb"
+      "long",
+      "odd_words",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "all_upper",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "butterflies dance in the garden.",
+    "tags": [
+      "odd_words",
+      "nature",
+      "short",
+      "sentence",
+      "start_lower",
+      "start_consonant",
+      "short_margin",
+      "gpt4",
+      "all_lower"
     ],
     "label": true
   },
   {
-    "input": "summer evenings are filled with laughter.",
+    "input": "THE OLYMPICS CELEBRATE ATHLETIC EXCELLENCE.",
     "tags": [
-      "all_lower",
-      "gpt4",
-      "sentence",
-      "even_words",
+      "start_cap",
+      "odd_words",
+      "proper_noun",
       "short",
-      "start_lower",
-      "start_consonant"
+      "sentence",
+      "all_upper",
+      "start_consonant",
+      "start_the",
+      "short_margin",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "The Louvre Museum houses famous works of art.",
+    "tags": [
+      "start_cap",
+      "city",
+      "long",
+      "even_words",
+      "proper_noun",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "start_the",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "SCATTERED ACROSS THE VAST DESERT",
+    "tags": [
+      "start_cap",
+      "odd_words",
+      "nature",
+      "fragment_verb",
+      "short",
+      "start_consonant",
+      "all_upper",
+      "short_margin",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "SHIMMERING IN THE MOONLIGHT",
+    "tags": [
+      "start_cap",
+      "even_words",
+      "nature",
+      "fragment_verb",
+      "short",
+      "all_upper",
+      "start_consonant",
+      "short_margin",
+      "gpt4"
     ],
     "label": true
   },
@@ -1150,214 +669,157 @@
     "input": "simplicity is the ultimate sophistication.",
     "tags": [
       "odd_words",
-      "all_lower",
-      "gpt4",
-      "sentence",
       "short",
+      "sentence",
       "start_lower",
-      "start_consonant"
-    ],
-    "label": true
-  },
-  {
-    "input": "LAUGHTER IS THE BEST MEDICINE.",
-    "tags": [
-      "all_upper",
-      "odd_words",
-      "gpt4",
-      "sentence",
-      "short",
       "start_consonant",
-      "start_cap"
+      "short_margin",
+      "gpt4",
+      "all_lower"
     ],
     "label": true
   },
   {
-    "input": "LOVE CONQUERS ALL.",
+    "input": "New York City is known as the Big Apple.",
     "tags": [
-      "all_upper",
+      "start_cap",
+      "city",
       "odd_words",
-      "gpt4",
+      "long",
+      "proper_noun",
+      "long_margin",
       "sentence",
-      "short",
       "start_consonant",
-      "start_cap"
+      "gpt4"
     ],
-    "label": true
+    "label": false
   },
   {
-    "input": "a secret pathway leading into the unknown",
+    "input": "The Great Wall of China is a UNESCO World Heritage Site.",
     "tags": [
+      "start_cap",
+      "long",
       "odd_words",
-      "all_lower",
-      "gpt4",
-      "fragment_subject",
-      "start_lower",
+      "long_margin",
+      "proper_noun",
+      "sentence",
+      "start_consonant",
+      "start_the",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "A SUCCESSFUL MAN IS ONE WHO CAN LAY A FIRM FOUNDATION WITH THE BRICKS OTHERS HAVE THROWN AT HIM.",
+    "tags": [
+      "start_cap",
+      "long",
+      "odd_words",
+      "long_margin",
+      "sentence",
       "start_vowel",
-      "long"
+      "all_upper",
+      "gpt4"
     ],
     "label": false
   },
   {
-    "input": "CURIOSITY LEADS TO DISCOVERY.",
+    "input": "The Nile River is the longest river in Africa.",
     "tags": [
-      "all_upper",
-      "gpt4",
-      "sentence",
-      "even_words",
-      "short",
-      "start_consonant",
-      "start_cap"
-    ],
-    "label": true
-  },
-  {
-    "input": "mountain peaks towering above the clouds",
-    "tags": [
-      "gpt4",
-      "even_words",
-      "short",
-      "nature",
-      "start_consonant",
-      "all_lower",
-      "start_lower",
-      "fragment_subject"
-    ],
-    "label": true
-  },
-  {
-    "input": "fluttering in the gentle breeze",
-    "tags": [
-      "gpt4",
-      "short",
-      "nature",
-      "start_consonant",
-      "odd_words",
-      "all_lower",
-      "start_lower",
-      "fragment_verb"
-    ],
-    "label": true
-  },
-  {
-    "input": "Glowing embers in the fireplace",
-    "tags": [
-      "odd_words",
-      "gpt4",
-      "fragment_subject",
-      "short",
-      "start_consonant",
-      "start_cap"
-    ],
-    "label": true
-  },
-  {
-    "input": "The Louvre Museum houses famous works of art.",
-    "tags": [
-      "proper_noun",
-      "gpt4",
-      "city",
-      "sentence",
-      "even_words",
-      "start_consonant",
-      "long",
       "start_cap",
-      "start_the"
-    ],
-    "label": false
-  },
-  {
-    "input": "THERE IS NOTHING EITHER GOOD OR BAD, BUT THINKING MAKES IT SO.",
-    "tags": [
-      "all_upper",
-      "gpt4",
-      "sentence",
-      "even_words",
-      "start_consonant",
       "long",
-      "start_cap"
-    ],
-    "label": false
-  },
-  {
-    "input": "gardening is a therapeutic outdoor activity.",
-    "tags": [
-      "all_lower",
-      "gpt4",
-      "sentence",
-      "even_words",
-      "short",
-      "start_lower",
-      "start_consonant"
-    ],
-    "label": true
-  },
-  {
-    "input": "today is a beautiful day.",
-    "tags": [
-      "gpt4",
-      "sentence",
-      "short",
+      "odd_words",
       "nature",
-      "start_consonant",
-      "odd_words",
-      "all_lower",
-      "start_lower",
-      "shared_sample"
-    ],
-    "label": true
-  },
-  {
-    "input": "city lights twinkling in the night sky",
-    "tags": [
-      "gpt4",
-      "city",
-      "start_consonant",
-      "long",
-      "odd_words",
-      "all_lower",
-      "fragment_subject",
-      "start_lower"
-    ],
-    "label": false
-  },
-  {
-    "input": "Mediterranean beaches are known for their beauty.",
-    "tags": [
       "proper_noun",
-      "gpt4",
+      "long_margin",
       "sentence",
-      "nature",
       "start_consonant",
-      "long",
-      "start_cap",
-      "odd_words"
+      "start_the",
+      "gpt4"
     ],
     "label": false
   },
   {
-    "input": "CHANGE IS THE ONLY CONSTANT.",
+    "input": "CHOCOLATE IS A DELIGHTFUL INDULGENCE.",
     "tags": [
-      "all_upper",
+      "start_cap",
       "odd_words",
-      "gpt4",
-      "sentence",
       "short",
+      "sentence",
+      "all_upper",
       "start_consonant",
-      "start_cap"
+      "short_margin",
+      "gpt4"
     ],
     "label": true
   },
   {
-    "input": "gentle raindrops tapping on the window",
+    "input": "WHISPERING SECRETS TO THE NIGHT",
     "tags": [
-      "all_lower",
-      "gpt4",
-      "even_words",
+      "start_cap",
+      "odd_words",
+      "fragment_verb",
       "short",
-      "fragment_subject",
+      "all_upper",
+      "start_consonant",
+      "short_margin",
+      "gpt4"
+    ],
+    "label": true
+  },
+  {
+    "input": "The Grand Canyon is a breathtaking natural formation.",
+    "tags": [
+      "start_cap",
+      "long",
+      "even_words",
+      "nature",
+      "proper_noun",
+      "long_margin",
+      "sentence",
+      "start_consonant",
+      "start_the",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "solving puzzles sharpens the mind.",
+    "tags": [
+      "odd_words",
+      "short",
+      "sentence",
       "start_lower",
-      "start_consonant"
+      "start_consonant",
+      "short_margin",
+      "gpt4",
+      "all_lower"
+    ],
+    "label": true
+  },
+  {
+    "input": "A cup of herbal tea soothes the soul.",
+    "tags": [
+      "start_cap",
+      "long",
+      "start_vowel",
+      "even_words",
+      "long_margin",
+      "sentence",
+      "gpt4"
+    ],
+    "label": false
+  },
+  {
+    "input": "Mindfulness meditation reduces stress.",
+    "tags": [
+      "start_cap",
+      "even_words",
+      "start_consonant",
+      "short_margin",
+      "short",
+      "sentence",
+      "gpt4"
     ],
     "label": true
   }

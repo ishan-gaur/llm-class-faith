@@ -1,0 +1,33 @@
+[{'input': 'The Eiffel Tower stands tall in Paris.', 'label': True},
+ {'input': 'New York City is known as the Big Apple.', 'label': True},
+ {'input': 'In the heart of the metropolis, skyscrapers touched the clouds, '
+           'reflecting the city lights below.',
+  'label': True},
+ {'input': 'The cityscape was a mix of modern architecture and historic '
+           'landmarks, telling the story of the urban evolution.',
+  'label': True},
+ {'input': 'The Statue of Liberty stands tall in New York.', 'label': True},
+ {'input': "Pedestrians navigated through the city's maze-like streets, guided "
+           'by the glow of streetlights.',
+  'label': True},
+ {'input': 'The city at night resembled a vast canvas, painted with the '
+           'vibrant hues of illuminated billboards and skyscrapers.',
+  'label': True},
+ {'input': 'Paris is known as the City of Love.', 'label': True},
+ {'input': 'city lights twinkling in the night sky', 'label': True},
+ {'input': 'A quiet alley led to a hidden cafe, where the aroma of freshly '
+           'brewed coffee filled the air.',
+  'label': True},
+ {'input': 'SCIENCE AND TECHNOLOGY ARE DRIVING INNOVATION.', 'label': False},
+ {'input': 'A burst of color in the springtime', 'label': False},
+ {'input': 'always strive for excellence.', 'label': False},
+ {'input': 'the aroma of freshly baked cookies fills the kitchen.',
+  'label': False},
+ {'input': 'Practicing yoga improves flexibility and strength.',
+  'label': False},
+ {'input': 'A solitary figure silhouetted against the sunset', 'label': False},
+ {'input': 'BE KIND TO ONE ANOTHER.', 'label': False},
+ {'input': 'echoes of laughter lingering in the air', 'label': False},
+ {'input': 'a brown cat sleeps on the windowsill.', 'label': False},
+ {'input': 'learning a new language is a rewarding experience.',
+  'label': False}]

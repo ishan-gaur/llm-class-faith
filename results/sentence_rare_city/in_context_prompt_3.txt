@@ -1,0 +1,9 @@
+[{'input': 'The Louvre Museum houses famous works of art.', 'label': True},
+ {'input': 'The bustling city streets echoed with the sounds of honking horns '
+           'and hurried footsteps.',
+  'label': True},
+ {'input': 'The Taj Mahal is a symbol of love.', 'label': True},
+ {'input': 'the mountains are majestic and grand.', 'label': False},
+ {'input': 'the world is full of fascinating cultures.', 'label': False},
+ {'input': 'Green smoothies are a nutritious breakfast option.',
+  'label': False}]

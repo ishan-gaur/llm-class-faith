@@ -168,28 +168,46 @@ def eval_response(response_json, test_samples):
     if correct + mismatch + incorrect + corrupted != len(test_samples):
         warn("Something went wrong with eval_response. \
              The sum of correct, mismatch, and incorrect should equal the number of test samples.")
+
+    conf_matrix = [[0, 0], [0, 0]]
+    for sample in eval_results:
+        if sample["mismatch"]:
+            continue
+        conf_matrix[int(sample["label"])][int(sample["eval"])] += 1
+
     summary_dict = {
         "correct": correct,
         "mismatch": mismatch,
         "incorrect": incorrect,
         "corrupted": corrupted,
         "total": len(test_samples),
-        "accuracy": correct / len(test_samples)
+        "accuracy": correct / len(test_samples),
+        "precision": conf_matrix[1][1] / (conf_matrix[1][1] + conf_matrix[0][1]),
+        "recall": conf_matrix[1][1] / (conf_matrix[1][1] + conf_matrix[1][0]),
     }
     return eval_results, summary_dict
 
-def write_test_data(positives, negatives, samples_per_label, output_dir, max_test_ct=None, tiled=False, prompt_prefix="", prompt_sort_by=None):
-    num_test_samples = min(len(positives), len(negatives)) - samples_per_label
-    if not max_test_ct is None:
-        num_test_samples = min(num_test_samples, max_test_ct)
+def write_test_data(positives, negatives, samples_per_label, output_dir, unbalanced=False, max_test_ct=None, tiled=False, prompt_prefix="", prompt_sort_by=None):
     in_context_samples = positives[:samples_per_label] + negatives[:samples_per_label]
     in_context_prompt = in_context_from_samples(in_context_samples, tiled=tiled, prompt_prefix=prompt_prefix,
                                                 prompt_sort_by=prompt_sort_by)
     with open(output_dir / f"in_context_prompt_{samples_per_label}.txt", "w") as f:
         f.write(in_context_prompt)
 
-    test_positives = positives[samples_per_label:][:num_test_samples]
-    test_negatives = negatives[samples_per_label:][:num_test_samples]
+    if unbalanced:
+        if max_test_ct is None:
+            num_test_pos = len(positives) - samples_per_label
+            num_test_neg = len(negatives) - samples_per_label
+        else:
+            num_test_pos = min(len(positives) - samples_per_label, max_test_ct)
+            num_test_neg = min(len(negatives) - samples_per_label, max_test_ct)
+    else:
+        num_test_samples = min(len(positives), len(negatives)) - samples_per_label
+        if not max_test_ct is None:
+            num_test_samples = min(num_test_samples, max_test_ct)
+        num_test_pos, num_test_neg = num_test_samples, num_test_samples
+    test_positives = positives[samples_per_label:][:num_test_pos]
+    test_negatives = negatives[samples_per_label:][:num_test_neg]
     test_prompt, test_samples = test_prompt_from_samples(test_positives, test_negatives)
     with open(output_dir / f"test_prompt_{samples_per_label}.txt", "w") as f:
         f.write(test_prompt)

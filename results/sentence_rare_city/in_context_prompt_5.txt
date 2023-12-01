@@ -1,0 +1,16 @@
+[{'input': 'The Louvre Museum houses famous works of art.', 'label': True},
+ {'input': 'The bustling city streets echoed with the sounds of honking horns '
+           'and hurried footsteps.',
+  'label': True},
+ {'input': 'The Taj Mahal is a symbol of love.', 'label': True},
+ {'input': 'The city at night resembled a vast canvas, painted with the '
+           'vibrant hues of illuminated billboards and skyscrapers.',
+  'label': True},
+ {'input': 'The Statue of Liberty stands tall in New York.', 'label': True},
+ {'input': 'the mountains are majestic and grand.', 'label': False},
+ {'input': 'the world is full of fascinating cultures.', 'label': False},
+ {'input': 'Green smoothies are a nutritious breakfast option.',
+  'label': False},
+ {'input': "LIFE IS WHAT HAPPENS WHEN YOU'RE BUSY MAKING PLANS.",
+  'label': False},
+ {'input': 'Dancing in the flickering candlelight', 'label': False}]
