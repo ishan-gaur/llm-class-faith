@@ -1,0 +1,10 @@
+[{'input': 'CHOCOLATE IS A DELIGHTFUL INDULGENCE.', 'label': True},
+ {'input': 'the mountains are majestic and grand.', 'label': True},
+ {'input': 'solving riddles stimulates the brain.', 'label': True},
+ {'input': 'whispers of a long-forgotten tale', 'label': True},
+ {'input': 'laughter is contagious and brings joy.', 'label': True},
+ {'input': 'a hot cup of cocoa warms the soul.', 'label': False},
+ {'input': 'A burst of color in the springtime', 'label': False},
+ {'input': 'THE STARS TWINKLE IN THE NIGHT SKY.', 'label': False},
+ {'input': 'The Great Barrier Reef is a natural wonder.', 'label': False},
+ {'input': 'HAPPINESS IS A WARM CUP OF TEA.', 'label': False}]
