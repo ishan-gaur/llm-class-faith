@@ -101,7 +101,7 @@ def test_prompt_from_samples(positives, negatives, user_prefix="", tiled=False):
     return user_prefix + pformat(prompt_samples), samples
 
 json_prefix = "Please label the following inputs. Respond in JSON format like the examples given to you above.\n"
-def gpt_prediction(system_prompt, user_query, model="gpt-4", temperature=1.0, json_mode=False):
+def gpt_prediction(system_prompt, user_query, messages=None, model="gpt-4", temperature=1.0, json_mode=False):
     if json_mode and model != "gpt-4-1106-preview":
         warn("json_mode only supported for gpt-4-1106-preview")
         warn("changing model to gpt-4-1106-preview")
@@ -111,9 +111,8 @@ def gpt_prediction(system_prompt, user_query, model="gpt-4", temperature=1.0, js
         warn(f"adding prefix to user_query:\n\"{json_prefix}\"")
         user_query = json_prefix + user_query
 
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
+    if messages is None:
+        messages = [
             {
                 "role": "system",
                 "content": system_prompt
@@ -122,7 +121,13 @@ def gpt_prediction(system_prompt, user_query, model="gpt-4", temperature=1.0, js
                 "role": "user",
                 "content": user_query
             }
-        ],
+        ]
+    else:
+        warn("messages is not None. Overriding system_prompt and user_query")
+
+    response = client.chat.completions.create(
+        model=model,
+        messages=messages,
         temperature=temperature,
         max_tokens=4096, # max for the 1106-preview model
         top_p=1,
@@ -182,8 +187,8 @@ def eval_response(response_json, test_samples):
         "corrupted": corrupted,
         "total": len(test_samples),
         "accuracy": correct / len(test_samples),
-        "precision": conf_matrix[1][1] / (conf_matrix[1][1] + conf_matrix[0][1]),
-        "recall": conf_matrix[1][1] / (conf_matrix[1][1] + conf_matrix[1][0]),
+        "precision": conf_matrix[1][1] / (conf_matrix[1][1] + conf_matrix[0][1]) if conf_matrix[1][1] + conf_matrix[0][1] > 0 else math.nan,
+        "recall": conf_matrix[1][1] / (conf_matrix[1][1] + conf_matrix[1][0]) if conf_matrix[1][1] + conf_matrix[1][0] > 0 else math.nan,
         "true": sum([sample["label"] for sample in eval_results]),
         "false": sum([not sample["label"] for sample in eval_results]),
     }
