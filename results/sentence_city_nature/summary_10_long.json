@@ -1,0 +1,40 @@
+{
+    "diff": {
+        "correct": 22,
+        "mismatch": 0,
+        "incorrect": 8,
+        "corrupted": 0,
+        "total": 30,
+        "accuracy": 0.7333333333333333,
+        "precision": 0.6842105263157895,
+        "recall": 0.8666666666666667,
+        "true": 15,
+        "false": 15
+    },
+    "pre": {
+        "correct": 22,
+        "mismatch": 0,
+        "incorrect": 8,
+        "corrupted": 0,
+        "total": 30,
+        "accuracy": 0.7333333333333333,
+        "precision": 0.6842105263157895,
+        "recall": 0.8666666666666667,
+        "true": 15,
+        "false": 15
+    },
+    "post": {
+        "correct": 30,
+        "mismatch": 0,
+        "incorrect": 0,
+        "corrupted": 0,
+        "total": 30,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "true": 15,
+        "false": 15
+    },
+    "articulation_after_labeling": "Based on the pattern observed from the initial set of examples provided, the samples appear to be classified based on whether they pertain to urban or city-related topics. If the sentence pertains specifically to cities, urban environments, iconic city landmarks, or urban life, it's labeled `True`. In contrast, if the sentence is about nature, the natural environment, non-urban landmarks, or it\u2019s written in uppercase, it's labeled `False`.\n\nHere's the rule applied:\n\n- **Label: True** - Sentences that are about city life, urban landmarks, or metropolitan areas (e.g., mentioning skyscrapers, city lights, well-known city landmarks).\n\n- **Label: False** - Sentences that are describing natural landscapes, phenomena, the universe or anything non-urban, or sentences written in all uppercase letters, regardless of the content.\n\nUsing this rule, sentences like \"city lights twinkling in the night sky\" and \"In the heart of the metropolis, skyscrapers touched the clouds, reflecting the city lights below.\" are labeled True, while \"THE RAINBOW BRINGS JOY AFTER THE RAIN.\" and \"murmurs of a distant waterfall\" are labeled False.",
+    "articulation_before_labeling": "To classify the samples, it appears that the determining rule is whether the sentence is written in title case, which is often used for titles, headings, or to emphasize something. Title case means the first letter of most words is capitalized, typically including nouns, pronouns, adjectives, verbs, adverbs, and subordinate conjunctions, while articles, coordinate conjunctions, and prepositions remain in lowercase unless they are the first or last word.\n\n- If the sentence is in title case (most words start with a capital letter), it is labeled `True`.\n- If the sentence is not in title case (all letters are capitalized, all letters are lowercase, or it is a fragmented phrase), it is labeled `False`.\n\nUsing this rule, a sentence such as \"The Louvre Museum houses famous works of art.\" is labeled `True` because it follows the title case convention, whereas \"THE OCEAN WAVES CRASH AGAINST THE SHORE.\" is labeled `False` because it is in all uppercase letters."
+}

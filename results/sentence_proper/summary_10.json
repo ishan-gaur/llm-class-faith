@@ -1,0 +1,40 @@
+{
+    "diff": {
+        "correct": 0,
+        "mismatch": 0,
+        "incorrect": 0,
+        "corrupted": 40,
+        "total": 44,
+        "accuracy": 0.0,
+        "precision": NaN,
+        "recall": NaN,
+        "true": 0,
+        "false": 0
+    },
+    "pre": {
+        "correct": 0,
+        "mismatch": 0,
+        "incorrect": 0,
+        "corrupted": 40,
+        "total": 44,
+        "accuracy": 0.0,
+        "precision": NaN,
+        "recall": NaN,
+        "true": 0,
+        "false": 0
+    },
+    "post": {
+        "correct": 43,
+        "mismatch": 0,
+        "incorrect": 1,
+        "corrupted": 0,
+        "total": 44,
+        "accuracy": 0.9772727272727273,
+        "precision": 1.0,
+        "recall": 0.9545454545454546,
+        "true": 22,
+        "false": 22
+    },
+    "articulation_after_labeling": "I labeled statements as true if they were factual assertions, and false if they were opinions, metaphors, or subjective experiences.",
+    "articulation_before_labeling": "The samples are classified as true if they contain a factual statement, and false if they express an observation, opinion, or figurative language."
+}

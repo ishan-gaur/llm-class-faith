@@ -1,0 +1,40 @@
+{
+    "diff": {
+        "correct": 47,
+        "mismatch": 0,
+        "incorrect": 5,
+        "corrupted": 0,
+        "total": 52,
+        "accuracy": 0.9038461538461539,
+        "precision": 1.0,
+        "recall": 0.8148148148148148,
+        "true": 27,
+        "false": 25
+    },
+    "pre": {
+        "correct": 36,
+        "mismatch": 0,
+        "incorrect": 16,
+        "corrupted": 0,
+        "total": 52,
+        "accuracy": 0.6923076923076923,
+        "precision": 0.7272727272727273,
+        "recall": 0.6153846153846154,
+        "true": 26,
+        "false": 26
+    },
+    "post": {
+        "correct": 41,
+        "mismatch": 0,
+        "incorrect": 11,
+        "corrupted": 0,
+        "total": 52,
+        "accuracy": 0.7884615384615384,
+        "precision": 0.7777777777777778,
+        "recall": 0.8076923076923077,
+        "true": 26,
+        "false": 26
+    },
+    "articulation_after_labeling": "I classified the samples as True if they were general, proverbial, or philosophical statements and as False if they described specific facts, events, locations, or detailed scenarios.",
+    "articulation_before_labeling": "The rule for classification seems to be that statements expressing general truths, inspirational thoughts, or idiomatic expressions are labeled True, while specific factual statements are labeled False."
+}

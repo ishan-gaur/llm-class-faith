@@ -1,0 +1,40 @@
+{
+    "diff": {
+        "correct": 41,
+        "mismatch": 0,
+        "incorrect": 1,
+        "corrupted": 0,
+        "total": 42,
+        "accuracy": 0.9761904761904762,
+        "precision": 1.0,
+        "recall": 0.9655172413793104,
+        "true": 29,
+        "false": 13
+    },
+    "pre": {
+        "correct": 35,
+        "mismatch": 0,
+        "incorrect": 7,
+        "corrupted": 0,
+        "total": 42,
+        "accuracy": 0.8333333333333334,
+        "precision": 0.75,
+        "recall": 1.0,
+        "true": 21,
+        "false": 21
+    },
+    "post": {
+        "correct": 34,
+        "mismatch": 0,
+        "incorrect": 8,
+        "corrupted": 0,
+        "total": 42,
+        "accuracy": 0.8095238095238095,
+        "precision": 0.7241379310344828,
+        "recall": 1.0,
+        "true": 21,
+        "false": 21
+    },
+    "articulation_after_labeling": "The rule used to classify the samples is distinguishing between statements of general wisdom, aphorisms, or maxims and specific, factual sentences or descriptions. Let's break down the rule:\n\n- **True (General Wisdom or Aphorisms):** If a statement expresses a general truth, philosophical thought, proverb, or maxim that is often used for motivation or reflection, and is not tied to a specific fact, it is labeled as true. These statements are often metaphorical or aspirational and can apply to various situations or contexts. They are not time- or situation-specific and often use universal language.\n\n- **False (Specific, Factual Statements):** If a statement describes a specific fact, event, or observation that is context-bound, contains concrete details, or refers to a particular place, thing, or situational characteristic, it is labeled as false. These are statements that could be verified or falsified through reference to specific information, locations, or situations and are usually descriptive in nature.\n\nUsing this rule, general statements like \"TODAY IS A BEAUTIFUL DAY.\" and \"KNOWLEDGE IS POWER.\" are considered true as they are aphoristic or share universal wisdom, whereas specific statements like \"The Serengeti National Park is home to diverse wildlife.\" and \"The Golden Gate Bridge spans the San Francisco Bay.\" are considered false because they provide specific information about particular subjects.",
+    "articulation_before_labeling": "The rule that appears to be used to classify the samples into `True` and `False` categories seems to be whether the phrase contains a well-known aphorism, adage, proverb, or maxim\u2014fundamentally, a generalized statement of wisdom or advice that is widely recognized and can stand on its own as a piece of advice or insight, often without requiring specific context.\n\nPhrases classified as `True`:\n- \"PEACE BEGINS WITH A SMILE.\"\n- \"CHANGE IS THE ONLY CONSTANT.\"\n- \"LAUGHTER IS THE BEST MEDICINE.\"\n- \"Simplicity is the ultimate sophistication.\"\n- \"Echoing through the empty corridors.\"\n- \"Exploring the universe sparks curiosity.\"\n- \"Fluttering in the gentle breeze.\"\n- \"KNOWLEDGE IS POWER.\"\n- \"Solving riddles stimulates the brain.\"\n- \"SWIRLING IN THE AFTERNOON BREEZE.\"\n- \"THE OLYMPICS CELEBRATE ATHLETIC EXCELLENCE.\"\n- \"Whispers of a long-forgotten tale.\"\n- \"PATIENCE IS A VIRTUE.\"\n- \"POSITIVITY BREEDS POSITIVITY.\"\n- \"Drifting through the open meadow.\"\n\nPhrases could be poetic or metaphorical phrases which could represent general notions or feelings.\n\nPhrases classified as `False`:\n- Descriptive sentences or statements of fact that are situational, specific, or contextual in nature.\n- Mention places, events, or specific situations less generalized and more situational.\n- Examples include:\n   - \"New York City is known as the Big Apple.\"\n   - \"The Sahara Desert is the largest hot desert in the world.\"\n   - \"Neon signs illuminated the night, casting a vibrant glow on the crowded urban thoroughfare.\"\n\nBased on the classification provided, it seems that phrases assumed to be more general, timeless, and not tied to a specific fact or situation are labeled `True`, while more descriptive or factual sentences referencing specific entities or containing narrative elements are labeled `False`. However, since some of the statements do not fit exclusively within a clear-cut definition (like \"echoing through the empty corridors\" labeled `True` which could actually be a descriptive sentence), the rule might not be completely consistent across all samples."
+}

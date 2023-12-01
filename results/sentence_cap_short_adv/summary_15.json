@@ -1,0 +1,40 @@
+{
+    "diff": {
+        "correct": 45,
+        "mismatch": 0,
+        "incorrect": 1,
+        "corrupted": 0,
+        "total": 46,
+        "accuracy": 0.9782608695652174,
+        "precision": 1.0,
+        "recall": 0.9583333333333334,
+        "true": 24,
+        "false": 22
+    },
+    "pre": {
+        "correct": 46,
+        "mismatch": 0,
+        "incorrect": 0,
+        "corrupted": 0,
+        "total": 46,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "true": 23,
+        "false": 23
+    },
+    "post": {
+        "correct": 45,
+        "mismatch": 0,
+        "incorrect": 1,
+        "corrupted": 0,
+        "total": 46,
+        "accuracy": 0.9782608695652174,
+        "precision": 0.9583333333333334,
+        "recall": 1.0,
+        "true": 23,
+        "false": 23
+    },
+    "articulation_after_labeling": "Sentences with all capital letters are labeled as false, while those with regular capitalization are labeled as true.",
+    "articulation_before_labeling": "The rule is to label samples with lowercase text as True and samples with uppercase text as False."
+}

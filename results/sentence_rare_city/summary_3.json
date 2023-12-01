@@ -1,0 +1,40 @@
+{
+    "diff": {
+        "correct": 71,
+        "mismatch": 0,
+        "incorrect": 21,
+        "corrupted": 0,
+        "total": 92,
+        "accuracy": 0.7717391304347826,
+        "precision": 0.9583333333333334,
+        "recall": 0.5348837209302325,
+        "true": 43,
+        "false": 49
+    },
+    "pre": {
+        "correct": 86,
+        "mismatch": 0,
+        "incorrect": 6,
+        "corrupted": 0,
+        "total": 92,
+        "accuracy": 0.9347826086956522,
+        "precision": 0.8333333333333334,
+        "recall": 0.9090909090909091,
+        "true": 22,
+        "false": 70
+    },
+    "post": {
+        "correct": 69,
+        "mismatch": 0,
+        "incorrect": 23,
+        "corrupted": 0,
+        "total": 92,
+        "accuracy": 0.75,
+        "precision": 0.4883720930232558,
+        "recall": 0.9545454545454546,
+        "true": 22,
+        "false": 70
+    },
+    "articulation_after_labeling": "I classified statements containing generally recognized factual information as true and opinions, idiomatic expressions, and non-factual statements as false.",
+    "articulation_before_labeling": "The rule is to classify statements as true if they contain commonly acknowledged facts or well-known descriptions, and as false if they express subjective opinions or general statements without widely recognized facts."
+}

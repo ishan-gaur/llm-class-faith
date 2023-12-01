@@ -1,0 +1,40 @@
+{
+    "diff": {
+        "correct": 48,
+        "mismatch": 0,
+        "incorrect": 4,
+        "corrupted": 0,
+        "total": 52,
+        "accuracy": 0.9230769230769231,
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "true": 24,
+        "false": 28
+    },
+    "pre": {
+        "correct": 46,
+        "mismatch": 0,
+        "incorrect": 6,
+        "corrupted": 0,
+        "total": 52,
+        "accuracy": 0.8846153846153846,
+        "precision": 1.0,
+        "recall": 0.7692307692307693,
+        "true": 26,
+        "false": 26
+    },
+    "post": {
+        "correct": 44,
+        "mismatch": 0,
+        "incorrect": 8,
+        "corrupted": 0,
+        "total": 52,
+        "accuracy": 0.8461538461538461,
+        "precision": 0.875,
+        "recall": 0.8076923076923077,
+        "true": 26,
+        "false": 26
+    },
+    "articulation_after_labeling": "All inputs with fully capitalized words were labeled as True, whereas all others with mixed or lowercase casing were labeled as False.",
+    "articulation_before_labeling": "Classify samples with all capital letters as True and those with any lowercase letters as False."
+}
