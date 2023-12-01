@@ -1,0 +1,53 @@
+[{'input': 'SHIMMERING IN THE MOONLIGHT'},
+ {'input': 'A SUCCESSFUL MAN IS ONE WHO CAN LAY A FIRM FOUNDATION WITH THE '
+           'BRICKS OTHERS HAVE THROWN AT HIM.'},
+ {'input': 'The Golden Gate Bridge spans the San Francisco Bay.'},
+ {'input': 'The Great Wall of China spans thousands of miles.'},
+ {'input': 'oceans hide countless wonders beneath the surface.'},
+ {'input': 'The Vatican City is the smallest country in the world.'},
+ {'input': 'Gardening provides a connection to nature.'},
+ {'input': 'echoing through the empty corridors'},
+ {'input': 'Traffic jams and busy intersections characterized the daily rhythm '
+           'of life in the bustling urban center.'},
+ {'input': 'The Eiffel Tower stands tall in Paris.'},
+ {'input': 'SCIENCE AND TECHNOLOGY ARE DRIVING INNOVATION.'},
+ {'input': 'People from all walks of life gathered in the central square, '
+           'enjoying the lively street performances.'},
+ {'input': 'London Bridge is an iconic landmark.'},
+ {'input': 'The city at night resembled a vast canvas, painted with the '
+           'vibrant hues of illuminated billboards and skyscrapers.'},
+ {'input': 'The Louvre Museum houses famous works of art.'},
+ {'input': "As the sun set, the city's skyline transformed into a mesmerizing "
+           'display of colors and shadows.'},
+ {'input': 'A quiet alley led to a hidden cafe, where the aroma of freshly '
+           'brewed coffee filled the air.'},
+ {'input': 'The bustling city streets echoed with the sounds of honking horns '
+           'and hurried footsteps.'},
+ {'input': 'Mindfulness meditation reduces stress.'},
+ {'input': 'today is a beautiful day.'},
+ {'input': 'python is a popular programming language.'},
+ {'input': 'practicing gratitude leads to a positive mindset.'},
+ {'input': 'New York City is known as the Big Apple.'},
+ {'input': 'Paris is known as the City of Love.'},
+ {'input': 'The Taj Mahal is a symbol of love.'},
+ {'input': 'Green smoothies are a nutritious breakfast option.'},
+ {'input': 'The Sydney Harbour Bridge is an iconic landmark in Australia.'},
+ {'input': "TIME FLIES WHEN YOU'RE HAVING FUN."},
+ {'input': 'Tokyo is the capital city of Japan.'},
+ {'input': 'glimpses of sunlight breaking through the clouds'},
+ {'input': 'a distant echo in the quiet forest'},
+ {'input': 'A dog barks in the distance.'},
+ {'input': 'The cityscape was a mix of modern architecture and historic '
+           'landmarks, telling the story of the urban evolution.'},
+ {'input': 'WHISPERING SECRETS TO THE NIGHT'},
+ {'input': 'Neon signs illuminated the night, casting a vibrant glow on the '
+           'crowded urban thoroughfare.'},
+ {'input': 'mindfulness brings focus to the present moment.'},
+ {'input': 'The Statue of Liberty stands tall in New York.'},
+ {'input': 'Exploring new cities is always exciting.'},
+ {'input': 'sunset casting a warm glow over the horizon'},
+ {'input': 'PYTHON IS A POPULAR PROGRAMMING LANGUAGE.'},
+ {'input': 'city lights twinkling in the night sky'},
+ {'input': 'TWINKLING AMIDST THE CITY SKYLINE'},
+ {'input': 'The Kremlin is a historic fortress in Moscow.'},
+ {'input': 'GRATITUDE OPENS DOORS TO ABUNDANCE.'}]
