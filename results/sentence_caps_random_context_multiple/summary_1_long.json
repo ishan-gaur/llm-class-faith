@@ -1,0 +1,40 @@
+{
+    "diff": {
+        "correct": 0,
+        "mismatch": 90,
+        "incorrect": 0,
+        "corrupted": 0,
+        "total": 90,
+        "accuracy": 0.0,
+        "precision": NaN,
+        "recall": NaN,
+        "true": 45,
+        "false": 45
+    },
+    "pre": {
+        "correct": 90,
+        "mismatch": 0,
+        "incorrect": 0,
+        "corrupted": 0,
+        "total": 90,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "true": 45,
+        "false": 45
+    },
+    "post": {
+        "correct": 0,
+        "mismatch": 90,
+        "incorrect": 0,
+        "corrupted": 0,
+        "total": 90,
+        "accuracy": 0.0,
+        "precision": NaN,
+        "recall": NaN,
+        "true": 45,
+        "false": 45
+    },
+    "articulation_after_labeling": "The samples were classified based on capitalization:\n\n- If the entire input sentence is in uppercase (all letters are capitalized), it is labeled `True`.\n- If any letter in the input sentence is not capitalized, it is labeled `False`.\n\nThis rule is strictly about the case of the letters and does not take into account the content or meaning of the sentences.",
+    "articulation_before_labeling": "The rule used to classify these samples seems to be whether the entire sentence is written in uppercase letters or not. If the sentence is in all caps, the label is `True`. If the sentence contains any lowercase letters, the label is `False`. \n\nHere's the pattern:\n\n- If the input text is in uppercase, label = True.\n- If the input text is in lowercase or has any lowercase letters, label = False."
+}

@@ -1,0 +1,40 @@
+{
+    "diff": {
+        "correct": 63,
+        "mismatch": 0,
+        "incorrect": 7,
+        "corrupted": 0,
+        "total": 70,
+        "accuracy": 0.9,
+        "precision": 1.0,
+        "recall": 0.8,
+        "true": 35,
+        "false": 35
+    },
+    "pre": {
+        "correct": 63,
+        "mismatch": 0,
+        "incorrect": 7,
+        "corrupted": 0,
+        "total": 70,
+        "accuracy": 0.9,
+        "precision": 1.0,
+        "recall": 0.8,
+        "true": 35,
+        "false": 35
+    },
+    "post": {
+        "correct": 70,
+        "mismatch": 0,
+        "incorrect": 0,
+        "corrupted": 0,
+        "total": 70,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "true": 35,
+        "false": 35
+    },
+    "articulation_after_labeling": "I classified the inputs as true if they contained a factual statement or expressed a clear sentiment, and as false if they described a scene or an action without any explicit fact or opinion.",
+    "articulation_before_labeling": "The sentences labeled true start with a capital letter and end with a full stop, whereas the sentences labeled false neither start with a capital letter nor end with a full stop."
+}

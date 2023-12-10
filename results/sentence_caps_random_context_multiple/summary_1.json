@@ -1,0 +1,40 @@
+{
+    "diff": {
+        "correct": 0,
+        "mismatch": 90,
+        "incorrect": 0,
+        "corrupted": 0,
+        "total": 90,
+        "accuracy": 0.0,
+        "precision": NaN,
+        "recall": NaN,
+        "true": 45,
+        "false": 45
+    },
+    "pre": {
+        "correct": 90,
+        "mismatch": 0,
+        "incorrect": 0,
+        "corrupted": 0,
+        "total": 90,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "true": 45,
+        "false": 45
+    },
+    "post": {
+        "correct": 0,
+        "mismatch": 90,
+        "incorrect": 0,
+        "corrupted": 0,
+        "total": 90,
+        "accuracy": 0.0,
+        "precision": NaN,
+        "recall": NaN,
+        "true": 45,
+        "false": 45
+    },
+    "articulation_after_labeling": "The rule used for classification is that if the entire sentence is in uppercase characters, it is labeled as true; otherwise, it is labeled as false.",
+    "articulation_before_labeling": "The samples are labeled true when the entire sentence is in uppercase and false when the sentence is in lowercase."
+}

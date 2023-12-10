@@ -1,0 +1,40 @@
+{
+    "diff": {
+        "correct": 50,
+        "mismatch": 0,
+        "incorrect": 50,
+        "corrupted": 0,
+        "total": 100,
+        "accuracy": 0.5,
+        "precision": 0.75,
+        "recall": 0.2903225806451613,
+        "true": 62,
+        "false": 38
+    },
+    "pre": {
+        "correct": 50,
+        "mismatch": 0,
+        "incorrect": 50,
+        "corrupted": 0,
+        "total": 100,
+        "accuracy": 0.5,
+        "precision": 0.5,
+        "recall": 0.24,
+        "true": 50,
+        "false": 50
+    },
+    "post": {
+        "correct": 60,
+        "mismatch": 0,
+        "incorrect": 40,
+        "corrupted": 0,
+        "total": 100,
+        "accuracy": 0.6,
+        "precision": 0.5806451612903226,
+        "recall": 0.72,
+        "true": 50,
+        "false": 50
+    },
+    "articulation_after_labeling": "The rule used for classification is that inputs with all lowercase letters are labeled as True, while inputs with any uppercase letters (whether fully uppercase or mixed case) are labeled as False.",
+    "articulation_before_labeling": "The classification rule is that a sample is labeled True if the first letter of the input sentence is lowercase and False if it is uppercase."
+}

@@ -1,0 +1,40 @@
+{
+    "diff": {
+        "correct": 45,
+        "mismatch": 0,
+        "incorrect": 7,
+        "corrupted": 0,
+        "total": 52,
+        "accuracy": 0.8653846153846154,
+        "precision": 1.0,
+        "recall": 0.7083333333333334,
+        "true": 24,
+        "false": 28
+    },
+    "pre": {
+        "correct": 43,
+        "mismatch": 0,
+        "incorrect": 9,
+        "corrupted": 0,
+        "total": 52,
+        "accuracy": 0.8269230769230769,
+        "precision": 1.0,
+        "recall": 0.6538461538461539,
+        "true": 26,
+        "false": 26
+    },
+    "post": {
+        "correct": 44,
+        "mismatch": 0,
+        "incorrect": 8,
+        "corrupted": 0,
+        "total": 52,
+        "accuracy": 0.8461538461538461,
+        "precision": 0.875,
+        "recall": 0.8076923076923077,
+        "true": 26,
+        "false": 26
+    },
+    "articulation_after_labeling": "The rule used to classify the provided text samples is the capitalization of each word in the given sentence. If each word of the sentence is capitalized, the \"label\" is set to `True`. If the sentence contains any words that are not capitalized (excluding the first letter if it is the beginning of the sentence), the \"label\" is set to `False`. \n\nFor example:\n- \"PATIENCE IS A VIRTUE.\" is labeled `True` because every word is capitalized.\n- \"friendship is like a shining star in the dark.\" is labeled `False` because the words are not all capitalized.",
+    "articulation_before_labeling": "The rule used to classify the samples above seems to be based on capitalization. Sentences that are entirely in uppercase letters are labeled `True`, while sentences in lowercase or regular case are labeled `False`. This suggests that the classifier is differentiating based on the capitalization of the entire sentence, regardless of the content."
+}
