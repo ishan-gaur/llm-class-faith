@@ -65,8 +65,8 @@
       "nature",
       "start_the",
       "even_words",
-      "short",
       "short_margin",
+      "short",
       "start_consonant",
       "start_cap",
       "shared_sample",
@@ -226,8 +226,8 @@
       "nature",
       "start_the",
       "even_words",
-      "short",
       "short_margin",
+      "short",
       "start_consonant",
       "start_cap",
       "shared_sample",
@@ -301,8 +301,8 @@
       "nature",
       "start_the",
       "even_words",
-      "short",
       "short_margin",
+      "short",
       "start_consonant",
       "start_cap",
       "shared_sample",
@@ -382,8 +382,8 @@
       "nature",
       "start_the",
       "even_words",
-      "short",
       "short_margin",
+      "short",
       "start_consonant",
       "start_cap",
       "gpt4",
@@ -423,8 +423,8 @@
       "nature",
       "start_the",
       "even_words",
-      "short",
       "short_margin",
+      "short",
       "start_consonant",
       "start_cap",
       "gpt4",
@@ -627,20 +627,6 @@
   {
     "input": "COURAGE IS RESISTANCE TO FEAR, MASTERY OF FEAR, NOT ABSENCE OF FEAR.",
     "tags": [
-      "long",
-      "margin",
-      "even_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "sentence",
-      "all_upper"
-    ]
-  },
-  {
-    "input": "THE SILENCE OF NATURE IS VERY REAL. IT SURROUNDS YOU...",
-    "tags": [
-      "start_the",
       "margin",
       "even_words",
       "short",
@@ -652,24 +638,25 @@
     ]
   },
   {
-    "input": "A SUCCESSFUL MAN IS ONE WHO CAN LAY A FIRM FOUNDATION WITH THE BRICKS OTHERS HAVE THROWN AT HIM.",
+    "input": "THE SILENCE OF NATURE IS VERY REAL. IT SURROUNDS YOU...",
     "tags": [
-      "long",
-      "long_margin",
-      "odd_words",
+      "start_the",
+      "even_words",
+      "short_margin",
+      "short",
+      "start_consonant",
       "start_cap",
       "gpt4",
-      "start_vowel",
       "sentence",
       "all_upper"
     ]
   },
   {
-    "input": "IN THE END, WE WILL REMEMBER NOT THE WORDS OF OUR ENEMIES, BUT THE SILENCE OF OUR FRIENDS.",
+    "input": "A SUCCESSFUL MAN IS ONE WHO CAN LAY A FIRM FOUNDATION WITH THE BRICKS OTHERS HAVE THROWN AT HIM.",
     "tags": [
       "all_upper",
       "long",
-      "even_words",
+      "odd_words",
       "start_cap",
       "gpt4",
       "start_vowel",
@@ -678,11 +665,24 @@
     ]
   },
   {
+    "input": "IN THE END, WE WILL REMEMBER NOT THE WORDS OF OUR ENEMIES, BUT THE SILENCE OF OUR FRIENDS.",
+    "tags": [
+      "sentence",
+      "long",
+      "even_words",
+      "start_cap",
+      "gpt4",
+      "start_vowel",
+      "long_margin",
+      "all_upper"
+    ]
+  },
+  {
     "input": "THERE IS NOTHING EITHER GOOD OR BAD, BUT THINKING MAKES IT SO.",
     "tags": [
-      "long",
       "margin",
       "even_words",
+      "short",
       "start_consonant",
       "start_cap",
       "gpt4",
@@ -693,15 +693,15 @@
   {
     "input": "THE ONLY LIMIT TO OUR REALIZATION OF TOMORROW WILL BE OUR DOUBTS OF TODAY.",
     "tags": [
-      "all_upper",
+      "sentence",
       "start_the",
       "long",
       "even_words",
       "start_consonant",
       "start_cap",
       "gpt4",
-      "sentence",
-      "long_margin"
+      "long_margin",
+      "all_upper"
     ]
   },
   {
@@ -770,8 +770,8 @@
       "nature",
       "start_the",
       "even_words",
-      "short",
       "short_margin",
+      "short",
       "start_consonant",
       "shared_sample",
       "gpt4",
@@ -931,8 +931,8 @@
       "nature",
       "start_the",
       "even_words",
-      "short",
       "short_margin",
+      "short",
       "start_consonant",
       "proper_noun",
       "shared_sample",
@@ -1006,8 +1006,8 @@
       "nature",
       "start_the",
       "even_words",
-      "short",
       "short_margin",
+      "short",
       "start_consonant",
       "shared_sample",
       "gpt4",
@@ -1076,8 +1076,8 @@
       "nature",
       "start_the",
       "even_words",
-      "short",
       "short_margin",
+      "short",
       "start_consonant",
       "gpt4",
       "sentence",
@@ -1461,8 +1461,8 @@
       "nature",
       "start_the",
       "even_words",
-      "short",
       "short_margin",
+      "short",
       "start_consonant",
       "start_cap",
       "gpt4",
@@ -1843,12 +1843,12 @@
       "sentence",
       "start_the",
       "even_words",
-      "short",
+      "short_margin",
       "start_consonant",
       "start_cap",
       "proper_noun",
       "gpt4",
-      "margin"
+      "short"
     ]
   },
   {
@@ -2003,13 +2003,13 @@
       "sentence",
       "start_the",
       "even_words",
-      "short",
+      "short_margin",
       "start_consonant",
       "start_cap",
       "proper_noun",
       "city",
       "gpt4",
-      "margin"
+      "short"
     ]
   },
   {
@@ -2077,13 +2077,13 @@
       "sentence",
       "start_the",
       "even_words",
-      "short",
+      "short_margin",
       "start_consonant",
       "start_cap",
       "proper_noun",
       "city",
       "gpt4",
-      "margin"
+      "short"
     ]
   },
   {
@@ -2731,14 +2731,14 @@
   {
     "input": "Pedestrians navigated through the city's maze-like streets, guided by the glow of streetlights.",
     "tags": [
+      "sentence",
       "long",
       "odd_words",
       "start_consonant",
       "start_cap",
       "gpt4",
       "city",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
@@ -2758,9 +2758,9 @@
   {
     "input": "Neon lights flicker on as the dusk falls over the bustling metropolis.",
     "tags": [
-      "long",
       "margin",
       "even_words",
+      "short",
       "start_consonant",
       "start_cap",
       "gpt4",
@@ -2771,9 +2771,9 @@
   {
     "input": "Morning traffic weaves a slow dance of routine through the city's veins.",
     "tags": [
-      "long",
       "margin",
       "even_words",
+      "short",
       "start_consonant",
       "start_cap",
       "gpt4",
@@ -2810,6 +2810,7 @@
   {
     "input": "The aroma of street food blends with city sounds, creating an urban symphony.",
     "tags": [
+      "sentence",
       "start_the",
       "long",
       "odd_words",
@@ -2817,16 +2818,15 @@
       "start_cap",
       "gpt4",
       "city",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
     "input": "Pigeons coo and flutter in the crowded city squares filled with tourists.",
     "tags": [
-      "long",
       "margin",
       "even_words",
+      "short",
       "start_consonant",
       "start_cap",
       "gpt4",
@@ -2837,14 +2837,14 @@
   {
     "input": "An old tram rattles down the tracks, echoing through the city\u2019s old town.",
     "tags": [
+      "sentence",
       "long",
       "odd_words",
       "start_cap",
       "gpt4",
       "city",
       "start_vowel",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
@@ -2916,19 +2916,20 @@
   {
     "input": "An evening market comes to life, the city's heartbeat visible in every stall.",
     "tags": [
+      "sentence",
       "long",
       "odd_words",
       "start_cap",
       "gpt4",
       "city",
       "start_vowel",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
     "input": "The city's historic library stands as a testament to the thirst for knowledge.",
     "tags": [
+      "sentence",
       "start_the",
       "long",
       "odd_words",
@@ -2936,8 +2937,7 @@
       "start_cap",
       "gpt4",
       "city",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
@@ -2956,6 +2956,7 @@
   {
     "input": "The clinking of coffee cups provides a soundtrack for the city's sidewalk cafes.",
     "tags": [
+      "sentence",
       "start_the",
       "long",
       "odd_words",
@@ -2963,21 +2964,20 @@
       "start_cap",
       "gpt4",
       "city",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
     "input": "Steam rises from the city's sewer grates, adding mystery to the urban landscape.",
     "tags": [
+      "sentence",
       "long",
       "odd_words",
       "start_consonant",
       "start_cap",
       "gpt4",
       "city",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
@@ -2997,9 +2997,9 @@
   {
     "input": "An impromptu street performance gathers a city crowd, all united by curiosity.",
     "tags": [
-      "long",
       "margin",
       "even_words",
+      "short",
       "start_cap",
       "gpt4",
       "city",
@@ -3010,6 +3010,7 @@
   {
     "input": "The city's clock tower strikes noon, its chimes a reminder of passing time.",
     "tags": [
+      "sentence",
       "start_the",
       "long",
       "odd_words",
@@ -3017,21 +3018,20 @@
       "start_cap",
       "gpt4",
       "city",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
     "input": "Dawn breaks over the mountain, casting a golden glow on the valley below.",
     "tags": [
       "nature",
+      "sentence",
       "long",
       "odd_words",
       "start_consonant",
       "start_cap",
       "gpt4",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
@@ -3052,22 +3052,22 @@
     "input": "A gentle brook meanders through the meadow, its babbling a sweet nature's lullaby.",
     "tags": [
       "nature",
+      "sentence",
       "long",
       "odd_words",
       "start_cap",
       "gpt4",
       "start_vowel",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
     "input": "Wildflowers blanket the hillside, a vivid tapestry of hues woven by nature.",
     "tags": [
       "nature",
-      "long",
       "margin",
       "even_words",
+      "short",
       "start_consonant",
       "start_cap",
       "gpt4",
@@ -3091,14 +3091,14 @@
     "input": "The ocean's waves caress the shore, an eternal dance of ebb and flow.",
     "tags": [
       "nature",
+      "sentence",
       "start_the",
       "long",
       "odd_words",
       "start_consonant",
       "start_cap",
       "gpt4",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
@@ -3118,23 +3118,23 @@
     "input": "The desert at midnight becomes a stage for a symphony of cricket songs.",
     "tags": [
       "nature",
+      "sentence",
       "start_the",
       "long",
       "odd_words",
       "start_consonant",
       "start_cap",
       "gpt4",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
     "input": "A rainbow arches across the sky, a fleeting masterpiece after the storm.",
     "tags": [
       "nature",
-      "long",
       "margin",
       "even_words",
+      "short",
       "start_cap",
       "gpt4",
       "start_vowel",
@@ -3159,13 +3159,13 @@
     "input": "Fog clings to the forest floor, shrouding the woods in a ghostly veil.",
     "tags": [
       "nature",
+      "sentence",
       "long",
       "odd_words",
       "start_consonant",
       "start_cap",
       "gpt4",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
@@ -3186,27 +3186,27 @@
     "input": "A waterfall cascades down the cliff, its roar a testament to nature's power.",
     "tags": [
       "nature",
+      "sentence",
       "long",
       "odd_words",
       "start_cap",
       "gpt4",
       "start_vowel",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
     "input": "The northern lights dance across the sky, a spectacle of color and movement.",
     "tags": [
       "nature",
+      "sentence",
       "start_the",
       "long",
       "odd_words",
       "start_consonant",
       "start_cap",
       "gpt4",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
@@ -3240,8 +3240,8 @@
     "input": "Lightning illuminates the sky, followed by the rumble of thunder.",
     "tags": [
       "nature",
-      "margin",
       "even_words",
+      "short_margin",
       "short",
       "start_consonant",
       "start_cap",
@@ -3266,23 +3266,23 @@
     "input": "The icy touch of winter frosts the landscape with a delicate white sheen.",
     "tags": [
       "nature",
+      "sentence",
       "start_the",
       "long",
       "odd_words",
       "start_consonant",
       "start_cap",
       "gpt4",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
     "input": "A lone cactus stands resilient against the backdrop of the sprawling desert.",
     "tags": [
       "nature",
-      "long",
       "margin",
       "even_words",
+      "short",
       "start_cap",
       "gpt4",
       "start_vowel",
@@ -3331,8 +3331,8 @@
   {
     "input": "Sirens wail, slicing through the city's cacophony, rushing toward urgency.",
     "tags": [
-      "margin",
       "even_words",
+      "short_margin",
       "short",
       "start_consonant",
       "start_cap",
@@ -3344,8 +3344,8 @@
   {
     "input": "Pedestrians navigate puddles reflecting neon signs in the post-rain cityscape.",
     "tags": [
-      "margin",
       "even_words",
+      "short_margin",
       "short",
       "start_consonant",
       "start_cap",
@@ -3357,6 +3357,7 @@
   {
     "input": "The city breathes life into its museums, where history whispers to the present.",
     "tags": [
+      "sentence",
       "start_the",
       "long",
       "odd_words",
@@ -3364,8 +3365,7 @@
       "start_cap",
       "gpt4",
       "city",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
@@ -3384,9 +3384,9 @@
   {
     "input": "Steel bridges span the city's waterways, arteries in its vast sprawling body.",
     "tags": [
-      "long",
       "margin",
       "even_words",
+      "short",
       "start_consonant",
       "start_cap",
       "gpt4",
@@ -3450,14 +3450,14 @@
   {
     "input": "A multitude of languages fills the city air, a chorus of global humanity.",
     "tags": [
+      "sentence",
       "long",
       "odd_words",
       "start_cap",
       "gpt4",
       "city",
       "start_vowel",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
@@ -3490,6 +3490,7 @@
   {
     "input": "The aroma of fresh bread drifts from a bakery, a city morning tradition.",
     "tags": [
+      "sentence",
       "start_the",
       "long",
       "odd_words",
@@ -3497,8 +3498,7 @@
       "start_cap",
       "gpt4",
       "city",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
@@ -3530,9 +3530,9 @@
   {
     "input": "Joggers trace their paths along the city's shoreline, the skyline their witness.",
     "tags": [
-      "long",
       "margin",
       "even_words",
+      "short",
       "start_consonant",
       "start_cap",
       "gpt4",
@@ -3543,6 +3543,7 @@
   {
     "input": "The city, cloaked in twilight blue, bridges the transition from day to night.",
     "tags": [
+      "sentence",
       "start_the",
       "long",
       "odd_words",
@@ -3550,8 +3551,7 @@
       "start_cap",
       "gpt4",
       "city",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
@@ -3571,9 +3571,9 @@
     "input": "A pebble skims the lake, each bounce a ripple widening into calm.",
     "tags": [
       "nature",
-      "long",
       "margin",
       "even_words",
+      "short",
       "start_cap",
       "gpt4",
       "start_vowel",
@@ -3624,9 +3624,9 @@
     "input": "Mountains stand stoic, their snow-capped peaks touching the realm of the gods.",
     "tags": [
       "nature",
-      "long",
       "margin",
       "even_words",
+      "short",
       "start_consonant",
       "start_cap",
       "gpt4",
@@ -3650,13 +3650,13 @@
     "input": "A heron stands motionless by the water, a silent hunter in the reeds.",
     "tags": [
       "nature",
+      "sentence",
       "long",
       "odd_words",
       "start_cap",
       "gpt4",
       "start_vowel",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
@@ -3728,9 +3728,9 @@
     "input": "A firefly's glow punctuates the night, a tiny beacon among the shadows.",
     "tags": [
       "nature",
-      "long",
       "margin",
       "even_words",
+      "short",
       "start_cap",
       "gpt4",
       "start_vowel",
@@ -3741,23 +3741,23 @@
     "input": "The jungle's dense canopy throws a quilt of shade over the forest floor.",
     "tags": [
       "nature",
+      "sentence",
       "start_the",
       "long",
       "odd_words",
       "start_consonant",
       "start_cap",
       "gpt4",
-      "sentence",
-      "long_margin"
+      "margin"
     ]
   },
   {
     "input": "A lone wolf howls, its call unanswered in the wilderness's vast expanse.",
     "tags": [
       "nature",
-      "long",
       "margin",
       "even_words",
+      "short",
       "start_cap",
       "gpt4",
       "start_vowel",
@@ -3769,9 +3769,9 @@
     "tags": [
       "nature",
       "start_the",
-      "long",
       "margin",
       "even_words",
+      "short",
       "start_consonant",
       "start_cap",
       "gpt4",
@@ -3796,9 +3796,9 @@
     "tags": [
       "nature",
       "start_the",
-      "margin",
       "even_words",
       "short",
+      "short_margin",
       "start_consonant",
       "start_cap",
       "gpt4",

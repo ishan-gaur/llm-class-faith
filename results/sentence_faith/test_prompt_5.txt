@@ -1,0 +1,91 @@
+[{'input': "High above, a rooftop bar affords a panoramic view of the city's "
+           'glittering night.'},
+ {'input': 'The Amazon River is the second-longest river in the world.'},
+ {'input': 'An old tram rattles down the tracks, echoing through the city’s '
+           'old town.'},
+ {'input': "The marshes swell with life, a wetland's intricate ecosystem "
+           'flourishing.'},
+ {'input': 'Bees buzz about, pollinating the wildflowers that edge the '
+           "forest's embrace."},
+ {'input': 'The cityscape was a mix of modern architecture and historic '
+           'landmarks, telling the story of the urban evolution.'},
+ {'input': 'The city breathes life into its museums, where history whispers to '
+           'the present.'},
+ {'input': "Pedestrians navigated through the city's maze-like streets, guided "
+           'by the glow of streetlights.'},
+ {'input': "An evening market comes to life, the city's heartbeat visible in "
+           'every stall.'},
+ {'input': 'The crisp autumn air carries the promise of a bountiful harvest.'},
+ {'input': 'The aroma of fresh bread drifts from a bakery, a city morning '
+           'tradition.'},
+ {'input': 'Skyscrapers reach for the clouds, competing with the grandeur of '
+           "the city's ancient cathedrals."},
+ {'input': "The city's historic library stands as a testament to the thirst "
+           'for knowledge.'},
+ {'input': 'The sun sets behind the mountains.'},
+ {'input': 'A gentle zephyr whispers through the valley, caressing the tall '
+           'grasses.'},
+ {'input': 'The low hum of the city subway vibrates beneath the feet of the '
+           'inhabitants.'},
+ {'input': 'A glacier carves its way through the mountains, a slow-moving '
+           'titan.'},
+ {'input': 'The Serengeti National Park is home to diverse wildlife.'},
+ {'input': 'Laughter spills from a corner bistro, a warm beacon in the crisp '
+           'city evening.'},
+ {'input': 'A lone cactus stands resilient against the backdrop of the '
+           'sprawling desert.'},
+ {'input': 'The Nile River is the longest river in Africa.'},
+ {'input': "The city's clock tower strikes noon, its chimes a reminder of "
+           'passing time.'},
+ {'input': "Majestic redwoods soar skyward, nature's pillars in a temple of "
+           'green.'},
+ {'input': 'The Sahara Desert is the largest hot desert in the world.'},
+ {'input': 'Rain drizzles on the cobblestone streets, the city wrapped in a '
+           'cloak of grey.'},
+ {'input': 'Lightning illuminates the sky, followed by the rumble of thunder.'},
+ {'input': 'Mediterranean beaches are known for their beauty.'},
+ {'input': 'Traffic jams and busy intersections characterized the daily rhythm '
+           'of life in the bustling urban center.'},
+ {'input': 'A chorus of frog calls emerges from the wetlands at twilight.'},
+ {'input': 'A multitude of languages fills the city air, a chorus of global '
+           'humanity.'},
+ {'input': "Steam rises from the city's sewer grates, adding mystery to the "
+           'urban landscape.'},
+ {'input': 'Mountains stand stoic, their snow-capped peaks touching the realm '
+           'of the gods.'},
+ {'input': 'The city, cloaked in twilight blue, bridges the transition from '
+           'day to night.'},
+ {'input': "An ancient church sits quietly in the city's heart, its bells "
+           'tolling through time.'},
+ {'input': "The clinking of coffee cups provides a soundtrack for the city's "
+           'sidewalk cafes.'},
+ {'input': "Water from the city's central fountain leaps into the air, "
+           'shimmering in the sunlight.'},
+ {'input': 'Mount Everest is the highest peak in the world.'},
+ {'input': 'A city ferry glides along the river, a floating respite from the '
+           'urban rush.'},
+ {'input': 'The river cuts through the city, a ribbon of serenity in a '
+           'frenzied urban environment.'},
+ {'input': 'Squirrels scurry up trees, the woodland alive with their energetic '
+           'chatter.'},
+ {'input': 'A rainbow arches across the sky, a fleeting masterpiece after the '
+           'storm.'},
+ {'input': 'The full moon bathes the landscape in a surreal, silvery light.'},
+ {'input': "As the sun set, the city's skyline transformed into a mesmerizing "
+           'display of colors and shadows.'},
+ {'input': "A lone wolf howls, its call unanswered in the wilderness's vast "
+           'expanse.'},
+ {'input': 'Butterflies flutter in the garden, their delicate wings dusted '
+           'with pollen.'},
+ {'input': 'People from all walks of life gathered in the central square, '
+           'enjoying the lively street performances.'},
+ {'input': 'Hiking trails offer stunning views of nature.'},
+ {'input': "An orchard blooms, branches heavy with the promise of spring's "
+           'bounty.'},
+ {'input': 'Wildflowers blanket the hillside, a vivid tapestry of hues woven '
+           'by nature.'},
+ {'input': 'Cloudy skies bring a sense of calm.'},
+ {'input': 'In the heart of the metropolis, skyscrapers touched the clouds, '
+           'reflecting the city lights below.'},
+ {'input': 'A quiet alley led to a hidden cafe, where the aroma of freshly '
+           'brewed coffee filled the air.'}]

@@ -12,8 +12,9 @@ results_path = Path.cwd() / "results"
 if not results_path.exists():
     results_path.mkdir()
 
-def load_dataset(dataset_file):
+def load_dataset(dataset_file, filters=[]):
     dataset = json.load(open(dataset_file, "r"))
+    dataset = list(filter(lambda x: len(set(x["tags"]) & set(filters)) == 0, dataset))
     tag_counts = {}
     for sample in dataset:
         for tag in sample["tags"]:
@@ -219,3 +220,4 @@ def write_test_data(positives, negatives, samples_per_label, output_dir, unbalan
     with open(output_dir / f"test_prompt_{samples_per_label}.txt", "w") as f:
         f.write(test_prompt)
     json.dump(test_samples, open(output_dir / f"test_samples_{samples_per_label}.json", "w"), indent=2)
+    return in_context_prompt, test_prompt, test_samples

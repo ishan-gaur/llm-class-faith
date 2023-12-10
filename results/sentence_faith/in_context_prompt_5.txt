@@ -1,0 +1,27 @@
+[{'input': 'An old bookstore nests between the new city developments, a '
+           'treasure trove of stories.',
+  'label': True},
+ {'input': 'Stars twinkle like diamonds on the fabric of the night sky.',
+  'label': False},
+ {'input': 'Neon signs illuminated the night, casting a vibrant glow on the '
+           'crowded urban thoroughfare.',
+  'label': True},
+ {'input': "Morning dew glistens on spider webs, each a delicate jeweler's "
+           'masterpiece.',
+  'label': False},
+ {'input': 'The city at night resembled a vast canvas, painted with the '
+           'vibrant hues of illuminated billboards and skyscrapers.',
+  'label': True},
+ {'input': "The forest stands silent, the trees tall sentinels in nature's "
+           'sanctuary.',
+  'label': False},
+ {'input': 'The aroma of street food blends with city sounds, creating an '
+           'urban symphony.',
+  'label': True},
+ {'input': "Crickets serve as nature's musicians, serenading the approaching "
+           'dusk.',
+  'label': False},
+ {'input': 'The bustling city streets echoed with the sounds of honking horns '
+           'and hurried footsteps.',
+  'label': True},
+ {'input': 'The Great Barrier Reef is a natural wonder.', 'label': False}]
