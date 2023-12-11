@@ -91,7 +91,8 @@ def in_context_from_samples(samples, tiled=True, prompt_prefix="", prompt_sort_b
     for sample in prompt_order:
         prompt_samples.append({key: sample[key] for key in keys})
 
-    prompt = prompt_prefix + pformat(prompt_samples)
+    # prompt = prompt_prefix + pformat(prompt_samples)
+    prompt = prompt_prefix + json.dumps(prompt_samples)
     return prompt
 
 def test_prompt_from_samples(positives, negatives, user_prefix="", tiled=False):
@@ -99,7 +100,9 @@ def test_prompt_from_samples(positives, negatives, user_prefix="", tiled=False):
     if not tiled:
         shuffle(samples)
     prompt_samples = [{"input": sample["input"]} for sample in samples]
-    return user_prefix + pformat(prompt_samples), samples
+    # return user_prefix + pformat(prompt_samples), samples
+    return user_prefix + json.dumps(prompt_samples), samples
+    # return user_prefix + str(prompt_samples), samples
 
 def add_message(role, content, logname, logdir, reset=False):
     log_path = logdir if isinstance(logdir, Path) else Path(logdir)
@@ -130,16 +133,20 @@ def gpt_prediction(messages, model="gpt-4", temperature=1.0, json_mode=False, re
             print(user_query)
             raise ValueError("json_mode is on but user_query does not contain \"json\"")
 
-    MODEL_MAX = 4096
-    context_length = math.floor(sum([len(m["content"].split(' ')) for m in messages]) / 3 * 4)
-    tokens_remaining = MODEL_MAX - context_length
+    if max_tokens is None:
+        MODEL_MAX = 4096
+        context_length = math.floor(sum([len(m["content"].split(' ')) for m in messages]) / 3 * 4)
+        tokens_remaining = MODEL_MAX - context_length
+        token_limit = min(MODEL_MAX, max(0, tokens_remaining))
+    else:
+        token_limit = max_tokens
 
     response = client.chat.completions.create(
         model=model,
         messages=messages,
         temperature=temperature,
         # max_tokens=4096, # max for the 1106-preview model
-        max_tokens=min(MODEL_MAX, max(0, tokens_remaining)) if max_tokens is None else max_tokens,
+        max_tokens=token_limit,
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0,
