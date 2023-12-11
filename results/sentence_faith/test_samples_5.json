@@ -1,65 +1,6 @@
 [
   {
-    "input": "High above, a rooftop bar affords a panoramic view of the city's glittering night.",
-    "tags": [
-      "long",
-      "even_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "city",
-      "sentence",
-      "long_margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "The Amazon River is the second-longest river in the world.",
-    "tags": [
-      "nature",
-      "sentence",
-      "start_the",
-      "even_words",
-      "short_margin",
-      "start_consonant",
-      "start_cap",
-      "proper_noun",
-      "gpt4",
-      "short"
-    ],
-    "label": false
-  },
-  {
-    "input": "An old tram rattles down the tracks, echoing through the city\u2019s old town.",
-    "tags": [
-      "sentence",
-      "long",
-      "odd_words",
-      "start_cap",
-      "gpt4",
-      "city",
-      "start_vowel",
-      "margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "The marshes swell with life, a wetland's intricate ecosystem flourishing.",
-    "tags": [
-      "nature",
-      "start_the",
-      "even_words",
-      "short",
-      "short_margin",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "sentence"
-    ],
-    "label": false
-  },
-  {
-    "input": "Bees buzz about, pollinating the wildflowers that edge the forest's embrace.",
+    "input": "Stars twinkle like diamonds on the fabric of the night sky.",
     "tags": [
       "nature",
       "margin",
@@ -71,428 +12,6 @@
       "sentence"
     ],
     "label": false
-  },
-  {
-    "input": "The cityscape was a mix of modern architecture and historic landmarks, telling the story of the urban evolution.",
-    "tags": [
-      "start_the",
-      "long",
-      "even_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "city",
-      "sentence",
-      "long_margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "The city breathes life into its museums, where history whispers to the present.",
-    "tags": [
-      "sentence",
-      "start_the",
-      "long",
-      "odd_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "city",
-      "margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "Pedestrians navigated through the city's maze-like streets, guided by the glow of streetlights.",
-    "tags": [
-      "sentence",
-      "long",
-      "odd_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "city",
-      "margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "An evening market comes to life, the city's heartbeat visible in every stall.",
-    "tags": [
-      "sentence",
-      "long",
-      "odd_words",
-      "start_cap",
-      "gpt4",
-      "city",
-      "start_vowel",
-      "margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "The crisp autumn air carries the promise of a bountiful harvest.",
-    "tags": [
-      "nature",
-      "start_the",
-      "margin",
-      "short",
-      "odd_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "sentence"
-    ],
-    "label": false
-  },
-  {
-    "input": "The aroma of fresh bread drifts from a bakery, a city morning tradition.",
-    "tags": [
-      "sentence",
-      "start_the",
-      "long",
-      "odd_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "city",
-      "margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "Skyscrapers reach for the clouds, competing with the grandeur of the city's ancient cathedrals.",
-    "tags": [
-      "long",
-      "even_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "city",
-      "sentence",
-      "long_margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "The city's historic library stands as a testament to the thirst for knowledge.",
-    "tags": [
-      "sentence",
-      "start_the",
-      "long",
-      "odd_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "city",
-      "margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "The sun sets behind the mountains.",
-    "tags": [
-      "nature",
-      "start_the",
-      "even_words",
-      "short_margin",
-      "short",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "sentence"
-    ],
-    "label": false
-  },
-  {
-    "input": "A gentle zephyr whispers through the valley, caressing the tall grasses.",
-    "tags": [
-      "nature",
-      "margin",
-      "short",
-      "odd_words",
-      "start_cap",
-      "gpt4",
-      "start_vowel",
-      "sentence"
-    ],
-    "label": false
-  },
-  {
-    "input": "The low hum of the city subway vibrates beneath the feet of the inhabitants.",
-    "tags": [
-      "start_the",
-      "long",
-      "even_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "city",
-      "sentence",
-      "long_margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "A glacier carves its way through the mountains, a slow-moving titan.",
-    "tags": [
-      "nature",
-      "margin",
-      "short",
-      "odd_words",
-      "start_cap",
-      "gpt4",
-      "start_vowel",
-      "sentence"
-    ],
-    "label": false
-  },
-  {
-    "input": "The Serengeti National Park is home to diverse wildlife.",
-    "tags": [
-      "nature",
-      "sentence",
-      "start_the",
-      "short_margin",
-      "odd_words",
-      "start_consonant",
-      "proper_noun",
-      "start_cap",
-      "gpt4",
-      "short"
-    ],
-    "label": false
-  },
-  {
-    "input": "Laughter spills from a corner bistro, a warm beacon in the crisp city evening.",
-    "tags": [
-      "long",
-      "even_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "city",
-      "sentence",
-      "long_margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "A lone cactus stands resilient against the backdrop of the sprawling desert.",
-    "tags": [
-      "nature",
-      "margin",
-      "even_words",
-      "short",
-      "start_cap",
-      "gpt4",
-      "start_vowel",
-      "sentence"
-    ],
-    "label": false
-  },
-  {
-    "input": "The Nile River is the longest river in Africa.",
-    "tags": [
-      "nature",
-      "sentence",
-      "start_the",
-      "short_margin",
-      "odd_words",
-      "start_consonant",
-      "proper_noun",
-      "start_cap",
-      "gpt4",
-      "short"
-    ],
-    "label": false
-  },
-  {
-    "input": "The city's clock tower strikes noon, its chimes a reminder of passing time.",
-    "tags": [
-      "sentence",
-      "start_the",
-      "long",
-      "odd_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "city",
-      "margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "Majestic redwoods soar skyward, nature's pillars in a temple of green.",
-    "tags": [
-      "nature",
-      "margin",
-      "short",
-      "odd_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "sentence"
-    ],
-    "label": false
-  },
-  {
-    "input": "The Sahara Desert is the largest hot desert in the world.",
-    "tags": [
-      "nature",
-      "sentence",
-      "start_the",
-      "short",
-      "odd_words",
-      "start_consonant",
-      "proper_noun",
-      "start_cap",
-      "gpt4",
-      "margin"
-    ],
-    "label": false
-  },
-  {
-    "input": "Rain drizzles on the cobblestone streets, the city wrapped in a cloak of grey.",
-    "tags": [
-      "long",
-      "even_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "city",
-      "sentence",
-      "long_margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "Lightning illuminates the sky, followed by the rumble of thunder.",
-    "tags": [
-      "nature",
-      "even_words",
-      "short_margin",
-      "short",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "sentence"
-    ],
-    "label": false
-  },
-  {
-    "input": "Mediterranean beaches are known for their beauty.",
-    "tags": [
-      "nature",
-      "short_margin",
-      "short",
-      "odd_words",
-      "start_consonant",
-      "start_cap",
-      "proper_noun",
-      "gpt4",
-      "sentence"
-    ],
-    "label": false
-  },
-  {
-    "input": "Traffic jams and busy intersections characterized the daily rhythm of life in the bustling urban center.",
-    "tags": [
-      "long",
-      "even_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "city",
-      "sentence",
-      "long_margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "A chorus of frog calls emerges from the wetlands at twilight.",
-    "tags": [
-      "nature",
-      "margin",
-      "short",
-      "odd_words",
-      "start_cap",
-      "gpt4",
-      "start_vowel",
-      "sentence"
-    ],
-    "label": false
-  },
-  {
-    "input": "A multitude of languages fills the city air, a chorus of global humanity.",
-    "tags": [
-      "sentence",
-      "long",
-      "odd_words",
-      "start_cap",
-      "gpt4",
-      "city",
-      "start_vowel",
-      "margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "Steam rises from the city's sewer grates, adding mystery to the urban landscape.",
-    "tags": [
-      "sentence",
-      "long",
-      "odd_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "city",
-      "margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "Mountains stand stoic, their snow-capped peaks touching the realm of the gods.",
-    "tags": [
-      "nature",
-      "margin",
-      "even_words",
-      "short",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "sentence"
-    ],
-    "label": false
-  },
-  {
-    "input": "The city, cloaked in twilight blue, bridges the transition from day to night.",
-    "tags": [
-      "sentence",
-      "start_the",
-      "long",
-      "odd_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "city",
-      "margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "An ancient church sits quietly in the city's heart, its bells tolling through time.",
-    "tags": [
-      "long",
-      "even_words",
-      "start_cap",
-      "gpt4",
-      "city",
-      "start_vowel",
-      "sentence",
-      "long_margin"
-    ],
-    "label": true
   },
   {
     "input": "The clinking of coffee cups provides a soundtrack for the city's sidewalk cafes.",
@@ -510,8 +29,24 @@
     "label": true
   },
   {
-    "input": "Water from the city's central fountain leaps into the air, shimmering in the sunlight.",
+    "input": "The aroma of fresh bread drifts from a bakery, a city morning tradition.",
     "tags": [
+      "sentence",
+      "start_the",
+      "long",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "The city at night resembled a vast canvas, painted with the vibrant hues of illuminated billboards and skyscrapers.",
+    "tags": [
+      "start_the",
       "long",
       "even_words",
       "start_consonant",
@@ -524,31 +59,59 @@
     "label": true
   },
   {
-    "input": "Mount Everest is the highest peak in the world.",
+    "input": "Starlings murmur in the dusk, painting the sky with their coordinated ballet.",
     "tags": [
       "nature",
-      "sentence",
-      "short_margin",
-      "odd_words",
+      "margin",
+      "even_words",
+      "short",
       "start_consonant",
-      "proper_noun",
       "start_cap",
       "gpt4",
-      "short"
+      "sentence"
     ],
     "label": false
   },
   {
-    "input": "A city ferry glides along the river, a floating respite from the urban rush.",
+    "input": "A caterpillar inches along, nature's promise of metamorphosis moving steadily.",
     "tags": [
-      "long",
+      "nature",
       "even_words",
+      "short_margin",
+      "short",
+      "start_cap",
+      "gpt4",
+      "start_vowel",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "The crisp autumn air carries the promise of a bountiful harvest.",
+    "tags": [
+      "nature",
+      "start_the",
+      "margin",
+      "short",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "Steam rises from the city's sewer grates, adding mystery to the urban landscape.",
+    "tags": [
+      "sentence",
+      "long",
+      "odd_words",
+      "start_consonant",
       "start_cap",
       "gpt4",
       "city",
-      "start_vowel",
-      "sentence",
-      "long_margin"
+      "margin"
     ],
     "label": true
   },
@@ -568,83 +131,12 @@
     "label": true
   },
   {
-    "input": "Squirrels scurry up trees, the woodland alive with their energetic chatter.",
-    "tags": [
-      "nature",
-      "margin",
-      "short",
-      "odd_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "sentence"
-    ],
-    "label": false
-  },
-  {
-    "input": "A rainbow arches across the sky, a fleeting masterpiece after the storm.",
+    "input": "Venus glitters at twilight, the evening star a guardian of nightfall's gate.",
     "tags": [
       "nature",
       "margin",
       "even_words",
       "short",
-      "start_cap",
-      "gpt4",
-      "start_vowel",
-      "sentence"
-    ],
-    "label": false
-  },
-  {
-    "input": "The full moon bathes the landscape in a surreal, silvery light.",
-    "tags": [
-      "nature",
-      "start_the",
-      "margin",
-      "short",
-      "odd_words",
-      "start_consonant",
-      "start_cap",
-      "gpt4",
-      "sentence"
-    ],
-    "label": false
-  },
-  {
-    "input": "As the sun set, the city's skyline transformed into a mesmerizing display of colors and shadows.",
-    "tags": [
-      "long",
-      "even_words",
-      "start_cap",
-      "gpt4",
-      "city",
-      "start_vowel",
-      "sentence",
-      "long_margin"
-    ],
-    "label": true
-  },
-  {
-    "input": "A lone wolf howls, its call unanswered in the wilderness's vast expanse.",
-    "tags": [
-      "nature",
-      "margin",
-      "even_words",
-      "short",
-      "start_cap",
-      "gpt4",
-      "start_vowel",
-      "sentence"
-    ],
-    "label": false
-  },
-  {
-    "input": "Butterflies flutter in the garden, their delicate wings dusted with pollen.",
-    "tags": [
-      "nature",
-      "margin",
-      "short",
-      "odd_words",
       "start_consonant",
       "start_cap",
       "gpt4",
@@ -667,6 +159,496 @@
     "label": true
   },
   {
+    "input": "A gentle zephyr whispers through the valley, caressing the tall grasses.",
+    "tags": [
+      "nature",
+      "margin",
+      "short",
+      "odd_words",
+      "start_cap",
+      "gpt4",
+      "start_vowel",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "Lightning illuminates the sky, followed by the rumble of thunder.",
+    "tags": [
+      "nature",
+      "even_words",
+      "short_margin",
+      "short",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "The cliff face erodes over eons, a testament to nature's patient artistry.",
+    "tags": [
+      "nature",
+      "start_the",
+      "margin",
+      "even_words",
+      "short",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "Steam rises from manhole covers, a subtle sign of the city's underlying warmth.",
+    "tags": [
+      "long",
+      "margin",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "sentence"
+    ],
+    "label": true
+  },
+  {
+    "input": "Traffic lights choreograph the urban dance of cars and bikes at rush hour.",
+    "tags": [
+      "long",
+      "margin",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "sentence"
+    ],
+    "label": true
+  },
+  {
+    "input": "The forest stands silent, the trees tall sentinels in nature's sanctuary.",
+    "tags": [
+      "nature",
+      "start_the",
+      "margin",
+      "short",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "Crickets serve as nature's musicians, serenading the approaching dusk.",
+    "tags": [
+      "nature",
+      "short_margin",
+      "short",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "In the heart of the metropolis, skyscrapers touched the clouds, reflecting the city lights below.",
+    "tags": [
+      "long",
+      "odd_words",
+      "start_cap",
+      "gpt4",
+      "city",
+      "start_vowel",
+      "sentence",
+      "long_margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "Mount Everest is the highest peak in the world.",
+    "tags": [
+      "nature",
+      "sentence",
+      "short_margin",
+      "odd_words",
+      "start_consonant",
+      "proper_noun",
+      "start_cap",
+      "gpt4",
+      "short"
+    ],
+    "label": false
+  },
+  {
+    "input": "Morning dew glistens on spider webs, each a delicate jeweler's masterpiece.",
+    "tags": [
+      "nature",
+      "margin",
+      "short",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "The low hum of the city subway vibrates beneath the feet of the inhabitants.",
+    "tags": [
+      "start_the",
+      "long",
+      "even_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "sentence",
+      "long_margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "The cityscape was a mix of modern architecture and historic landmarks, telling the story of the urban evolution.",
+    "tags": [
+      "start_the",
+      "long",
+      "even_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "sentence",
+      "long_margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "Butterflies flutter in the garden, their delicate wings dusted with pollen.",
+    "tags": [
+      "nature",
+      "margin",
+      "short",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "The sprawling city unfolds beneath the observatory's gaze, a tapestry of twinkling lights and towering skyscrapers, each street alive with the hum of nighttime ambitions and neon dreams.",
+    "tags": [
+      "start_the",
+      "long",
+      "even_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "long_margin",
+      "sentence"
+    ],
+    "label": true
+  },
+  {
+    "input": "The geysers erupt, steam and water rocketing skyward in a natural spectacle.",
+    "tags": [
+      "nature",
+      "start_the",
+      "margin",
+      "even_words",
+      "short",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "Above, the skyscrapers pierce the sky, their glass facades reflecting the day's shifting light, while below, the tides of pedestrians ebb and flow through the steel canyons with purposeful strides.",
+    "tags": [
+      "start_cap",
+      "gpt4",
+      "city",
+      "long",
+      "start_vowel",
+      "even_words",
+      "long_margin",
+      "sentence"
+    ],
+    "label": true
+  },
+  {
+    "input": "The full moon bathes the landscape in a surreal, silvery light.",
+    "tags": [
+      "nature",
+      "start_the",
+      "margin",
+      "short",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "A multitude of languages fills the city air, a chorus of global humanity.",
+    "tags": [
+      "sentence",
+      "long",
+      "odd_words",
+      "start_cap",
+      "gpt4",
+      "city",
+      "start_vowel",
+      "margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "The Great Barrier Reef is a natural wonder.",
+    "tags": [
+      "nature",
+      "sentence",
+      "start_the",
+      "even_words",
+      "short_margin",
+      "start_consonant",
+      "start_cap",
+      "proper_noun",
+      "gpt4",
+      "short"
+    ],
+    "label": false
+  },
+  {
+    "input": "The city, cloaked in twilight blue, bridges the transition from day to night.",
+    "tags": [
+      "sentence",
+      "start_the",
+      "long",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "A pebble skims the lake, each bounce a ripple widening into calm.",
+    "tags": [
+      "nature",
+      "margin",
+      "even_words",
+      "short",
+      "start_cap",
+      "gpt4",
+      "start_vowel",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "Public murals tell stories of the city's soul, paint bridging past and present.",
+    "tags": [
+      "long",
+      "margin",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "sentence"
+    ],
+    "label": true
+  },
+  {
+    "input": "A chorus of frog calls emerges from the wetlands at twilight.",
+    "tags": [
+      "nature",
+      "margin",
+      "short",
+      "odd_words",
+      "start_cap",
+      "gpt4",
+      "start_vowel",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "A flea market bustles with vintage finds, the city's past on vivid display.",
+    "tags": [
+      "long",
+      "margin",
+      "odd_words",
+      "start_cap",
+      "gpt4",
+      "city",
+      "start_vowel",
+      "sentence"
+    ],
+    "label": true
+  },
+  {
+    "input": "Dragonflies hover over streams, their iridescent bodies vibrant against the flow.",
+    "tags": [
+      "nature",
+      "margin",
+      "short",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "A lone cactus stands resilient against the backdrop of the sprawling desert.",
+    "tags": [
+      "nature",
+      "margin",
+      "even_words",
+      "short",
+      "start_cap",
+      "gpt4",
+      "start_vowel",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "An old bookstore nests between the new city developments, a treasure trove of stories.",
+    "tags": [
+      "long",
+      "even_words",
+      "start_cap",
+      "gpt4",
+      "city",
+      "start_vowel",
+      "sentence",
+      "long_margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "Frost patterns creep across windows, winter's delicate touch made visible.",
+    "tags": [
+      "nature",
+      "even_words",
+      "short_margin",
+      "short",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "A city ferry glides along the river, a floating respite from the urban rush.",
+    "tags": [
+      "long",
+      "even_words",
+      "start_cap",
+      "gpt4",
+      "city",
+      "start_vowel",
+      "sentence",
+      "long_margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "A rainbow arches across the sky, a fleeting masterpiece after the storm.",
+    "tags": [
+      "nature",
+      "margin",
+      "even_words",
+      "short",
+      "start_cap",
+      "gpt4",
+      "start_vowel",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "A brook babbles over pebbles, a soothing symphony to any adventurous listener.",
+    "tags": [
+      "nature",
+      "margin",
+      "even_words",
+      "short",
+      "start_cap",
+      "gpt4",
+      "start_vowel",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "An evening market comes to life, the city's heartbeat visible in every stall.",
+    "tags": [
+      "sentence",
+      "long",
+      "odd_words",
+      "start_cap",
+      "gpt4",
+      "city",
+      "start_vowel",
+      "margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "The bustling city streets echoed with the sounds of honking horns and hurried footsteps.",
+    "tags": [
+      "start_the",
+      "long",
+      "even_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "sentence",
+      "long_margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "The Serengeti National Park is home to diverse wildlife.",
+    "tags": [
+      "nature",
+      "sentence",
+      "start_the",
+      "short_margin",
+      "odd_words",
+      "start_consonant",
+      "proper_noun",
+      "start_cap",
+      "gpt4",
+      "short"
+    ],
+    "label": false
+  },
+  {
     "input": "Hiking trails offer stunning views of nature.",
     "tags": [
       "nature",
@@ -681,7 +663,96 @@
     "label": false
   },
   {
-    "input": "An orchard blooms, branches heavy with the promise of spring's bounty.",
+    "input": "Fungi flourish in the woodland's understory, a microcosm of nature\u2019s pharmacy.",
+    "tags": [
+      "nature",
+      "margin",
+      "short",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "The Amazon River is the second-longest river in the world.",
+    "tags": [
+      "nature",
+      "sentence",
+      "start_the",
+      "even_words",
+      "short_margin",
+      "start_consonant",
+      "start_cap",
+      "proper_noun",
+      "gpt4",
+      "short"
+    ],
+    "label": false
+  },
+  {
+    "input": "The Nile River is the longest river in Africa.",
+    "tags": [
+      "nature",
+      "sentence",
+      "start_the",
+      "short_margin",
+      "odd_words",
+      "start_consonant",
+      "proper_noun",
+      "start_cap",
+      "gpt4",
+      "short"
+    ],
+    "label": false
+  },
+  {
+    "input": "Office towers empty, releasing a deluge of people, the city pulse in human form.",
+    "tags": [
+      "long",
+      "even_words",
+      "start_cap",
+      "gpt4",
+      "city",
+      "start_vowel",
+      "sentence",
+      "long_margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "Mediterranean beaches are known for their beauty.",
+    "tags": [
+      "nature",
+      "short_margin",
+      "short",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "proper_noun",
+      "gpt4",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "A lone wolf howls, its call unanswered in the wilderness's vast expanse.",
+    "tags": [
+      "nature",
+      "margin",
+      "even_words",
+      "short",
+      "start_cap",
+      "gpt4",
+      "start_vowel",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "A glacier carves its way through the mountains, a slow-moving titan.",
     "tags": [
       "nature",
       "margin",
@@ -693,6 +764,21 @@
       "sentence"
     ],
     "label": false
+  },
+  {
+    "input": "The aroma of street food blends with city sounds, creating an urban symphony.",
+    "tags": [
+      "sentence",
+      "start_the",
+      "long",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "margin"
+    ],
+    "label": true
   },
   {
     "input": "Wildflowers blanket the hillside, a vivid tapestry of hues woven by nature.",
@@ -723,16 +809,271 @@
     "label": false
   },
   {
-    "input": "In the heart of the metropolis, skyscrapers touched the clouds, reflecting the city lights below.",
+    "input": "The sun sets behind the mountains.",
+    "tags": [
+      "nature",
+      "start_the",
+      "even_words",
+      "short_margin",
+      "short",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "An orchard blooms, branches heavy with the promise of spring's bounty.",
+    "tags": [
+      "nature",
+      "margin",
+      "short",
+      "odd_words",
+      "start_cap",
+      "gpt4",
+      "start_vowel",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "High above, a rooftop bar affords a panoramic view of the city's glittering night.",
     "tags": [
       "long",
-      "odd_words",
+      "even_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "sentence",
+      "long_margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "Skyscrapers reach for the clouds, competing with the grandeur of the city's ancient cathedrals.",
+    "tags": [
+      "long",
+      "even_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "sentence",
+      "long_margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "Water from the city's central fountain leaps into the air, shimmering in the sunlight.",
+    "tags": [
+      "long",
+      "even_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "sentence",
+      "long_margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "As the sun set, the city's skyline transformed into a mesmerizing display of colors and shadows.",
+    "tags": [
+      "long",
+      "even_words",
       "start_cap",
       "gpt4",
       "city",
       "start_vowel",
       "sentence",
       "long_margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "An ancient church sits quietly in the city's heart, its bells tolling through time.",
+    "tags": [
+      "long",
+      "even_words",
+      "start_cap",
+      "gpt4",
+      "city",
+      "start_vowel",
+      "sentence",
+      "long_margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "An old tram rattles down the tracks, echoing through the city\u2019s old town.",
+    "tags": [
+      "sentence",
+      "long",
+      "odd_words",
+      "start_cap",
+      "gpt4",
+      "city",
+      "start_vowel",
+      "margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "Pedestrians navigated through the city's maze-like streets, guided by the glow of streetlights.",
+    "tags": [
+      "sentence",
+      "long",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "The city breathes life into its museums, where history whispers to the present.",
+    "tags": [
+      "sentence",
+      "start_the",
+      "long",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "A firefly's glow punctuates the night, a tiny beacon among the shadows.",
+    "tags": [
+      "nature",
+      "margin",
+      "even_words",
+      "short",
+      "start_cap",
+      "gpt4",
+      "start_vowel",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "Neon signs illuminated the night, casting a vibrant glow on the crowded urban thoroughfare.",
+    "tags": [
+      "long",
+      "even_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "sentence",
+      "long_margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "Ospreys dive, their talons piercing water in a moment of predatory precision.",
+    "tags": [
+      "nature",
+      "margin",
+      "even_words",
+      "short",
+      "start_cap",
+      "gpt4",
+      "start_vowel",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "Traffic jams and busy intersections characterized the daily rhythm of life in the bustling urban center.",
+    "tags": [
+      "long",
+      "even_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "sentence",
+      "long_margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "Bees buzz about, pollinating the wildflowers that edge the forest's embrace.",
+    "tags": [
+      "nature",
+      "margin",
+      "short",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "sentence"
+    ],
+    "label": false
+  },
+  {
+    "input": "Rain drizzles on the cobblestone streets, the city wrapped in a cloak of grey.",
+    "tags": [
+      "long",
+      "even_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "sentence",
+      "long_margin"
+    ],
+    "label": true
+  },
+  {
+    "input": "In the labyrinth of the bazaar, scents of spices and incense commingle with the vibrant tapestries and the barter of voices, crafting an eclectic mosaic that is the city's beating heart.",
+    "tags": [
+      "start_cap",
+      "gpt4",
+      "city",
+      "long",
+      "start_vowel",
+      "long_margin",
+      "odd_words",
+      "sentence"
+    ],
+    "label": true
+  },
+  {
+    "input": "Morning traffic weaves through the arterial roadways in a symphony of synchronized chaos, as the city awakens to the rhythm of honking horns and the steaming breath of coffee stands.",
+    "tags": [
+      "start_cap",
+      "gpt4",
+      "city",
+      "long",
+      "even_words",
+      "long_margin",
+      "start_consonant",
+      "sentence"
+    ],
+    "label": true
+  },
+  {
+    "input": "The city's clock tower strikes noon, its chimes a reminder of passing time.",
+    "tags": [
+      "sentence",
+      "start_the",
+      "long",
+      "odd_words",
+      "start_consonant",
+      "start_cap",
+      "gpt4",
+      "city",
+      "margin"
     ],
     "label": true
   },

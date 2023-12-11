@@ -1,27 +1,30 @@
-[{'input': 'An old bookstore nests between the new city developments, a '
-           'treasure trove of stories.',
+[{'input': 'Laughter spills from a corner bistro, a warm beacon in the crisp '
+           'city evening.',
   'label': True},
- {'input': 'Stars twinkle like diamonds on the fabric of the night sky.',
+ {'input': 'Autumn leaves coat the forest floor in a tapestry of brilliant '
+           'decay.',
   'label': False},
- {'input': 'Neon signs illuminated the night, casting a vibrant glow on the '
-           'crowded urban thoroughfare.',
+ {'input': "The city's historic library stands as a testament to the thirst "
+           'for knowledge.',
   'label': True},
- {'input': "Morning dew glistens on spider webs, each a delicate jeweler's "
-           'masterpiece.',
+ {'input': 'Mountains stand stoic, their snow-capped peaks touching the realm '
+           'of the gods.',
   'label': False},
- {'input': 'The city at night resembled a vast canvas, painted with the '
-           'vibrant hues of illuminated billboards and skyscrapers.',
+ {'input': 'Graffiti whispers rebellion on city walls, a visual shout in an '
+           'urban silence.',
   'label': True},
- {'input': "The forest stands silent, the trees tall sentinels in nature's "
-           'sanctuary.',
+ {'input': 'The Grand Canyon is a breathtaking natural formation.',
   'label': False},
- {'input': 'The aroma of street food blends with city sounds, creating an '
-           'urban symphony.',
+ {'input': 'As the sunset paints the horizon in shades of orange and pink, the '
+           "city's silhouette emerges like a complex circuit board, pulsating "
+           'with the ceaseless energy of human endeavors and electric veins.',
   'label': True},
- {'input': "Crickets serve as nature's musicians, serenading the approaching "
-           'dusk.',
+ {'input': "The marshes swell with life, a wetland's intricate ecosystem "
+           'flourishing.',
   'label': False},
- {'input': 'The bustling city streets echoed with the sounds of honking horns '
-           'and hurried footsteps.',
+ {'input': 'Tower bells chime marking the hour, a city heartbeat in sync with '
+           'time.',
   'label': True},
- {'input': 'The Great Barrier Reef is a natural wonder.', 'label': False}]
+ {'input': "Majestic redwoods soar skyward, nature's pillars in a temple of "
+           'green.',
+  'label': False}]

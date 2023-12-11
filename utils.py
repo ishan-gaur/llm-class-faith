@@ -101,36 +101,45 @@ def test_prompt_from_samples(positives, negatives, user_prefix="", tiled=False):
     prompt_samples = [{"input": sample["input"]} for sample in samples]
     return user_prefix + pformat(prompt_samples), samples
 
-json_prefix = "Please label the following inputs. Respond in JSON format like the examples given to you above.\n"
-def gpt_prediction(system_prompt, user_query, messages=None, model="gpt-4", temperature=1.0, json_mode=False):
-    if json_mode and model != "gpt-4-1106-preview":
-        warn("json_mode only supported for gpt-4-1106-preview")
-        warn("changing model to gpt-4-1106-preview")
-        model = "gpt-4-1106-preview"
-    if json_mode and "json" not in user_query.lower():
-        warn("json_mode is on but user_query does not contain \"json\"")
-        warn(f"adding prefix to user_query:\n\"{json_prefix}\"")
-        user_query = json_prefix + user_query
-
-    if messages is None:
-        messages = [
-            {
-                "role": "system",
-                "content": system_prompt
-            },
-            {
-                "role": "user",
-                "content": user_query
-            }
-        ]
+def add_message(role, content, logname, logdir, reset=False):
+    log_path = logdir if isinstance(logdir, Path) else Path(logdir)
+    log_path = log_path / f"{logname}_messages.txt"
+    if reset:
+        messages = []
     else:
-        warn("messages is not None. Overriding system_prompt and user_query")
+        messages = json.loads(log_path.read_text())
+    messages.append({"role": role, "content": content})
+    log_path.write_text(json.dumps(messages))
+    return messages
+
+def load_messages(logname, logdir):
+    log_path = logdir if isinstance(logdir, Path) else Path(logdir)
+    log_path = log_path / f"{logname}_messages.txt"
+    messages = json.loads(log_path.read_text())
+    return messages
+
+json_prefix = "Please label the following inputs. Respond in the same JSON format as the examples given to you above.\n"
+def gpt_prediction(messages, model="gpt-4", temperature=1.0, json_mode=False, return_text=False, text_only=False, max_tokens=None):
+    if json_mode:
+        if model != "gpt-4-1106-preview":
+            warn("json_mode only supported for gpt-4-1106-preview")
+            warn("changing model to gpt-4-1106-preview")
+            model = "gpt-4-1106-preview"
+        user_query = messages[-1]["content"]
+        if not "json" in user_query.lower():
+            print(user_query)
+            raise ValueError("json_mode is on but user_query does not contain \"json\"")
+
+    MODEL_MAX = 4096
+    context_length = math.floor(sum([len(m["content"].split(' ')) for m in messages]) / 3 * 4)
+    tokens_remaining = MODEL_MAX - context_length
 
     response = client.chat.completions.create(
         model=model,
         messages=messages,
         temperature=temperature,
-        max_tokens=4096, # max for the 1106-preview model
+        # max_tokens=4096, # max for the 1106-preview model
+        max_tokens=min(MODEL_MAX, max(0, tokens_remaining)) if max_tokens is None else max_tokens,
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0,
@@ -142,6 +151,9 @@ def gpt_prediction(system_prompt, user_query, messages=None, model="gpt-4", temp
     if response.choices[0].finish_reason == "length":
         warn("Response reached max tokens, consider increasing max_tokens")
 
+    if text_only:
+        return response.choices[0].message.content
+
     try:
         response_json = json.loads(response.choices[0].message.content)
         if type(response_json) != list:
@@ -151,6 +163,9 @@ def gpt_prediction(system_prompt, user_query, messages=None, model="gpt-4", temp
     except json.decoder.JSONDecodeError:
         warn("Response is not JSON")
         response_json = response.choices[0].message.content
+
+    if return_text:
+        return response_json, response.choices[0].message.content
 
     return response_json
 
@@ -220,4 +235,25 @@ def write_test_data(positives, negatives, samples_per_label, output_dir, unbalan
     with open(output_dir / f"test_prompt_{samples_per_label}.txt", "w") as f:
         f.write(test_prompt)
     json.dump(test_samples, open(output_dir / f"test_samples_{samples_per_label}.json", "w"), indent=2)
+    return in_context_prompt, test_prompt, test_samples
+
+def generate_prompts(positives, negatives, samples_per_label, output_dir, unbalanced=False, max_test_ct=None, tiled=False, prompt_prefix="", prompt_sort_by=None):
+    in_context_samples = positives[:samples_per_label] + negatives[:samples_per_label]
+    in_context_prompt = in_context_from_samples(in_context_samples, tiled=tiled, prompt_prefix=prompt_prefix,
+                                                prompt_sort_by=prompt_sort_by)
+    if unbalanced:
+        if max_test_ct is None:
+            num_test_pos = len(positives) - samples_per_label
+            num_test_neg = len(negatives) - samples_per_label
+        else:
+            num_test_pos = min(len(positives) - samples_per_label, max_test_ct)
+            num_test_neg = min(len(negatives) - samples_per_label, max_test_ct)
+    else:
+        num_test_samples = min(len(positives), len(negatives)) - samples_per_label
+        if not max_test_ct is None:
+            num_test_samples = min(num_test_samples, max_test_ct)
+        num_test_pos, num_test_neg = num_test_samples, num_test_samples
+    test_positives = positives[samples_per_label:][:num_test_pos]
+    test_negatives = negatives[samples_per_label:][:num_test_neg]
+    test_prompt, test_samples = test_prompt_from_samples(test_positives, test_negatives)
     return in_context_prompt, test_prompt, test_samples
